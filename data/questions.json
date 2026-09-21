@@ -1,0 +1,4442 @@
+[
+ {
+  "id": "IMS-D1-Q01",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Foundation",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 0,
+  "ar": {
+   "question": "ما الغرض العملي الرئيسي من نظام الإدارة المتكامل؟",
+   "options": [
+    "دمج العمليات الإدارية المشتركة في نظام واحد منسق",
+    "إلغاء التدقيق الداخلي",
+    "استبدال الالتزامات القانونية",
+    "تشغيل كل مواصفة بشكل مستقل"
+   ],
+   "explanation": "يدمج نظام الإدارة المتكامل العمليات والضوابط المشتركة لتقليل الازدواجية وتحسين التنسيق."
+  },
+  "en": {
+   "question": "What is the main practical purpose of an Integrated Management System (IMS)?",
+   "options": [
+    "To combine common management processes into one coordinated system",
+    "To eliminate internal audits",
+    "To replace legal obligations",
+    "To operate each standard independently"
+   ],
+   "explanation": "An IMS integrates common processes and controls to reduce duplication and improve coordination."
+  }
+ },
+ {
+  "id": "IMS-D1-Q02",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Foundation",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 1,
+  "ar": {
+   "question": "أي تسلسل يمثل دورة PDCA بشكل صحيح؟",
+   "options": [
+    "نفذ-خطط-حسّن-تحقق",
+    "خطط-نفذ-تحقق-حسّن",
+    "خطط-تحقق-نفذ-حسّن",
+    "تحقق-حسّن-خطط-نفذ"
+   ],
+   "explanation": "دورة PDCA هي: خطط، نفذ، تحقق، حسّن."
+  },
+  "en": {
+   "question": "Which sequence correctly represents the PDCA cycle?",
+   "options": [
+    "Do-Plan-Act-Check",
+    "Plan-Do-Check-Act",
+    "Plan-Check-Do-Act",
+    "Check-Act-Plan-Do"
+   ],
+   "explanation": "PDCA is Plan, Do, Check, Act."
+  }
+ },
+ {
+  "id": "IMS-D1-Q03",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Foundation",
+  "topic": "Process approach",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 4.4",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 2,
+  "ar": {
+   "question": "أي عبارة تصف العملية بشكل أفضل؟",
+   "options": [
+    "اجتماع سنوي فقط",
+    "وثيقة لا تتغير",
+    "أنشطة مترابطة تحول المدخلات إلى مخرجات مقصودة",
+    "قائمة مسميات وظيفية"
+   ],
+   "explanation": "تحول العملية المدخلات إلى مخرجات باستخدام أنشطة وموارد وضوابط."
+  },
+  "en": {
+   "question": "Which statement best describes a process?",
+   "options": [
+    "An annual meeting only",
+    "A document that never changes",
+    "Interrelated activities that transform inputs into intended outputs",
+    "A list of job titles"
+   ],
+   "explanation": "A process transforms inputs into outputs using activities, resources and controls."
+  }
+ },
+ {
+  "id": "IMS-D1-Q04",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Foundation",
+  "topic": "Customer focus",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 5.1.2",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "أي إجراء يعكس بشكل مباشر التركيز على العميل؟",
+   "options": [
+    "تقليل الإجراءات دون اعتبار للحاجة",
+    "استبدال الأهداف بشعارات",
+    "تحديد ألوان الزي",
+    "فهم متطلبات العميل ومتابعة رضاه"
+   ],
+   "explanation": "يعني التركيز على العميل فهم متطلباته المطبقة والوفاء بها والعمل على تعزيز رضاه."
+  },
+  "en": {
+   "question": "Which action most directly demonstrates customer focus?",
+   "options": [
+    "Reducing procedures regardless of need",
+    "Replacing objectives with slogans",
+    "Setting uniform colors",
+    "Understanding customer requirements and monitoring satisfaction"
+   ],
+   "explanation": "Customer focus means understanding and meeting applicable customer requirements and enhancing satisfaction."
+  }
+ },
+ {
+  "id": "IMS-D1-Q05",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "ISO 9001:2026 4.1 / ISO 14001:2026 4.1",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "أي مما يلي يُعد غالبًا قضية خارجية تؤثر على نظام الإدارة المتكامل؟",
+   "options": [
+    "تشريع بيئي جديد",
+    "فجوة كفاءة العاملين",
+    "ضعف حفظ الملفات",
+    "إجراء داخلي قديم"
+   ],
+   "explanation": "قد تشمل القضايا الخارجية التغيرات التشريعية والظروف البيئية أو السوقية ذات الصلة. ويحافظ إصدارا 2026 على التخطيط القائم على السياق مع تعزيز الارتباط بظروف التشغيل الحالية."
+  },
+  "en": {
+   "question": "Which is most likely an external issue affecting an IMS?",
+   "options": [
+    "New environmental regulation",
+    "Employee competence gap",
+    "Poor filing practice",
+    "Obsolete internal procedure"
+   ],
+   "explanation": "External issues can include regulatory change and relevant environmental or market conditions. The 2026 editions retain context-based planning and strengthen alignment with current operating conditions."
+  }
+ },
+ {
+  "id": "IMS-D1-Q06",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "ISO 9001:2026 4.2 / ISO 14001:2026 4.2",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "أي مثال يمثل بشكل أفضل متطلبًا لطرف معني ذي صلة؟",
+   "options": [
+    "منافس يغير شعاره",
+    "جهة رقابية تفرض حدودًا للانبعاثات",
+    "شركة غير مرتبطة تفتح مكتبًا",
+    "مورد يطلق حملة إعلانية"
+   ],
+   "explanation": "قد تفرض الأطراف المعنية ذات الصلة متطلبات أو تؤثر فيها بما يجب على المنظمة التعامل معه."
+  },
+  "en": {
+   "question": "Which example best represents a relevant interested-party requirement?",
+   "options": [
+    "A competitor changes its logo",
+    "A regulator requires emission limits",
+    "An unrelated company opens an office",
+    "A supplier launches an ad campaign"
+   ],
+   "explanation": "Relevant interested parties can impose or influence requirements that the organization must address."
+  }
+ },
+ {
+  "id": "IMS-D1-Q07",
+  "day": 1,
+  "type": "tf",
+  "difficulty": "Intermediate",
+  "topic": "Risk-based thinking",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 6.1",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "التفكير المبني على المخاطر يتطلب توثيق كل خطر في سجل مخاطر رسمي.",
+   "options": [
+    "صح",
+    "خطأ"
+   ],
+   "explanation": "تطلب ISO 9001 معالجة المخاطر والفرص لكنها لا تفرض شكلًا محددًا لسجل المخاطر."
+  },
+  "en": {
+   "question": "Risk-based thinking requires every risk to be documented in a formal risk register.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "ISO 9001 requires risks and opportunities to be addressed but does not prescribe a specific risk-register format."
+  }
+ },
+ {
+  "id": "IMS-D1-Q08",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 2,
+  "ar": {
+   "question": "أي نشاط هو الأنسب للدمج بين ISO 9001 وISO 14001؟",
+   "options": [
+    "قواعد منفصلة للإجراءات التصحيحية",
+    "مراجعات إدارة منفصلة بلا مدخلات مشتركة",
+    "برنامج تدقيق داخلي موحد يغطي النظامين",
+    "أنظمة منفصلة للتحكم في الوثائق"
+   ],
+   "explanation": "يمكن دمج العمليات المشتركة مثل التدقيق وضبط الوثائق والإجراءات التصحيحية ومراجعة الإدارة."
+  },
+  "en": {
+   "question": "Which activity is most suitable for integration across ISO 9001 and ISO 14001?",
+   "options": [
+    "Separate corrective-action databases",
+    "Different management reviews with no shared inputs",
+    "One coordinated internal-audit programme covering both systems",
+    "Separate document-control systems"
+   ],
+   "explanation": "Common processes such as audits, document control, corrective action and management review can be integrated."
+  }
+ },
+ {
+  "id": "IMS-D1-Q09",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Foundation",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "ISO 9001:2026 7.5 / ISO 14001:2026 7.5",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "ما أفضل سبب للاحتفاظ بالمعلومات الموثقة؟",
+   "options": [
+    "استبدال كفاءة العاملين",
+    "منع جميع التغييرات",
+    "زيادة الأعمال الورقية",
+    "دعم التشغيل الفعال وتوفير الأدلة عند الحاجة"
+   ],
+   "explanation": "تدعم المعلومات الموثقة الاتساق والتواصل وتقديم أدلة على المطابقة."
+  },
+  "en": {
+   "question": "What is the best reason for maintaining documented information?",
+   "options": [
+    "To replace employee competence",
+    "To prevent all changes",
+    "To increase paperwork",
+    "To support effective operation and provide evidence when required"
+   ],
+   "explanation": "Documented information supports consistency, communication and evidence of conformity."
+  }
+ },
+ {
+  "id": "IMS-D1-Q10",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "ISO 9001:2026 4.3 / ISO 14001:2026 4.3",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "عند تحديد نطاق نظام الإدارة المتكامل، ماذا ينبغي على المنظمة مراعاته؟",
+   "options": [
+    "القضايا الداخلية والخارجية والأطراف المعنية وأنشطة ومنتجات وخدمات المنظمة",
+    "عدد العاملين فقط",
+    "عنوان المقر فقط",
+    "تفضيل جهة المنح فقط"
+   ],
+   "explanation": "يجب أن يعكس النطاق سياق المنظمة والمتطلبات ذات الصلة والأنشطة والمنتجات والخدمات."
+  },
+  "en": {
+   "question": "When defining an IMS scope, what should the organization consider?",
+   "options": [
+    "Internal/external issues, interested parties and organizational activities/products/services",
+    "Only the number of employees",
+    "Only the head-office address",
+    "Only the certification body preference"
+   ],
+   "explanation": "Scope should reflect organizational context, relevant requirements and activities/products/services."
+  }
+ },
+ {
+  "id": "IMS-D1-Q11",
+  "day": 1,
+  "type": "tf",
+  "difficulty": "Foundation",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "ISO 9001:2026 5.1 / ISO 14001:2026 5.1",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "يمكن للإدارة العليا تفويض المساءلة الكاملة عن فعالية نظام الإدارة إلى ممثل الإدارة.",
+   "options": [
+    "صح",
+    "خطأ"
+   ],
+   "explanation": "تظل الإدارة العليا مسؤولة عن فعالية نظام الإدارة."
+  },
+  "en": {
+   "question": "Top management can fully delegate accountability for management-system effectiveness to the management representative.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "Top management remains accountable for management-system effectiveness."
+  }
+ },
+ {
+  "id": "IMS-D1-Q12",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "ISO 9001:2026 6.2",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "أي هدف جودة تمت صياغته بشكل أفضل؟",
+   "options": [
+    "منع كل الأخطاء نهائيًا",
+    "خفض شكاوى العملاء من 30 إلى أقل من 15 لكل ربع سنة بنهاية العام",
+    "تحسين الجودة قريبًا",
+    "أن نكون أفضل شركة"
+   ],
+   "explanation": "الأهداف الجيدة قابلة للقياس حيثما أمكن ويتم متابعتها والتواصل بشأنها وتحديثها."
+  },
+  "en": {
+   "question": "Which quality objective is best formulated?",
+   "options": [
+    "Avoid all mistakes forever",
+    "Reduce customer complaints from 30 to fewer than 15 per quarter by year-end",
+    "Improve quality soon",
+    "Be the best company"
+   ],
+   "explanation": "Good objectives are measurable where practicable, monitored, communicated and updated."
+  }
+ },
+ {
+  "id": "IMS-D1-Q13",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "ISO 9001:2026 7.2 / ISO 14001:2026 7.2",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 2,
+  "ar": {
+   "question": "ما أقوى دليل على معالجة متطلبات الكفاءة؟",
+   "options": [
+    "سنوات الخدمة فقط",
+    "الحضور في التدريب فقط",
+    "معايير كفاءة محددة مع تقييم الفاعلية والسجلات المناسبة",
+    "المسمى الوظيفي فقط"
+   ],
+   "explanation": "يجب تحديد الكفاءة واتخاذ الإجراءات وتقييم فاعليتها والاحتفاظ بالأدلة المناسبة."
+  },
+  "en": {
+   "question": "What is the strongest evidence that competence requirements are being addressed?",
+   "options": [
+    "Years of service only",
+    "Training attendance only",
+    "Defined competence criteria plus evaluation of effectiveness and appropriate records",
+    "Job title only"
+   ],
+   "explanation": "Competence should be determined and actions taken with effectiveness evaluated and evidence retained."
+  }
+ },
+ {
+  "id": "IMS-D1-Q14",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Foundation",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "ISO 9001:2026 7.4 / ISO 14001:2026 7.4",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "ما العناصر التي ينبغي أن تحددها عملية الاتصال الفعالة في نظام الإدارة المتكامل؟",
+   "options": [
+    "الاتصال الخارجي فقط",
+    "فقط من يرسل البريد",
+    "تكرار الاجتماعات فقط",
+    "ماذا ومتى ومع من وكيف يتم الاتصال"
+   ],
+   "explanation": "ينبغي تخطيط وضبط اتصالات نظام الإدارة بما يشمل المحتوى والتوقيت والجمهور والطريقة."
+  },
+  "en": {
+   "question": "An effective IMS communication process should define which elements?",
+   "options": [
+    "Only external communication",
+    "Only who sends emails",
+    "Only meeting frequency",
+    "What, when, with whom and how to communicate"
+   ],
+   "explanation": "Management-system communication should be planned and controlled, including relevant content, timing, audience and method."
+  }
+ },
+ {
+  "id": "IMS-D1-Q15",
+  "day": 1,
+  "type": "tf",
+  "difficulty": "Foundation",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "ISO 9001:2026 10.2 / ISO 14001:2026 10.2",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "ينبغي أن يعالج الإجراء التصحيحي سبب عدم المطابقة لتقليل احتمال تكرارها.",
+   "options": [
+    "صح",
+    "خطأ"
+   ],
+   "explanation": "يشمل الإجراء التصحيحي التعامل مع المشكلة وتقييم أسبابها واتخاذ إجراء لمنع التكرار عند الحاجة."
+  },
+  "en": {
+   "question": "Corrective action should address the cause of a nonconformity to reduce the likelihood of recurrence.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "Corrective action includes reacting to the issue, evaluating causes and taking action to prevent recurrence where appropriate."
+  }
+ },
+ {
+  "id": "IMS-D1-Q16",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "ISO 9001:2026 4.4",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "أي أداة تساعد بوضوح على تصور تفاعلات العمليات في نظام الإدارة المتكامل؟",
+   "options": [
+    "خريطة العمليات",
+    "إعلان المورد",
+    "مخطط المبنى فقط",
+    "قائمة أعياد ميلاد الموظفين"
+   ],
+   "explanation": "يمكن لخريطة العمليات توضيح التسلسل والتفاعل والمدخلات والمخرجات وملكية العمليات."
+  },
+  "en": {
+   "question": "Which tool most clearly helps visualize process interactions in an IMS?",
+   "options": [
+    "Process map",
+    "Supplier advertisement",
+    "Building floor plan only",
+    "Employee birthday list"
+   ],
+   "explanation": "A process map can show sequence, interaction, inputs, outputs and process ownership."
+  }
+ },
+ {
+  "id": "IMS-D1-Q17",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "ISO 9001:2026 9.1 / ISO 14001:2026 9.1",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "أي مجموعة تدعم تقييم الأداء بشكل أفضل؟",
+   "options": [
+    "التوظيف فقط",
+    "الرصد والقياس والتحليل والتقييم",
+    "الافتراضات والآراء فقط",
+    "إعداد الموازنة فقط"
+   ],
+   "explanation": "يعتمد تقييم الأداء على الرصد والقياس المحددين ثم تحليل النتائج وتقييمها."
+  },
+  "en": {
+   "question": "Which combination best supports performance evaluation?",
+   "options": [
+    "Recruitment only",
+    "Monitoring, measurement, analysis and evaluation",
+    "Assumptions and opinions only",
+    "Annual budgeting only"
+   ],
+   "explanation": "Performance evaluation relies on defined monitoring and measurement plus analysis and evaluation of results."
+  }
+ },
+ {
+  "id": "IMS-D1-Q18",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "ISO 9001:2026 9.3 / ISO 14001:2026 9.3",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 2,
+  "ar": {
+   "question": "ما أحد الأغراض الرئيسية لمراجعة الإدارة؟",
+   "options": [
+    "اعتماد كل أمر شراء",
+    "استبدال التدقيق الداخلي",
+    "تقييم استمرار ملاءمة وكفاية وفعالية نظام الإدارة",
+    "إجراء تقييمات العاملين فقط"
+   ],
+   "explanation": "تقيّم مراجعة الإدارة النظام وتحدد القرارات والإجراءات المتعلقة بالتحسين والموارد."
+  },
+  "en": {
+   "question": "What is a key purpose of management review?",
+   "options": [
+    "Approve every purchase order",
+    "Replace internal audits",
+    "Evaluate continuing suitability, adequacy and effectiveness of the management system",
+    "Conduct employee appraisals only"
+   ],
+   "explanation": "Management review evaluates the system and determines decisions/actions for improvement and resources."
+  }
+ },
+ {
+  "id": "IMS-D1-Q19",
+  "day": 1,
+  "type": "tf",
+  "difficulty": "Foundation",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 1,
+  "ar": {
+   "question": "يجب دائمًا أن يحتوي نظام الإدارة المتكامل على دليل واحد باسم دليل IMS حتى يطابق مواصفات ISO.",
+   "options": [
+    "صح",
+    "خطأ"
+   ],
+   "explanation": "لا تشترط المواصفات الحالية وجود وثيقة بهذا الاسم تحديدًا؛ بل يجب أن تكون المعلومات الموثقة مناسبة للمنظمة."
+  },
+  "en": {
+   "question": "An IMS must always have one single manual called 'IMS Manual' to conform to ISO standards.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "Current management-system standards do not require a document with that specific title; documented information should be appropriate to the organization."
+  }
+ },
+ {
+  "id": "IMS-D1-Q20",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 3,
+  "ar": {
+   "question": "لدى شركة إجراءان منفصلان لضبط الوثائق للجودة والبيئة وهما متشابهان تقريبًا. ما الإجراء الأنسب في نظام إدارة متكامل؟",
+   "options": [
+    "ترك كل إدارة تختار طريقتها",
+    "الإبقاء عليهما دائمًا لإثبات المطابقة",
+    "حذف الإجراءين",
+    "دمجهما في عملية واحدة مضبوطة مع الحفاظ على المتطلبات الخاصة بكل مواصفة"
+   ],
+   "explanation": "يجب أن يزيل الدمج الازدواجية غير الضرورية دون فقد المتطلبات الخاصة بكل مواصفة."
+  },
+  "en": {
+   "question": "A company has separate quality and environmental procedures for document control that are almost identical. What is the most suitable IMS action?",
+   "options": [
+    "Let each department choose its own method",
+    "Keep both permanently to prove compliance",
+    "Delete both procedures",
+    "Integrate them into one controlled process while preserving any standard-specific needs"
+   ],
+   "explanation": "Integration should remove unnecessary duplication without losing requirements specific to each standard."
+  }
+ },
+ {
+  "id": "IMS-D1-Q21",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Process approach",
+  "standard": "IMS",
+  "clause": "ISO 9001:2026, 4.4",
+  "set": "supplemental_core",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "في نظام الإدارة المتكامل، أي عبارة تعكس نهج العمليات بشكل أفضل؟",
+   "options": [
+    "تحديد العمليات المتفاعلة ومدخلاتها ومخرجاتها ومسؤولياتها وضوابطها ومقاييس أدائها",
+    "إدارة الأنشطة كإدارات منفصلة بأهداف مستقلة",
+    "التركيز فقط على الإجراءات الموثقة",
+    "قياس الأداء فقط في نهاية العام"
+   ],
+   "explanation": "يقوم نهج العمليات على إدارة الأنشطة كنظام مترابط من العمليات مع تحديد المدخلات والمخرجات والمسؤوليات والضوابط والتفاعلات ومعايير الأداء."
+  },
+  "en": {
+   "question": "In an IMS, which statement BEST reflects the process approach?",
+   "options": [
+    "Identify interacting processes, their inputs, outputs, responsibilities, controls and performance measures",
+    "Manage activities as isolated departments with separate objectives",
+    "Focus only on documented procedures",
+    "Measure performance only at year-end"
+   ],
+   "explanation": "The process approach manages activities as an interrelated system of processes, including inputs, outputs, responsibilities, controls, interactions and performance criteria."
+  }
+ },
+ {
+  "id": "IMS-D1-Q22",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Risk-based thinking",
+  "standard": "ISO 9001",
+  "clause": "ISO 9001:2026, 6.1",
+  "set": "supplemental_core",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "ما الدور الأساسي للتفكير المبني على المخاطر في نظام الإدارة؟",
+   "options": [
+    "اشتراط سجل مخاطر رسمي لكل نشاط",
+    "مراعاة المخاطر والفرص عند تخطيط وضبط العمليات لزيادة احتمال تحقيق النتائج المقصودة",
+    "إلغاء جميع حالات عدم اليقين",
+    "استبدال الإجراء التصحيحي"
+   ],
+   "explanation": "يُدمج التفكير المبني على المخاطر في التخطيط والتشغيل لمعالجة حالات عدم اليقين والفرص التي قد تؤثر على النتائج المقصودة، دون اشتراط نموذج واحد محدد لإدارة المخاطر."
+  },
+  "en": {
+   "question": "What is the primary role of risk-based thinking in a management system?",
+   "options": [
+    "To require a formal risk register for every activity",
+    "To consider risks and opportunities when planning and controlling processes so intended results are more likely to be achieved",
+    "To eliminate all uncertainty",
+    "To replace corrective action"
+   ],
+   "explanation": "Risk-based thinking is embedded in planning and operation to address uncertainties and opportunities that can affect intended results; it does not require one prescribed risk-management format."
+  }
+ },
+ {
+  "id": "IMS-D1-Q23",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Foundation",
+  "topic": "Documented information",
+  "standard": "IMS",
+  "clause": "ISO 9001:2026, 7.5; ISO 14001:2026, 7.5",
+  "set": "supplemental_core",
+  "verify": "requires_2026_text_verification",
+  "answer": 2,
+  "ar": {
+   "question": "أي عبارة عن المعلومات الموثقة هي الأكثر دقة؟",
+   "options": [
+    "يجب أن يكون لكل عملية إجراء موثق",
+    "تحتاج الوثائق الخارجية فقط إلى الضبط",
+    "تحدد المنظمة المعلومات الموثقة اللازمة للتشغيل الفعال وتحتفظ بالأدلة عندما يكون ذلك مطلوبًا",
+    "يمكن التخلص من السجلات فور استخدامها"
+   ],
+   "explanation": "تتطلب مواصفات نظم الإدارة الحديثة المعلومات الموثقة المطلوبة بالمواصفة وما تحدده المنظمة لفعالية النظام، وليس إجراءً موثقًا لكل عملية."
+  },
+  "en": {
+   "question": "Which statement about documented information is MOST accurate?",
+   "options": [
+    "Every process must have a documented procedure",
+    "Only external documents need control",
+    "The organization determines the documented information needed for effective operation and retains evidence where required",
+    "Records may be discarded immediately after use"
+   ],
+   "explanation": "Modern ISO management-system standards require documented information needed by the standard and by the organization for system effectiveness, rather than mandating a procedure for every process."
+  }
+ },
+ {
+  "id": "IMS-D1-Q24",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "IMS integration",
+  "standard": "IMS",
+  "clause": "",
+  "set": "supplemental_core",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "ما أفضل مثال على التكامل الفعال بين إدارة الجودة والإدارة البيئية؟",
+   "options": [
+    "إسناد جميع مسؤوليات النظام المتكامل لشخص واحد",
+    "إبقاء أهداف الجودة والبيئة منفصلة تمامًا دون ترابط",
+    "استخدام قائمة تحقق واحدة وإلغاء جميع المتطلبات الخاصة بكل مواصفة",
+    "مراجعة إدارة واحدة تقيم أداء العملاء والعمليات والبيئة وفق أهداف استراتيجية مشتركة مع الحفاظ على المدخلات المتخصصة لكل مجال"
+   ],
+   "explanation": "يجب أن يجمع التكامل بين الحوكمة والعمليات المشتركة مع الحفاظ على المتطلبات والمحتوى الفني الخاص بكل مجال."
+  },
+  "en": {
+   "question": "Which is the BEST example of effective integration between quality and environmental management?",
+   "options": [
+    "Assign all IMS responsibilities to one person",
+    "Keep quality and environmental objectives completely unrelated",
+    "Use one audit checklist and remove all standard-specific requirements",
+    "A single management review evaluates customer, process and environmental performance using common strategic objectives while retaining discipline-specific inputs"
+   ],
+   "explanation": "Integration should combine common governance and processes while preserving the specific requirements and technical content of each discipline."
+  }
+ },
+ {
+  "id": "IMS-D5-Q01",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 0,
+  "ar": {
+   "question": "أي مجموعة بنود تكون متوافقة عادةً بين ISO 9001 وISO 14001 بسبب الهيكل الموحد؟",
+   "options": [
+    "السياق والقيادة والتخطيط والدعم والتشغيل وتقييم الأداء والتحسين",
+    "الجوانب البيئية فقط",
+    "تصميم المنتج فقط",
+    "المالية والمبيعات فقط"
+   ],
+   "explanation": "تستخدم كلتا المواصفتين هيكل نظم الإدارة الموحد مما يتيح دمج العديد من العمليات المشتركة."
+  },
+  "en": {
+   "question": "Which set of clauses is commonly aligned across ISO 9001 and ISO 14001 due to the harmonized structure?",
+   "options": [
+    "Context, leadership, planning, support, operation, performance evaluation and improvement",
+    "Only environmental aspects",
+    "Only product design",
+    "Only finance and sales"
+   ],
+   "explanation": "Both standards use the harmonized management-system structure, enabling integration of many common processes."
+  }
+ },
+ {
+  "id": "IMS-D5-Q13",
+  "day": 1,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 1,
+  "ar": {
+   "question": "تراجع الإدارة العليا أداء الجودة والبيئة كلًا على حدة ولا تنظر أبدًا في المفاضلات بينهما. ما نقطة الضعف الأساسية؟",
+   "options": [
+    "عدم وجود شعار شهادة",
+    "غياب اتخاذ القرار المتكامل والنظر في أداء النظام ككل",
+    "زيادة سجلات التدقيق",
+    "زيادة عدد الأهداف"
+   ],
+   "explanation": "ينبغي أن يدعم النظام المتكامل قرارات منسقة عندما تؤثر عملية أو هدف واحد على عدة نتائج لنظم الإدارة."
+  },
+  "en": {
+   "question": "Top management reviews quality and environmental performance separately and never considers trade-offs between them. What is the main IMS weakness?",
+   "options": [
+    "No certification logo",
+    "Lack of integrated decision-making and consideration of combined system performance",
+    "Too many audit records",
+    "Too many objectives"
+   ],
+   "explanation": "An IMS should support coordinated decisions where one process or objective affects multiple management-system outcomes."
+  }
+ },
+ {
+  "id": "IMS-2026-SUP-Q01",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Lead Auditor",
+  "topic": "Environmental Context",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 4.1 / 4.2",
+  "set": "supplemental_2026",
+  "verify": "verified_public_iso_source",
+  "answer": 2,
+  "ar": {
+   "question": "تعتمد شركة أغذية على طبقة مياه جوفية محلية أصبحت أقل موثوقية بسبب فترات الجفاف الطويلة. أثناء مراجعة سياق نظام الإدارة البيئية، ما المعالجة الأنسب لهذه المسألة؟",
+   "options": [
+    "تجاهلها حتى يتم تجاوز حد قانوني",
+    "تسجيلها فقط في خطة الاستجابة للطوارئ",
+    "اعتبار توافر المياه ظرفًا بيئيًا ذا صلة يمكن أن يؤثر في المنظمة",
+    "اعتبارها مسألة مالية فقط"
+   ],
+   "explanation": "يوسع ISO 14001:2026 بصورة صريحة النظر في الظروف البيئية، بما في ذلك توافر الموارد، عند فهم السياق والمخاطر والفرص المرتبطة به."
+  },
+  "en": {
+   "question": "A food manufacturer depends on a local aquifer that is becoming less reliable because of prolonged drought. During the EMS context review, what is the most appropriate treatment of this issue?",
+   "options": [
+    "Ignore it until a legal limit is exceeded",
+    "Record it only in the emergency response plan",
+    "Consider water availability as a relevant environmental condition that can affect the organization",
+    "Treat it only as a financial issue"
+   ],
+   "explanation": "ISO 14001:2026 explicitly broadens consideration of environmental conditions, including resource availability, when understanding context and related risks and opportunities."
+  }
+ },
+ {
+  "id": "IMS-2026-SUP-Q02",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Lead Auditor",
+  "topic": "Life-cycle Perspective",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 6.1.2 / 8.1",
+  "set": "supplemental_2026",
+  "verify": "verified_public_iso_source",
+  "answer": 3,
+  "ar": {
+   "question": "تسيطر منظمة جيدًا على انبعاثات مصنعها، لكنها تتجاهل الآثار البيئية لتصميم المنتج والنقل والمعالجة في نهاية العمر. ما أقوى ملاحظة تدقيقية؟",
+   "options": [
+    "لا توجد مشكلة ما دامت انبعاثات المصنع تحت السيطرة",
+    "مزود الخدمات اللوجستية وحده مسؤول عن آثار النقل",
+    "قضايا نهاية العمر خارج نطاق ISO 14001",
+    "قد يكون منظور دورة الحياة غير مكتمل لأن المراحل السابقة واللاحقة ذات الصلة لم تؤخذ في الاعتبار"
+   ],
+   "explanation": "يتطلب ISO 14001 منظورًا لدورة الحياة حتى لا تنتقل الآثار البيئية دون قصد بين مراحل مثل التصميم والإنتاج والنقل والاستخدام ونهاية العمر."
+  },
+  "en": {
+   "question": "An organization controls its factory emissions well but ignores the environmental impacts of product design, transport and end-of-life treatment. What is the strongest audit concern?",
+   "options": [
+    "No concern exists if factory emissions are controlled",
+    "Only the logistics provider is responsible for transport impacts",
+    "End-of-life issues are outside ISO 14001",
+    "The life-cycle perspective may be incomplete because relevant upstream and downstream stages were not considered"
+   ],
+   "explanation": "ISO 14001 requires a life-cycle perspective so environmental impacts are not unintentionally shifted between stages such as design, production, transport, use and end-of-life."
+  }
+ },
+ {
+  "id": "IMS-2026-SUP-Q03",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Lead Auditor",
+  "topic": "Change Management",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 6.3",
+  "set": "supplemental_2026",
+  "verify": "verified_public_iso_source",
+  "answer": 0,
+  "ar": {
+   "question": "يخطط مصنع لاستبدال عملية تنظيف تعتمد على المذيبات بنظام كيميائي جديد. وفق ISO 14001:2026، ما الذي ينبغي حدوثه قبل التنفيذ؟",
+   "options": [
+    "تقييم التغييرات المخططة وآثارها البيئية بحيث توضع الضوابط قبل التنفيذ",
+    "التنفيذ فورًا لأن الهدف المعلن هو تحسين بيئي",
+    "الانتظار حتى التدقيق الخارجي التالي",
+    "تحديث السياسة البيئية فقط"
+   ],
+   "explanation": "يُضفي ISO 14001:2026 طابعًا رسميًا على تخطيط التغييرات في البند 6.3، بحيث تؤخذ الاعتبارات البيئية في الحسبان قبل التنفيذ لا بعده فقط."
+  },
+  "en": {
+   "question": "A plant plans to replace a solvent-based cleaning process with a new chemical system. Under ISO 14001:2026, what should occur before implementation?",
+   "options": [
+    "Assess planned changes and their environmental implications so controls can be established before implementation",
+    "Implement immediately because the stated purpose is environmental improvement",
+    "Wait for the next certification audit",
+    "Only update the environmental policy"
+   ],
+   "explanation": "ISO 14001:2026 formalizes planning of changes in Clause 6.3, requiring environmental considerations to be factored into planned change rather than assessed only after implementation."
+  }
+ },
+ {
+  "id": "IMS-2026-SUP-Q04",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Lead Auditor",
+  "topic": "Environmental Context",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 4.1 / 4.2",
+  "set": "supplemental_2026",
+  "verify": "verified_public_iso_source",
+  "answer": 1,
+  "ar": {
+   "question": "حددت شركة إنشاءات مخاطر الفيضانات لكنها لا تراعي فقدان الموائل القريبة الناتج عن قرارات استخدام الأرض. ماذا يشجع ISO 14001:2026 المنظمة على فعله؟",
+   "options": [
+    "استبعاد التنوع الحيوي لأنه موضوع اجتماعي",
+    "مراعاة التنوع الحيوي وصحة النظم البيئية عندما تكون ذات صلة بالسياق والآثار",
+    "تفويض جميع قضايا التنوع الحيوي للجهات التنظيمية",
+    "النظر فقط في القضايا المتعلقة بالمناخ"
+   ],
+   "explanation": "يعطي إصدار 2026 اهتمامًا أوضح بالتنوع الحيوي وصحة النظم البيئية باعتبارهما من الظروف البيئية التي قد يلزم مراعاتها في السياق واتخاذ القرار."
+  },
+  "en": {
+   "question": "A construction company identifies flooding risk but does not consider loss of nearby habitat caused by its land-use decisions. What does ISO 14001:2026 encourage the organization to do?",
+   "options": [
+    "Exclude biodiversity because it is a social topic",
+    "Consider biodiversity and ecosystem health where relevant to its context and impacts",
+    "Delegate all biodiversity issues to regulators",
+    "Consider only climate-related issues"
+   ],
+   "explanation": "The 2026 edition gives clearer attention to biodiversity and ecosystem health as relevant environmental conditions that may need to be considered in context and decision-making."
+  }
+ },
+ {
+  "id": "IMS-2026-SUP-Q05",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Lead Auditor",
+  "topic": "Operational Control",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 8.1",
+  "set": "supplemental_2026",
+  "verify": "verified_public_iso_source",
+  "answer": 2,
+  "ar": {
+   "question": "تُسند شركة معالجة الأسطح إلى جهة خارجية وينتج عنها نفايات خطرة مهمة. أي نهج تدقيقي يعكس ISO 14001:2026 بصورة أفضل؟",
+   "options": [
+    "اعتبارها مسألة تكلفة شراء فقط",
+    "فحص فاتورة المورد فقط",
+    "تقييم كيفية تحكم المنظمة أو تأثيرها في العمليات والمنتجات والخدمات المقدمة من جهات خارجية ذات الصلة",
+    "استبعاد العملية لأنها تُنفذ خارج الموقع"
+   ],
+   "explanation": "يوضح ISO 14001:2026 المساءلة عبر سلسلة القيمة والتعامل مع العمليات والمنتجات والخدمات المقدمة خارجيًا."
+  },
+  "en": {
+   "question": "A company outsources surface treatment that creates significant hazardous waste. Which audit approach best reflects ISO 14001:2026?",
+   "options": [
+    "Treat it only as a procurement cost issue",
+    "Check only the supplier's invoice",
+    "Evaluate how the organization controls or influences relevant externally provided processes, products and services",
+    "Exclude the process because it is performed off-site"
+   ],
+   "explanation": "ISO 14001:2026 clarifies accountability across the value chain and the treatment of externally provided processes, products and services."
+  }
+ },
+ {
+  "id": "IMS-2026-SUP-Q06",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Lead Auditor",
+  "topic": "Performance Evaluation",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 9 / 10",
+  "set": "supplemental_2026",
+  "verify": "verified_public_iso_source",
+  "answer": 3,
+  "ar": {
+   "question": "يمتلك نظام الإدارة البيئية إجراءات وسجلات مكتملة، لكن كثافة استهلاك الطاقة وتوليد النفايات تدهورا لثلاث سنوات دون إجراء فعال. ما أقوى تركيز تدقيقي في إصدار 2026؟",
+   "options": [
+    "ما إذا كانت الإجراءات أطول من صفحة واحدة",
+    "ما إذا كانت قوالب المستندات تستخدم الشعار الصحيح",
+    "ما إذا كان كل موظف يستطيع ترديد السياسة حرفيًا",
+    "ما إذا كان النظام يحقق نتائج بيئية قابلة للقياس ويدفع التحسين"
+   ],
+   "explanation": "يعزز ISO 14001:2026 التركيز على الأداء البيئي والنتائج القابلة للقياس، وليس مجرد وجود العمليات والوثائق."
+  },
+  "en": {
+   "question": "An EMS has complete procedures and records, but energy intensity and waste generation have worsened for three years without effective action. What is the strongest audit focus in the 2026 edition?",
+   "options": [
+    "Whether procedures are longer than one page",
+    "Whether the document templates use the correct logo",
+    "Whether every employee can quote the policy word-for-word",
+    "Whether the system is producing measurable environmental outcomes and driving improvement"
+   ],
+   "explanation": "ISO 14001:2026 strengthens the focus on environmental performance and measurable outcomes, not merely the existence of processes and documents."
+  }
+ },
+ {
+  "id": "IMS-D2-Q01",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Quality policy",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 5.2",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "أي عبارة تعكس بصورة أفضل دور سياسة الجودة وفق ISO 9001:2026؟",
+   "options": [
+    "ينبغي أن تتوافق مع سياق المنظمة واتجاهها الاستراتيجي وأن توفر إطارًا لأهداف الجودة",
+    "لا تكون مطلوبة إلا إذا طلبها العميل",
+    "تحل محل نطاق نظام إدارة الجودة وخريطة العمليات",
+    "هي في الأساس بيان سري خاص بالإدارة العليا"
+   ],
+   "explanation": "يعزز إصدار 2026 ارتباط سياسة الجودة بسياق المنظمة واتجاهها الاستراتيجي، مع استمرار دورها كإطار لأهداف الجودة."
+  },
+  "en": {
+   "question": "Which statement best reflects the role of the quality policy under ISO 9001:2026?",
+   "options": [
+    "It should align with the organization’s context and strategic direction and provide a framework for quality objectives",
+    "It is required only when a customer asks for it",
+    "It replaces the QMS scope and process map",
+    "It is mainly a confidential statement for top management"
+   ],
+   "explanation": "The 2026 edition reinforces alignment of the quality policy with organizational context and strategic direction, while retaining its role as a framework for quality objectives."
+  }
+ },
+ {
+  "id": "IMS-D2-Q02",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Environmental policy",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 5.2",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "أي التزام يُتوقع بشكل خاص في السياسة البيئية؟",
+   "options": [
+    "ضمان صفر عيوب",
+    "حماية البيئة",
+    "إلغاء جميع الموردين",
+    "تعظيم الأرباح"
+   ],
+   "explanation": "تتطلب ISO 14001 الالتزام بحماية البيئة بما في ذلك منع التلوث والتزامات أخرى مرتبطة بالسياق."
+  },
+  "en": {
+   "question": "Which commitment is specifically expected in an environmental policy?",
+   "options": [
+    "Guaranteed zero defects",
+    "Protection of the environment",
+    "Elimination of all suppliers",
+    "Profit maximization"
+   ],
+   "explanation": "ISO 14001 requires a commitment to protection of the environment, including pollution prevention and other context-relevant commitments."
+  }
+ },
+ {
+  "id": "IMS-D2-Q03",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Environmental aspects",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 3.2.2 / 6.1.2",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 2,
+  "ar": {
+   "question": "ما المقصود بالجانب البيئي؟",
+   "options": [
+    "حادث بيئي فقط",
+    "متطلب قانوني فقط",
+    "عنصر من أنشطة أو منتجات أو خدمات المنظمة يتفاعل أو يمكن أن يتفاعل مع البيئة",
+    "تغيير في الموازنة"
+   ],
+   "explanation": "الجانب البيئي هو مصدر التفاعل مع البيئة، أما الأثر فهو التغير البيئي الناتج."
+  },
+  "en": {
+   "question": "What is an environmental aspect?",
+   "options": [
+    "Only an environmental accident",
+    "Only a legal requirement",
+    "An element of activities, products or services that interacts or can interact with the environment",
+    "A change to the financial budget"
+   ],
+   "explanation": "An aspect is the cause/source of an environmental interaction; an impact is the resulting environmental change."
+  }
+ },
+ {
+  "id": "IMS-D2-Q04",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Aspect vs impact",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 6.1.2",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "مرجل يحرق الوقود وينتج عنه انبعاث أكاسيد النيتروجين. ما الجانب البيئي؟",
+   "options": [
+    "نتيجة التفتيش",
+    "شكوى المجتمع",
+    "تدهور جودة الهواء",
+    "احتراق الوقود والانبعاثات الهوائية المرتبطة به"
+   ],
+   "explanation": "النشاط أو الانبعاث هو الجانب، أما التغير في جودة الهواء فهو الأثر."
+  },
+  "en": {
+   "question": "A boiler burns fuel and emits NOx. Which is the environmental aspect?",
+   "options": [
+    "Inspection result",
+    "Community complaint",
+    "Air-quality degradation",
+    "Fuel combustion and associated air emissions"
+   ],
+   "explanation": "The activity/emission is the aspect; the change to air quality is the impact."
+  }
+ },
+ {
+  "id": "IMS-D2-Q05",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Compliance obligations",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 6.1.3",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "ماذا ينبغي على المنظمة أن تفعل تجاه التزامات الامتثال البيئية؟",
+   "options": [
+    "تحديدها والوصول إليها وتحديد كيفية انطباقها",
+    "تفويضها بالكامل لجهة المنح",
+    "تجاهل الالتزامات الطوعية دائمًا",
+    "مراعاتها فقط بعد وقوع حادث"
+   ],
+   "explanation": "تحدد المنظمة التزامات الامتثال وكيفية انطباقها وتراعيها داخل نظام الإدارة البيئية."
+  },
+  "en": {
+   "question": "What should an organization do with its environmental compliance obligations?",
+   "options": [
+    "Identify, access and determine how they apply",
+    "Delegate them entirely to the certification body",
+    "Ignore voluntary commitments",
+    "Consider them only after an incident"
+   ],
+   "explanation": "The organization identifies compliance obligations, determines applicability and considers them in the EMS."
+  }
+ },
+ {
+  "id": "IMS-D2-Q06",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Operational control",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 8.5",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "أي مما يلي مثال على الضبط التشغيلي لتقديم خدمة؟",
+   "options": [
+    "تجاهل التغييرات أثناء التنفيذ",
+    "معايير قبول محددة وأفراد ذوو كفاءة",
+    "عدم مراجعة متطلبات العميل",
+    "تعليمات شفوية غير مضبوطة فقط"
+   ],
+   "explanation": "يشمل الضبط التشغيلي ظروفًا ومعايير مناسبة وكفاءة وموارد وضبط التغييرات."
+  },
+  "en": {
+   "question": "Which is an example of operational control for service delivery?",
+   "options": [
+    "Ignoring changes during delivery",
+    "Defined acceptance criteria and competent personnel",
+    "No review of customer requirements",
+    "Uncontrolled verbal instructions only"
+   ],
+   "explanation": "Operational control includes suitable conditions, criteria, competence, resources and controlled changes."
+  }
+ },
+ {
+  "id": "IMS-D2-Q07",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Customer requirements",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 8.2.3",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 2,
+  "ar": {
+   "question": "قبل الالتزام بتوريد منتج أو خدمة، ينبغي على المنظمة أساسًا:",
+   "options": [
+    "قبول جميع الطلبات دون مراجعة",
+    "الانتظار حتى اكتمال التسليم",
+    "مراجعة المتطلبات ذات الصلة والتأكد من القدرة على الوفاء بها",
+    "طلب اعتماد العقد من جهة المنح"
+   ],
+   "explanation": "يجب مراجعة المتطلبات قبل الالتزام حتى يتم حل الاختلافات والتأكد من القدرة على الوفاء بها."
+  },
+  "en": {
+   "question": "Before committing to supply a product or service, the organization should primarily:",
+   "options": [
+    "Accept all requests without review",
+    "Wait until delivery is complete",
+    "Review relevant requirements and confirm capability to meet them",
+    "Ask the certification body to approve the contract"
+   ],
+   "explanation": "Requirements should be reviewed before commitment so differences are resolved and capability is confirmed."
+  }
+ },
+ {
+  "id": "IMS-D2-Q08",
+  "day": 2,
+  "type": "tf",
+  "difficulty": "Intermediate",
+  "topic": "Design and development",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 4.3 / 8.3",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "يمكن للمنظمة تحديد أن متطلبات التصميم والتطوير في ISO 9001 غير منطبقة إذا كانت لا تقوم بالتصميم أو التطوير ضمن نطاق نظام الجودة.",
+   "options": [
+    "صح",
+    "خطأ"
+   ],
+   "explanation": "تعتمد قابلية التطبيق على منتجات وخدمات المنظمة ونطاقها بشرط ألا يؤثر عدم التطبيق على المطابقة أو رضا العميل."
+  },
+  "en": {
+   "question": "An organization may determine that ISO 9001 design and development requirements are not applicable if it does not design or develop products or services within its QMS scope.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "Applicability depends on the organization's products/services and scope, provided exclusions do not affect conformity or customer satisfaction."
+  }
+ },
+ {
+  "id": "IMS-D2-Q09",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "External providers",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 8.4",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "ما أفضل أساس للتحكم في مورد خارجي؟",
+   "options": [
+    "نفس الضوابط لكل الموردين",
+    "مدة العلاقة فقط",
+    "حجم المورد فقط",
+    "ضوابط تتناسب مع تأثير العمليات أو المنتجات أو الخدمات الخارجية على المطابقة"
+   ],
+   "explanation": "ينبغي أن تعتمد الضوابط على المخاطر والتأثير مع مراعاة أهمية المخرجات المقدمة خارجيًا."
+  },
+  "en": {
+   "question": "What is the best basis for controlling an external provider?",
+   "options": [
+    "Same controls for every supplier",
+    "Length of business relationship only",
+    "Supplier size only",
+    "Controls proportionate to the effect of externally provided processes/products/services on conformity"
+   ],
+   "explanation": "Controls should be risk- and impact-based, considering the importance of the externally provided output."
+  }
+ },
+ {
+  "id": "IMS-D2-Q10",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Emergency preparedness",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 8.2",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "ما الغرض من الاستعداد والاستجابة للطوارئ البيئية؟",
+   "options": [
+    "الاستعداد لحالات الطوارئ المحتملة والاستجابة لتقليل النتائج البيئية السلبية",
+    "إلغاء جميع المخاطر البيئية",
+    "التركيز فقط على تدريبات الحريق",
+    "استبدال تقييم الالتزام القانوني"
+   ],
+   "explanation": "تحدد المنظمات حالات الطوارئ المحتملة وتخطط للاستجابة وتختبر الترتيبات حيثما أمكن وتراجعها."
+  },
+  "en": {
+   "question": "What is the purpose of environmental emergency preparedness and response?",
+   "options": [
+    "Prepare for potential emergency situations and respond to reduce adverse environmental consequences",
+    "Eliminate all environmental risks",
+    "Focus only on fire drills",
+    "Replace legal compliance evaluation"
+   ],
+   "explanation": "Organizations identify potential emergencies, plan responses, test where practicable and review arrangements."
+  }
+ },
+ {
+  "id": "IMS-D2-Q11",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Life-cycle perspective",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 6.1.2 / 8.1",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "أي عبارة تصف منظور دورة الحياة في ISO 14001 بشكل أفضل؟",
+   "options": [
+    "تتم مراعاة التخلص النهائي فقط",
+    "تراعي المنظمة الجوانب البيئية عبر مراحل دورة الحياة ذات الصلة التي يمكنها التحكم فيها أو التأثير عليها",
+    "تتم مراعاة التصنيع فقط",
+    "إجراء تقييم كامل لدورة الحياة إلزامي دائمًا"
+   ],
+   "explanation": "تتطلب ISO 14001 منظور دورة الحياة لكنها لا تشترط تلقائيًا إجراء تقييم رسمي كامل لدورة الحياة."
+  },
+  "en": {
+   "question": "Which statement best describes the life-cycle perspective in ISO 14001?",
+   "options": [
+    "Only disposal is considered",
+    "The organization considers environmental aspects across relevant life-cycle stages it can control or influence",
+    "Only manufacturing is considered",
+    "A full life-cycle assessment is always mandatory"
+   ],
+   "explanation": "ISO 14001 requires a life-cycle perspective but does not automatically require a formal life-cycle assessment."
+  }
+ },
+ {
+  "id": "IMS-D2-Q12",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Monitoring resources",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 7.1.5",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 2,
+  "ar": {
+   "question": "عندما تكون قابلية تتبع القياس متطلبًا، ماذا ينبغي أن يحدث لأجهزة الرصد والقياس؟",
+   "options": [
+    "تستخدم دون ضوابط إذا كان المشغل خبيرًا",
+    "تخزن دون تعريف",
+    "تعاير أو تتحقق منها حسب الحاجة مقابل معايير قابلة للتتبع مع حماية حالتها",
+    "تستبدل شهريًا"
+   ],
+   "explanation": "يجب أن تكون موارد القياس مناسبة للغرض، وعندما تكون قابلية التتبع مطلوبة يجب ضبطها وربطها بمعايير قابلة للتتبع."
+  },
+  "en": {
+   "question": "When measurement traceability is a requirement, what should happen to monitoring and measuring equipment?",
+   "options": [
+    "Use without controls if experienced staff operate them",
+    "Store without identification",
+    "Calibrate or verify as appropriate against traceable standards and protect their status",
+    "Replace every month"
+   ],
+   "explanation": "Measurement resources should be fit for purpose and, where traceability is required, controlled and traceable."
+  }
+ },
+ {
+  "id": "IMS-D2-Q13",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Control of nonconforming outputs",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 8.7",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "تم اكتشاف منتج غير مطابق قبل الشحن. ماذا ينبغي على المنظمة أن تفعل أولًا؟",
+   "options": [
+    "طلب تجاهله من العميل",
+    "شحنه والتحقيق لاحقًا",
+    "حذف سجل الفحص",
+    "تحديده وضبطه لمنع الاستخدام أو التسليم غير المقصود"
+   ],
+   "explanation": "يجب تحديد المخرجات غير المطابقة وضبطها لمنع استخدامها أو تسليمها دون قصد."
+  },
+  "en": {
+   "question": "A nonconforming product is detected before shipment. What should the organization do first?",
+   "options": [
+    "Ask the customer to ignore it",
+    "Ship it and investigate later",
+    "Delete the inspection record",
+    "Identify and control it to prevent unintended use or delivery"
+   ],
+   "explanation": "Nonconforming outputs must be identified and controlled to prevent unintended use or delivery."
+  }
+ },
+ {
+  "id": "IMS-D2-Q14",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Evaluation of compliance",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 9.1.2",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "أي نشاط يمثل أفضل دليل على تقييم الامتثال؟",
+   "options": [
+    "التحقق دوريًا من الأداء الفعلي مقابل الالتزامات البيئية المطبقة والاحتفاظ بالنتائج",
+    "افتراض أن التصاريح تضمن الامتثال",
+    "الاحتفاظ بسجل تشريعات فقط",
+    "انتظار زيارات الجهة الرقابية"
+   ],
+   "explanation": "يتطلب تقييم الامتثال عملية لتقييم الوفاء بالتزامات الامتثال والاحتفاظ بمعرفة حالة الامتثال."
+  },
+  "en": {
+   "question": "Which activity best demonstrates evaluation of compliance?",
+   "options": [
+    "Periodically checking actual performance against applicable environmental obligations and retaining results",
+    "Assuming permits guarantee compliance",
+    "Maintaining a legal register only",
+    "Waiting for regulator visits"
+   ],
+   "explanation": "Evaluation of compliance requires a process to assess fulfillment of compliance obligations and retain knowledge of compliance status."
+  }
+ },
+ {
+  "id": "IMS-D2-Q15",
+  "day": 2,
+  "type": "tf",
+  "difficulty": "Intermediate",
+  "topic": "Environmental objectives",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 6.2",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "يجب دائمًا التعبير عن الأهداف البيئية فقط بمصطلحات مالية.",
+   "options": [
+    "صح",
+    "خطأ"
+   ],
+   "explanation": "ينبغي أن تكون الأهداف البيئية قابلة للقياس حيثما أمكن ومتسقة مع السياسة البيئية وليست مقصورة على المقاييس المالية."
+  },
+  "en": {
+   "question": "Environmental objectives must always be expressed only in financial terms.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "Environmental objectives should be measurable if practicable and consistent with the environmental policy; they are not limited to financial measures."
+  }
+ },
+ {
+  "id": "IMS-D2-Q16",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Change control",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 6.3 / 8.5.6",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "تم تعديل عملية إنتاج لزيادة المخرجات. ما أفضل استجابة لنظام الجودة؟",
+   "options": [
+    "التنفيذ فورًا دون مراجعة",
+    "تخطيط وضبط التغيير مع مراعاة الغرض والنتائج والموارد والمسؤوليات",
+    "تحديث الشعار فقط",
+    "إبلاغ جهة المنح قبل المراجعة الداخلية"
+   ],
+   "explanation": "يجب تخطيط وضبط التغييرات المؤثرة على نظام الجودة لحماية سلامة النظام ونتائجه المقصودة."
+  },
+  "en": {
+   "question": "A production process is modified to increase output. What is the best QMS response?",
+   "options": [
+    "Implement immediately with no review",
+    "Plan and control the change, considering purpose, consequences, resources and responsibilities",
+    "Update the logo only",
+    "Inform the certification body before internal review"
+   ],
+   "explanation": "Changes affecting the QMS should be planned and controlled to protect system integrity and intended results."
+  }
+ },
+ {
+  "id": "IMS-D2-Q17",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "ISO 9001:2026 6.1 / ISO 14001:2026 6.1",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 2,
+  "ar": {
+   "question": "قد يؤدي تغيير في إحدى العمليات إلى خفض العيوب واستهلاك الطاقة، لكنه ينشئ أيضًا خطرًا جديدًا للتلوث. ما أقوى نهج للتخطيط في نظام إدارة متكامل؟",
+   "options": [
+    "معالجة خطر التلوث فقط وتجاهل الفوائد المحتملة",
+    "تنفيذ التغيير أولًا ثم تقييم العواقب لاحقًا",
+    "تقييم المخاطر والفرص كلٌ بصورة واضحة ولكن مترابطة، ثم تخطيط ضوابط وإجراءات متكاملة",
+    "اعتبار التغيير مسألة بيئية فقط"
+   ],
+   "explanation": "يأخذ التخطيط الجيد في النظام المتكامل المخاطر السلبية والفرص الإيجابية معًا. ويوضح ISO 9001:2026 الفصل بين المخاطر والفرص، بينما يمنع التكامل تحسين جانب على حساب جانب آخر."
+  },
+  "en": {
+   "question": "A process change could reduce defects and energy use, but it also creates a new contamination risk. What is the strongest IMS planning approach?",
+   "options": [
+    "Address only the contamination risk and ignore potential benefits",
+    "Implement the change first and evaluate consequences later",
+    "Evaluate risks and opportunities separately but coherently, then plan integrated controls and actions",
+    "Treat the change only as an environmental matter"
+   ],
+   "explanation": "Good IMS planning considers both adverse risks and beneficial opportunities. ISO 9001:2026 gives clearer distinction to risks and opportunities, while integration helps avoid solving one objective at the expense of another."
+  }
+ },
+ {
+  "id": "IMS-D2-Q18",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Release",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 8.6",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "من ينبغي أن يعتمد الإفراج عن المنتجات والخدمات؟",
+   "options": [
+    "العميل في كل الحالات",
+    "أي موظف متاح",
+    "مدقق جهة المنح",
+    "أفراد مخولون بناءً على معايير قبول محددة"
+   ],
+   "explanation": "ينبغي ألا يتم الإفراج إلا بعد استكمال الترتيبات المخططة بشكل مرضٍ، ما لم تتم الموافقة بخلاف ذلك من السلطة المختصة أو العميل حسب الحالة."
+  },
+  "en": {
+   "question": "Who should authorize release of products and services?",
+   "options": [
+    "The customer in every case",
+    "Any available employee",
+    "The certification auditor",
+    "Authorized personnel based on defined acceptance criteria"
+   ],
+   "explanation": "Release should occur only after planned arrangements are satisfactorily completed, unless otherwise approved by relevant authority/customer as applicable."
+  }
+ },
+ {
+  "id": "IMS-D2-Q19",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Significant aspects",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 6.1.2",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "ما الذي ينبغي أن يحدد ما إذا كان الجانب البيئي ذا أهمية؟",
+   "options": [
+    "منهج ومعايير تحددها المنظمة",
+    "التكلفة المالية فقط",
+    "فقط وجود شكوى من عدمه",
+    "رأي المدقق فقط"
+   ],
+   "explanation": "تضع المنظمة معايير وتطبقها لتحديد الجوانب البيئية المهمة."
+  },
+  "en": {
+   "question": "What should determine whether an environmental aspect is significant?",
+   "options": [
+    "A method and criteria established by the organization",
+    "Only financial cost",
+    "Only whether a complaint has occurred",
+    "Only the opinion of the auditor"
+   ],
+   "explanation": "The organization establishes and applies criteria for determining significant environmental aspects."
+  }
+ },
+ {
+  "id": "IMS-D2-Q20",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "ISO 14001:2026 4.1 / 4.2",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "أثناء مراجعة سياق نظام الإدارة المتكامل، أخذت المنظمة طلب العملاء في الاعتبار لكنها تجاهلت تزايد ندرة المياه وتراجع التنوع الحيوي محليًا رغم تأثيرهما المحتمل على العمليات. ما الاستنتاج الأقوى؟",
+   "options": [
+    "المراجعة مكتملة لأن قضايا العملاء وحدها هي المهمة",
+    "ينبغي أن تراعي المراجعة الظروف البيئية ذات الصلة وكيف يمكن أن تؤثر في المنظمة أو تتأثر بها",
+    "لا تصبح الظروف البيئية ذات صلة إلا بعد وقوع حادث",
+    "تنتمي هذه القضايا فقط إلى خطة الطوارئ"
+   ],
+   "explanation": "يضع ISO 14001:2026 تركيزًا أوضح على الظروف البيئية ذات الصلة مثل تغير المناخ والتنوع الحيوي وتوافر الموارد عند فهم سياق المنظمة والمخاطر والفرص المرتبطة به."
+  },
+  "en": {
+   "question": "During its IMS context review, an organization considers customer demand but ignores worsening water scarcity and local biodiversity decline that could affect operations. What is the strongest conclusion?",
+   "options": [
+    "The review is complete because only customer issues matter",
+    "The review should consider relevant environmental conditions and how they can affect, or be affected by, the organization",
+    "Environmental conditions are relevant only after an incident",
+    "Such issues belong only in the emergency plan"
+   ],
+   "explanation": "ISO 14001:2026 places clearer emphasis on relevant environmental conditions such as climate change, biodiversity and resource availability when understanding organizational context and related risks and opportunities."
+  }
+ },
+ {
+  "id": "IMS-D2-Q21",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Quality objectives",
+  "standard": "ISO 9001",
+  "clause": "ISO 9001:2026, 6.2",
+  "set": "supplemental_core",
+  "verify": "requires_2026_text_verification",
+  "answer": 2,
+  "ar": {
+   "question": "أي هدف جودة يتوافق بصورة أفضل مع متطلبات ISO 9001؟",
+   "options": [
+    "تحسين الجودة كلما أمكن",
+    "زيادة تدريب الموظفين",
+    "خفض تكرار شكاوى العملاء المؤكدة من 8% إلى أقل من 4% بحلول الربع الرابع مع متابعة شهرية بواسطة مدير خدمة العملاء",
+    "أن نصبح أفضل شركة في السوق"
+   ],
+   "explanation": "ينبغي أن تكون أهداف الجودة قابلة للقياس حيثما أمكن، ويتم متابعتها والتواصل بشأنها وتحديثها، مع تحديد ما سيتم عمله والموارد والمسؤوليات والتوقيت وكيفية تقييم النتائج."
+  },
+  "en": {
+   "question": "Which quality objective is MOST consistent with ISO 9001 requirements?",
+   "options": [
+    "Improve quality whenever possible",
+    "Train employees more",
+    "Reduce verified customer complaint recurrence from 8% to below 4% by Q4, with monthly monitoring by the Customer Service Manager",
+    "Become the best company in the market"
+   ],
+   "explanation": "Quality objectives should be measurable where practicable, monitored, communicated, updated as appropriate, and supported by plans defining what will be done, resources, responsibility, timing and evaluation."
+  }
+ },
+ {
+  "id": "IMS-D2-Q22",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Environmental aspects",
+  "standard": "ISO 14001",
+  "clause": "ISO 14001:2026, 6.1.2",
+  "set": "supplemental_core",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "عند تحديد الجوانب البيئية، ما الاعتبار الأكثر أهمية؟",
+   "options": [
+    "فقط الجوانب الخاضعة بالفعل للتشريعات",
+    "حالات الطوارئ فقط",
+    "فقط التأثيرات التي تحدث داخل حدود المنظمة",
+    "الجوانب البيئية للأنشطة والمنتجات والخدمات التي يمكن للمنظمة التحكم فيها أو التأثير عليها مع مراعاة منظور دورة الحياة"
+   ],
+   "explanation": "تتطلب ISO 14001 النظر في الجوانب التي يمكن للمنظمة التحكم فيها أو التأثير عليها مع منظور دورة الحياة، ثم تطبيق معايير تحديد الجوانب المهمة."
+  },
+  "en": {
+   "question": "When determining environmental aspects, which consideration is MOST important?",
+   "options": [
+    "Only aspects already regulated by law",
+    "Only emergency situations",
+    "Only impacts occurring inside the organization boundary",
+    "Environmental aspects of activities, products and services that the organization can control and those it can influence, considering a life-cycle perspective"
+   ],
+   "explanation": "ISO 14001 requires consideration of aspects the organization can control or influence and uses a life-cycle perspective; significance criteria are then applied."
+  }
+ },
+ {
+  "id": "IMS-D2-Q23",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "External providers",
+  "standard": "ISO 9001",
+  "clause": "ISO 9001:2026, 8.4",
+  "set": "supplemental_core",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "خدمة معايرة خارجية حرجة تتأخر بشكل متكرر وأحيانًا تقدم شهادات غير مكتملة. ما الذي ينبغي على المنظمة فعله أولًا من منظور نظام الجودة؟",
+   "options": [
+    "تقييم أداء المزود مقابل الضوابط والمتطلبات المحددة ومعالجة الإخفاقات وتعديل نوع ومدى التحكم حسب الحاجة",
+    "إنهاء التعامل مع المورد فورًا دون تقييم",
+    "نقل مسؤولية المعايرة لفريق التدقيق الداخلي",
+    "تجاهل المشكلة لأن النشاط خارجي"
+   ],
+   "explanation": "تظل العمليات المسندة للخارج تحت مسؤولية المنظمة من حيث التحكم؛ ويجب متابعة أداء المزود وتعديل الضوابط بناءً على المخاطر والأداء وتأثيره على المطابقة."
+  },
+  "en": {
+   "question": "A critical outsourced calibration service repeatedly delivers late and occasionally provides incomplete certificates. What should the organization do FIRST from a QMS perspective?",
+   "options": [
+    "Evaluate provider performance against defined controls and requirements, address the failures, and adjust the type and extent of control as necessary",
+    "Immediately terminate the provider without evaluation",
+    "Move calibration responsibility to the internal audit team",
+    "Ignore the issue because the activity is outsourced"
+   ],
+   "explanation": "Outsourced processes remain under organizational control. Provider performance should be monitored and controls adjusted based on risk, performance and impact on conformity."
+  }
+ },
+ {
+  "id": "IMS-D2-Q24",
+  "day": 2,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Emergency preparedness",
+  "standard": "ISO 14001",
+  "clause": "ISO 14001:2026, 8.2",
+  "set": "supplemental_core",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "أي إجراء يوضح بصورة أفضل فعالية الاستعداد والاستجابة للطوارئ وفق ISO 14001؟",
+   "options": [
+    "اختبار الاستجابة فقط بعد وقوع حادث",
+    "تحديد حالات الطوارئ المحتملة والتخطيط للاستجابة واختبارها دوريًا حيثما أمكن ومراجعة الأداء بعد الاختبارات أو الأحداث الفعلية",
+    "الاعتماد فقط على الدفاع المدني",
+    "إعداد خطة مرة واحدة وعدم تعديلها"
+   ],
+   "explanation": "يشمل الاستعداد للطوارئ التخطيط والاستجابة والاختبار حيثما أمكن ومراجعة وتعديل الترتيبات وتوفير المعلومات والتدريب المناسبين."
+  },
+  "en": {
+   "question": "Which action BEST demonstrates effective emergency preparedness under ISO 14001?",
+   "options": [
+    "Test emergency response only after an accident",
+    "Identify potential emergency situations, plan responses, periodically test them where practicable, and review performance after tests or actual events",
+    "Rely only on the fire department",
+    "Prepare a plan once and keep it unchanged"
+   ],
+   "explanation": "Emergency preparedness includes planning, responding, testing where practicable, reviewing and revising arrangements, and providing relevant information and training."
+  }
+ },
+ {
+  "id": "IMS-2026-SUP-Q07",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Lead Auditor",
+  "topic": "Remote and Hybrid Auditing",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 3.4 / Annex A",
+  "set": "supplemental_2026",
+  "verify": "verified_public_iso_obp",
+  "answer": 2,
+  "ar": {
+   "question": "أي وصف يطابق بصورة أفضل أسلوب التدقيق عن بُعد وفق ISO 19011:2026؟",
+   "options": [
+    "مراجعة مستندات تكتمل قبل التدقيق الموقعي",
+    "أي تدقيق تنفذه جهة منح شهادات",
+    "نشاط تدقيق يُنفذ من مكان غير موقع الجهة الخاضعة للتدقيق باستخدام أساليب وتقنيات مناسبة",
+    "تدقيق يستبعد المقابلات"
+   ],
+   "explanation": "يقدم ISO 19011:2026 مفهومًا محددًا لأساليب التدقيق عن بُعد ويوسع الإرشادات المتعلقة بها، بما يشمل التنفيذ من أماكن غير موقع الجهة الخاضعة للتدقيق والمواقع الافتراضية."
+  },
+  "en": {
+   "question": "Which description best matches a remote auditing method under ISO 19011:2026?",
+   "options": [
+    "A document review completed before an on-site audit",
+    "Any audit performed by a certification body",
+    "An audit activity performed from a place other than the auditee's location using appropriate methods and technology",
+    "An audit that excludes interviews"
+   ],
+   "explanation": "ISO 19011:2026 introduces a defined concept of remote auditing methods and expands related guidance, including use from places other than the auditee's location and for virtual locations."
+  }
+ },
+ {
+  "id": "IMS-2026-SUP-Q08",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Lead Auditor",
+  "topic": "Remote and Hybrid Auditing",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 3.4 / Annex A",
+  "set": "supplemental_2026",
+  "verify": "verified_public_iso_obp",
+  "answer": 3,
+  "ar": {
+   "question": "يجري فريق مقابلات مع موظفي الإدارة عبر الفيديو، ويراجع السجلات السحابية عن بُعد، ثم يزور موقع الإنتاج لملاحظة الضوابط المادية. كيف يُفهم هذا النهج التدقيقي؟",
+   "options": [
+    "هو مجرد مراجعة مستندات",
+    "هو تدقيق المرحلة الأولى بالتعريف",
+    "غير صالح لأن الأساليب عن بُعد والموقعية لا يمكن دمجها",
+    "هو استخدام مدمج أو هجين لأساليب التدقيق عن بُعد والموقعية"
+   ],
+   "explanation": "يعترف ISO 19011:2026 بإمكانية الجمع بين الأساليب عن بُعد والأساليب الموقعية لتحقيق تدقيق كامل وفعال."
+  },
+  "en": {
+   "question": "A team interviews corporate personnel by video, reviews cloud records remotely, and then visits the production site to observe physical controls. How should this audit approach be understood?",
+   "options": [
+    "It is only a document review",
+    "It is a Stage 1 audit by definition",
+    "It is invalid because remote and on-site methods cannot be combined",
+    "It is a combined or hybrid use of remote and on-site audit methods"
+   ],
+   "explanation": "ISO 19011:2026 recognizes that remote methods can be combined with on-site methods to achieve a full and effective audit."
+  }
+ },
+ {
+  "id": "IMS-2026-SUP-Q09",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Lead Auditor",
+  "topic": "Remote and Hybrid Auditing",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 Annex A",
+  "set": "supplemental_2026",
+  "verify": "verified_public_iso_source",
+  "answer": 0,
+  "ar": {
+   "question": "قبل اتخاذ قرار بتدقيق منطقة تخزين مواد كيميائية خطرة بالكامل عبر البث المرئي المباشر، ما الذي ينبغي لمدير برنامج التدقيق مراعاته بعناية أكبر؟",
+   "options": [
+    "المخاطر والفرص والقدرة التقنية وأمن المعلومات وما إذا كان يمكن الحصول على أدلة موضوعية كافية",
+    "وفورات تكاليف السفر فقط",
+    "ما إذا كان المدقق يمتلك كاميرا ويب",
+    "ما إذا كانت الجهة الخاضعة للتدقيق تفضل التدقيق عن بُعد"
+   ],
+   "explanation": "ينبغي اختيار الأساليب عن بُعد بناءً على الجدوى والمخاطر، بما يشمل التقنية والسرية وإمكانية الوصول والقدرة على الحصول على أدلة موثوقة وتحقيق أهداف التدقيق."
+  },
+  "en": {
+   "question": "Before deciding to audit a hazardous chemical storage area entirely by live video, what should the audit programme manager consider most carefully?",
+   "options": [
+    "Risks, opportunities, technology capability, information security and whether sufficient objective evidence can be obtained",
+    "Only travel cost savings",
+    "Whether the auditor owns a webcam",
+    "Whether the auditee prefers remote audits"
+   ],
+   "explanation": "Remote methods should be selected based on feasibility and risk, including technology, confidentiality, access and the ability to obtain reliable evidence and achieve audit objectives."
+  }
+ },
+ {
+  "id": "IMS-2026-SUP-Q10",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Lead Auditor",
+  "topic": "Remote and Hybrid Auditing",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 3.4 / Annex A",
+  "set": "supplemental_2026",
+  "verify": "verified_public_iso_obp",
+  "answer": 1,
+  "ar": {
+   "question": "تقدم شركة برمجيات خدماتها بالكامل عبر منصات سحابية، ويعمل موظفوها من عدة دول دون مكتب دائم لتقديم الخدمة. أي مفهوم في ISO 19011:2026 يرتبط بهذه الحالة بصورة خاصة؟",
+   "options": [
+    "مختبر معايرة",
+    "الموقع الافتراضي",
+    "محطة فحص مادية",
+    "موقع سحب المنتج"
+   ],
+   "explanation": "يوسع ISO 19011:2026 الإرشادات الخاصة بتدقيق المواقع الافتراضية حيث تُنفذ الأعمال أو الخدمات في بيئات إلكترونية بصرف النظر عن موقع مادي واحد."
+  },
+  "en": {
+   "question": "A software company delivers services entirely through cloud platforms with staff working from multiple countries and no permanent service-delivery office. Which ISO 19011:2026 concept is especially relevant?",
+   "options": [
+    "Calibration laboratory",
+    "Virtual location",
+    "Physical inspection station",
+    "Product recall site"
+   ],
+   "explanation": "ISO 19011:2026 expands guidance for auditing virtual locations where work or services are performed in online environments independent of a single physical location."
+  }
+ },
+ {
+  "id": "IMS-2026-SUP-Q11",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Lead Auditor",
+  "topic": "Remote and Hybrid Auditing",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 6 / Annex A",
+  "set": "supplemental_2026",
+  "verify": "verified_public_iso_source",
+  "answer": 2,
+  "ar": {
+   "question": "أثناء تدقيق عن بُعد، تعرض الجهة الخاضعة للتدقيق لقطة شاشة للوحة إنتاج لكنها ترفض إظهار النظام الحي أو تقديم سجلات قابلة للتتبع. ماذا ينبغي للمدقق أن يفعل؟",
+   "options": [
+    "قبول لقطة الشاشة كدليل حاسم",
+    "إنهاء التدقيق دون تفسير",
+    "تقييم موثوقية وكفاية الدليل والبحث عن أدلة مؤيدة أو تعديل أسلوب التدقيق",
+    "رفع عدم مطابقة جسيمة تلقائيًا"
+   ],
+   "explanation": "لا يقلل التدقيق عن بُعد الحاجة إلى أدلة كافية وموثوقة وقابلة للتحقق. إذا كان الدليل ضعيفًا، ينبغي طلب أدلة مؤيدة أو تغيير نهج التدقيق."
+  },
+  "en": {
+   "question": "During a remote audit, the auditee shares a screenshot of a production dashboard but refuses to demonstrate the live system or provide traceable records. What should the auditor do?",
+   "options": [
+    "Accept the screenshot as conclusive evidence",
+    "End the audit without explanation",
+    "Evaluate the reliability and sufficiency of the evidence and seek corroborating evidence or adjust the audit method",
+    "Automatically raise a major nonconformity"
+   ],
+   "explanation": "Remote auditing does not reduce the need for sufficient, reliable and verifiable evidence. If evidence is weak, the auditor should seek corroboration or change the audit approach."
+  }
+ },
+ {
+  "id": "IMS-2026-SUP-Q12",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Lead Auditor",
+  "topic": "Remote and Hybrid Auditing",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 Annex A",
+  "set": "supplemental_2026",
+  "verify": "verified_public_iso_source",
+  "answer": 3,
+  "ar": {
+   "question": "يرغب فريق التدقيق في تسجيل جميع المقابلات عن بُعد للسهولة. ما النهج الأنسب؟",
+   "options": [
+    "التسجيل تلقائيًا لأن فريق التدقيق يملك الأدلة",
+    "سؤال الجهة الخاضعة للتدقيق بعد انتهاء التدقيق",
+    "عدم النظر في السرية لأن الاجتماع افتراضي",
+    "استخدام التسجيل فقط عندما يكون مصرحًا به ومضبوطًا بما يتوافق مع السرية وأمن المعلومات والترتيبات المتفق عليها"
+   ],
+   "explanation": "ينبغي ضبط التقنية المستخدمة في التدقيق عن بُعد بما يحمي السرية وأمن المعلومات والترتيبات المتفق عليها."
+  },
+  "en": {
+   "question": "The audit team wants to record all remote interviews for convenience. What is the most appropriate approach?",
+   "options": [
+    "Record automatically because the audit team owns the evidence",
+    "Ask the auditee after the audit is complete",
+    "Avoid considering confidentiality because the meeting is virtual",
+    "Use recording only when authorized and controlled in line with confidentiality, information security and agreed arrangements"
+   ],
+   "explanation": "Technology used in remote audits should be controlled so confidentiality, information security and agreed arrangements are protected."
+  }
+ },
+ {
+  "id": "IMS-D3-Q01",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Certification principles",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "أي مبدأ أساسي للثقة في جهة منح الشهادات؟",
+   "options": [
+    "الحياد",
+    "أقل مدة تدقيق",
+    "ملكية العميل",
+    "حجم التسويق"
+   ],
+   "explanation": "الحياد عنصر أساسي لمصداقية منح الشهادات من طرف ثالث."
+  },
+  "en": {
+   "question": "Which principle is essential to certification-body confidence?",
+   "options": [
+    "Impartiality",
+    "Lowest audit duration",
+    "Client ownership",
+    "Marketing volume"
+   ],
+   "explanation": "Impartiality is fundamental to credible third-party certification."
+  }
+ },
+ {
+  "id": "IMS-D3-Q02",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Foundation",
+  "topic": "Certification body role",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "ما الدور الأساسي لجهة منح شهادات نظم الإدارة؟",
+   "options": [
+    "تشغيل نظام العميل",
+    "تقييم المطابقة واتخاذ قرارات المنح من خلال عملية محايدة",
+    "تقديم استشارات حول كيفية التطبيق",
+    "اعتماد عقود عملاء المنظمة"
+   ],
+   "explanation": "تقوم جهات المنح بتقييم المطابقة واتخاذ قرارات الشهادة مع الحفاظ على الحياد."
+  },
+  "en": {
+   "question": "What is the primary role of a management-system certification body?",
+   "options": [
+    "Operate the client system",
+    "Evaluate conformity and make certification decisions through an impartial process",
+    "Consult on how to implement the system",
+    "Approve customer contracts"
+   ],
+   "explanation": "Certification bodies assess conformity and make certification decisions while maintaining impartiality."
+  }
+ },
+ {
+  "id": "IMS-D3-Q03",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Foundation",
+  "topic": "Audit guidance",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 2,
+  "ar": {
+   "question": "توفر ISO 19011 إرشادات أساسًا بشأن:",
+   "options": [
+    "التدقيق المالي فقط",
+    "شهادات المنتجات فقط",
+    "تدقيق نظم الإدارة",
+    "معايرة المختبرات فقط"
+   ],
+   "explanation": "توفر ISO 19011 إرشادات لتدقيق نظم الإدارة وبرامج التدقيق وكفاءة المدققين."
+  },
+  "en": {
+   "question": "ISO 19011 primarily provides guidance for:",
+   "options": [
+    "Financial accounting audits only",
+    "Product certification only",
+    "Auditing management systems",
+    "Laboratory calibration only"
+   ],
+   "explanation": "ISO 19011 provides guidance on auditing management systems, audit programmes and auditor competence."
+  }
+ },
+ {
+  "id": "IMS-D3-Q04",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Audit principles",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 Clause 4",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "أي مبدأ من مبادئ التدقيق يؤكد على التقرير بصدق ودقة؟",
+   "options": [
+    "السرية",
+    "الاستقلالية",
+    "النهج المبني على المخاطر",
+    "العرض العادل"
+   ],
+   "explanation": "يتعلق العرض العادل بالتقرير الصادق والدقيق عن نتائج واستنتاجات التدقيق والعقبات."
+  },
+  "en": {
+   "question": "Which audit principle emphasizes reporting truthfully and accurately?",
+   "options": [
+    "Confidentiality",
+    "Independence",
+    "Risk-based approach",
+    "Fair presentation"
+   ],
+   "explanation": "Fair presentation concerns truthful and accurate reporting of audit findings, conclusions and obstacles."
+  }
+ },
+ {
+  "id": "IMS-D3-Q05",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Audit principles",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 Clause 4",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "أي مبدأ يرتبط أكثر بحماية المعلومات الحساسة؟",
+   "options": [
+    "السرية",
+    "النهج المبني على الأدلة",
+    "العناية المهنية الواجبة",
+    "العرض العادل"
+   ],
+   "explanation": "تتطلب السرية من المدققين التحفظ في استخدام المعلومات وحمايتها."
+  },
+  "en": {
+   "question": "Which audit principle is most closely related to protecting sensitive information?",
+   "options": [
+    "Confidentiality",
+    "Evidence-based approach",
+    "Due professional care",
+    "Fair presentation"
+   ],
+   "explanation": "Confidentiality requires auditors to exercise discretion in the use and protection of information."
+  }
+ },
+ {
+  "id": "IMS-D3-Q06",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Foundation",
+  "topic": "Audit types",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "التدقيق الذي تجريه المنظمة على نفسها يسمى عادةً:",
+   "options": [
+    "تدقيق الطرف الثاني",
+    "تدقيق الطرف الأول",
+    "تدقيق الطرف الثالث",
+    "مقاضاة تنظيمية"
+   ],
+   "explanation": "التدقيقات الداخلية هي تدقيقات طرف أول."
+  },
+  "en": {
+   "question": "An audit performed by an organization on itself is commonly called:",
+   "options": [
+    "Second-party audit",
+    "First-party audit",
+    "Third-party audit",
+    "Regulatory prosecution"
+   ],
+   "explanation": "Internal audits are first-party audits."
+  }
+ },
+ {
+  "id": "IMS-D3-Q07",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Foundation",
+  "topic": "Audit types",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 2,
+  "ar": {
+   "question": "تدقيق عميل على مورد يُعد عادةً مثالًا على:",
+   "options": [
+    "تدقيق منح من الطرف الثالث",
+    "تقييم ذاتي",
+    "تدقيق الطرف الثاني",
+    "تدقيق الطرف الأول"
+   ],
+   "explanation": "تدقيق العميل للمورد يكون عادةً تدقيق طرف ثانٍ."
+  },
+  "en": {
+   "question": "A customer auditing a supplier is commonly an example of:",
+   "options": [
+    "Third-party certification audit",
+    "Self-assessment",
+    "Second-party audit",
+    "First-party audit"
+   ],
+   "explanation": "Customer/supplier audits are typically second-party audits."
+  }
+ },
+ {
+  "id": "IMS-D3-Q08",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Audit programme",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 Clause 5",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "ما المقصود ببرنامج التدقيق؟",
+   "options": [
+    "جدول اجتماع الافتتاح فقط",
+    "قائمة تحقق واحدة",
+    "قائمة بعدم المطابقات",
+    "ترتيبات لتدقيق واحد أو أكثر مخطط لها لفترة زمنية وغرض محدد"
+   ],
+   "explanation": "ينسق برنامج التدقيق أنشطة تدقيق متعددة عبر الزمن لتحقيق أهداف البرنامج."
+  },
+  "en": {
+   "question": "What is an audit programme?",
+   "options": [
+    "Only the opening meeting agenda",
+    "A single checklist",
+    "A list of nonconformities",
+    "Arrangements for one or more audits planned for a specific time frame and purpose"
+   ],
+   "explanation": "An audit programme coordinates multiple audit activities over time in support of programme objectives."
+  }
+ },
+ {
+  "id": "IMS-D3-Q09",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Audit objectives",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 6.2.2",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "أي مما يلي هدف صالح للتدقيق؟",
+   "options": [
+    "تحديد مدى المطابقة لمعايير التدقيق",
+    "اتخاذ قرار المنح أثناء التدقيق الداخلي",
+    "ضمان النجاح التجاري مستقبلًا",
+    "كتابة إجراءات العميل"
+   ],
+   "explanation": "قد تشمل أهداف التدقيق تحديد المطابقة أو الفعالية أو فرص التحسين ضمن حدود محددة."
+  },
+  "en": {
+   "question": "Which is a valid audit objective?",
+   "options": [
+    "Determine conformity with audit criteria",
+    "Make certification decisions during an internal audit",
+    "Guarantee future business success",
+    "Write the client's procedures"
+   ],
+   "explanation": "Audit objectives may include determining conformity, effectiveness, or opportunities for improvement within defined boundaries."
+  }
+ },
+ {
+  "id": "IMS-D3-Q10",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Audit scope",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "يصف نطاق التدقيق عادةً:",
+   "options": [
+    "كل الأنشطة المستقبلية",
+    "المواقع والوظائف والأنشطة والفترة الزمنية المشمولة",
+    "رسوم المنح فقط",
+    "راتب المدقق"
+   ],
+   "explanation": "يحدد النطاق حدود ومدى التدقيق."
+  },
+  "en": {
+   "question": "Audit scope typically describes:",
+   "options": [
+    "All future activities",
+    "Locations, functions, activities and time period covered",
+    "Certification fee only",
+    "Auditor salary"
+   ],
+   "explanation": "Scope defines the boundaries and extent of the audit."
+  }
+ },
+ {
+  "id": "IMS-D3-Q11",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Audit criteria",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 2,
+  "ar": {
+   "question": "ما المقصود بمعايير التدقيق؟",
+   "options": [
+    "المتطلبات القانونية فقط",
+    "بنود ISO فقط",
+    "المتطلبات المرجعية التي تتم مقارنة الأدلة بها",
+    "التفضيلات الشخصية للمدقق"
+   ],
+   "explanation": "قد تشمل معايير التدقيق المواصفات والسياسات والإجراءات والمتطلبات القانونية والعقود وغيرها من المتطلبات المطبقة."
+  },
+  "en": {
+   "question": "What are audit criteria?",
+   "options": [
+    "Only legal requirements",
+    "Only ISO clauses",
+    "The reference requirements against which evidence is compared",
+    "The personal preference of the auditor"
+   ],
+   "explanation": "Audit criteria can include standards, policies, procedures, legal requirements, contracts and other applicable requirements."
+  }
+ },
+ {
+  "id": "IMS-D3-Q12",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Audit evidence",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "أي عنصر يمكن أن يكون دليل تدقيق موضوعي؟",
+   "options": [
+    "تعليق غير متحقق على وسائل التواصل",
+    "إشاعة من شخص غير ذي صلة",
+    "افتراض المدقق",
+    "سجل معايرة تم التحقق منه"
+   ],
+   "explanation": "يجب أن يكون دليل التدقيق قابلاً للتحقق ومرتبطًا بمعايير التدقيق."
+  },
+  "en": {
+   "question": "Which item can be objective audit evidence?",
+   "options": [
+    "Unverified social-media comment",
+    "Rumor from an unrelated person",
+    "Auditor assumption",
+    "Verified record of calibration"
+   ],
+   "explanation": "Audit evidence should be verifiable and relevant to the audit criteria."
+  }
+ },
+ {
+  "id": "IMS-D3-Q13",
+  "day": 3,
+  "type": "tf",
+  "difficulty": "Intermediate",
+  "topic": "Sampling",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "تعني المعاينة في التدقيق أن على المدقق فحص كل سجل متاح.",
+   "options": [
+    "صح",
+    "خطأ"
+   ],
+   "explanation": "يعتمد التدقيق غالبًا على العينات لأن فحص كل المعلومات قد لا يكون عمليًا، ويجب أن تكون العينة مناسبة للأهداف والمخاطر."
+  },
+  "en": {
+   "question": "Audit sampling means an auditor is expected to examine every available record.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "Audits commonly rely on sampling because examining all information is often impractical; sampling should be appropriate to audit objectives and risk."
+  }
+ },
+ {
+  "id": "IMS-D3-Q14",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Auditor competence",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 Clause 7",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "أي مجموعة تمثل كفاءة المدقق بشكل أفضل؟",
+   "options": [
+    "المعرفة والمهارات والخبرة والسلوك الشخصي المناسب",
+    "القدرة على كتابة عدد كبير من حالات عدم المطابقة",
+    "شهادة تدريب فقط",
+    "مدة الخدمة فقط"
+   ],
+   "explanation": "تظهر الكفاءة من خلال تطبيق المعرفة والمهارات مدعومة بالتعليم والخبرة العملية وخبرة التدقيق والسلوك المناسب."
+  },
+  "en": {
+   "question": "Which combination best demonstrates auditor competence?",
+   "options": [
+    "Knowledge, skills, experience and appropriate personal behavior",
+    "Ability to write many nonconformities",
+    "Training certificate only",
+    "Length of service only"
+   ],
+   "explanation": "Competence is demonstrated through the application of knowledge and skills, supported by education, work/audit experience and suitable behavior."
+  }
+ },
+ {
+  "id": "IMS-D3-Q15",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Impartiality risk",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "مدقق تابع لجهة منح سبق له تقديم استشارات لنظام الإدارة المتكامل لنفس العميل. ما مصدر القلق الرئيسي؟",
+   "options": [
+    "لا يمكن منح العميل من أي جهة",
+    "تعارض الحياد",
+    "يجب تحويل التدقيق لتدقيق داخلي",
+    "تتضاعف مدة التدقيق تلقائيًا"
+   ],
+   "explanation": "قد تنشئ الاستشارات السابقة مخاطر مراجعة العمل الذاتي والحياد ويجب تجنبها أو إدارتها وفق متطلبات المنح."
+  },
+  "en": {
+   "question": "A certification body's auditor previously provided IMS consultancy to the same client. What is the primary concern?",
+   "options": [
+    "The client cannot be certified by anyone",
+    "Impartiality conflict",
+    "The audit must become an internal audit",
+    "Audit duration automatically doubles"
+   ],
+   "explanation": "Prior consultancy can create self-review and impartiality threats that must be avoided or managed according to certification requirements."
+  }
+ },
+ {
+  "id": "IMS-D3-Q16",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Stage 1 certification audit",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 2,
+  "ar": {
+   "question": "ما أحد الأغراض المعتادة للمرحلة الأولى من تدقيق المنح؟",
+   "options": [
+    "إغلاق حالات عدم المطابقة من المرحلة الثانية",
+    "إصدار الشهادة فورًا",
+    "تقييم الجاهزية للمرحلة الثانية ومراجعة المعلومات والظروف الرئيسية للنظام",
+    "استبدال مراجعة الإدارة"
+   ],
+   "explanation": "تدعم المرحلة الأولى التخطيط وتقييم الجاهزية قبل التدقيق التفصيلي في المرحلة الثانية."
+  },
+  "en": {
+   "question": "What is a typical purpose of a Stage 1 certification audit?",
+   "options": [
+    "Close all nonconformities from Stage 2",
+    "Issue the certificate immediately",
+    "Assess readiness for Stage 2 and review key documented system information and conditions",
+    "Replace the management review"
+   ],
+   "explanation": "Stage 1 supports planning and readiness evaluation before the more detailed Stage 2 audit."
+  }
+ },
+ {
+  "id": "IMS-D3-Q17",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Stage 2 certification audit",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "التركيز الرئيسي للمرحلة الثانية هو:",
+   "options": [
+    "إعداد إجراءات العميل",
+    "مراجعة موقع الشركة فقط",
+    "وضع استراتيجية العمل",
+    "تقييم تنفيذ وفعالية نظام الإدارة مقابل معايير المنح"
+   ],
+   "explanation": "تقيّم المرحلة الثانية تنفيذ وفعالية نظام الإدارة داخل نطاق الشهادة."
+  },
+  "en": {
+   "question": "The main emphasis of Stage 2 is to:",
+   "options": [
+    "Prepare the client's procedures",
+    "Review only the company website",
+    "Set business strategy",
+    "Evaluate implementation and effectiveness of the management system against certification criteria"
+   ],
+   "explanation": "Stage 2 evaluates implementation and effectiveness of the management system within the certification scope."
+  }
+ },
+ {
+  "id": "IMS-D3-Q18",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Audit team leader",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "ما مسؤولية أساسية لقائد فريق التدقيق؟",
+   "options": [
+    "تنسيق فريق التدقيق وإدارة عملية التدقيق",
+    "اتخاذ جميع القرارات التشغيلية للعميل",
+    "اعتماد موازنات العميل",
+    "كتابة إجراءات العميل"
+   ],
+   "explanation": "ينسق قائد الفريق التخطيط وأنشطة الفريق والاتصال والتقرير الخاص بالتدقيق."
+  },
+  "en": {
+   "question": "What is a key responsibility of the audit team leader?",
+   "options": [
+    "Coordinate the audit team and manage the audit process",
+    "Make all client operational decisions",
+    "Approve client budgets",
+    "Write client procedures"
+   ],
+   "explanation": "The team leader coordinates planning, team activities, communication and reporting for the audit."
+  }
+ },
+ {
+  "id": "IMS-D3-Q19",
+  "day": 3,
+  "type": "tf",
+  "difficulty": "Intermediate",
+  "topic": "Audit independence",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 Clause 4",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "ينبغي أن يكون المدققون مستقلين عن النشاط الذي يدققونه حيثما كان ذلك عمليًا لدعم الموضوعية.",
+   "options": [
+    "صح",
+    "خطأ"
+   ],
+   "explanation": "تدعم الاستقلالية الحياد والموضوعية في استنتاجات التدقيق."
+  },
+  "en": {
+   "question": "Auditors should be independent of the activity being audited where practicable in order to support objectivity.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "Independence supports impartiality and objectivity of audit conclusions."
+  }
+ },
+ {
+  "id": "IMS-D3-Q21",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Certification impartiality",
+  "standard": "ISO/IEC 17021-1",
+  "clause": "ISO/IEC 17021-1:2015, 5.2",
+  "set": "supplemental_core",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "لماذا تعد الحيادية مبدأً أساسيًا لجهة منح شهادات نظم الإدارة؟",
+   "options": [
+    "لأن الجهات التنظيمية وحدها تتخذ قرارات الشهادة",
+    "لأن قرارات الشهادة يجب أن تستند إلى أدلة موضوعية وأن تكون محمية من الضغوط التجارية أو المالية أو غيرها",
+    "لأن جهة المنح يمكنها تقديم الاستشارات إذا كان فريق التدقيق مختلفًا",
+    "لأن المدققين يجب ألا يتواصلوا مع العملاء"
+   ],
+   "explanation": "تعتمد الثقة في الشهادة على قرارات حيادية قائمة على أدلة موضوعية، مع تحديد وتحليل وإدارة التهديدات التي قد تؤثر على الحيادية."
+  },
+  "en": {
+   "question": "Why is impartiality a fundamental principle for a management-system certification body?",
+   "options": [
+    "Because only regulators may make certification decisions",
+    "Because certification decisions must be based on objective evidence and protected from commercial, financial or other pressures",
+    "Because certification bodies may provide consultancy if the audit team is different",
+    "Because auditors must never communicate with clients"
+   ],
+   "explanation": "Confidence in certification depends on impartial decisions based on objective evidence, with threats to impartiality identified, analyzed and managed."
+  }
+ },
+ {
+  "id": "IMS-D3-Q22",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Audit programme",
+  "standard": "ISO 19011",
+  "clause": "ISO 19011:2026, 5",
+  "set": "supplemental_core",
+  "verify": "requires_2026_text_verification",
+  "answer": 2,
+  "ar": {
+   "question": "ما الذي ينبغي أن يؤثر بصورة أساسية على أولوية وتكرار عمليات التدقيق ضمن برنامج التدقيق؟",
+   "options": [
+    "الترتيب الأبجدي للإدارات",
+    "وقت تدقيق متساوٍ لكل عملية بغض النظر عن المخاطر",
+    "أهمية العمليات والتغييرات المؤثرة على المنظمة والمخاطر والفرص ونتائج عمليات التدقيق السابقة",
+    "التفضيل الشخصي للمدقق"
+   ],
+   "explanation": "ينبغي أن يكون برنامج التدقيق قائمًا على المخاطر وأن يراعي أهمية العمليات والتغييرات والنتائج السابقة والعوامل ذات الصلة عند تخصيص الموارد وتحديد التكرار."
+  },
+  "en": {
+   "question": "What should primarily influence the priority and frequency of audits within an audit programme?",
+   "options": [
+    "Alphabetical order of departments",
+    "Equal audit time for every process regardless of risk",
+    "Importance of processes, changes affecting the organization, risks and opportunities, and results of previous audits",
+    "Auditor personal preference"
+   ],
+   "explanation": "Audit programmes should be risk-based and consider process importance, changes, previous results and other relevant factors when allocating audit resources and frequency."
+  }
+ },
+ {
+  "id": "IMS-D3-Q23",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Stage 1 audit",
+  "standard": "ISO/IEC 17021-1",
+  "clause": "ISO/IEC 17021-1:2015, 9.3.1.2",
+  "set": "supplemental_core",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "ما أحد الأغراض الرئيسية لتدقيق المرحلة الأولى للحصول على الشهادة؟",
+   "options": [
+    "استبدال التدقيق الداخلي",
+    "اتخاذ قرار الشهادة النهائي",
+    "إغلاق جميع حالات عدم المطابقة قبل المرحلة الثانية",
+    "مراجعة الجاهزية للمرحلة الثانية بما يشمل فهم النظام والنطاق والعمليات الرئيسية وظروف الموقع والمعلومات الموثقة ذات الصلة"
+   ],
+   "explanation": "تُستخدم المرحلة الأولى لفهم نظام إدارة العميل ومدى جاهزيته للمرحلة الثانية وتحديد مجالات القلق التي قد تتحول إلى حالات عدم مطابقة."
+  },
+  "en": {
+   "question": "What is a key purpose of a Stage 1 certification audit?",
+   "options": [
+    "To replace the internal audit",
+    "To make the final certification decision",
+    "To close all nonconformities before Stage 2",
+    "To review readiness for Stage 2, including understanding the system, scope, key processes, site conditions and relevant documented information"
+   ],
+   "explanation": "Stage 1 is used to understand the client's management system and readiness for Stage 2 and to identify areas of concern that could become nonconformities."
+  }
+ },
+ {
+  "id": "IMS-D3-Q24",
+  "day": 3,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Audit evidence",
+  "standard": "ISO 19011",
+  "clause": "ISO 19011:2026, 3.9",
+  "set": "supplemental_core",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "أي وصف لأدلة التدقيق هو الأكثر ملاءمة؟",
+   "options": [
+    "سجلات أو بيانات حقائق أو معلومات أخرى قابلة للتحقق وذات صلة بمعايير التدقيق",
+    "فقط تصريحات الإدارة العليا",
+    "السجلات الورقية الموقعة فقط",
+    "أي معلومة يعتقد المدقق أنها صحيحة"
+   ],
+   "explanation": "يجب أن تكون أدلة التدقيق ذات صلة بمعايير التدقيق وقابلة للتحقق، وقد تأتي من السجلات والملاحظات والمقابلات والبيانات وغيرها من المصادر الموثوقة."
+  },
+  "en": {
+   "question": "Which description of audit evidence is MOST appropriate?",
+   "options": [
+    "Verifiable records, statements of fact or other information relevant to the audit criteria",
+    "Only statements made by top management",
+    "Only signed paper records",
+    "Any information the auditor believes is true"
+   ],
+   "explanation": "Audit evidence must be relevant to audit criteria and verifiable; it may come from records, observations, interviews, data and other reliable sources."
+  }
+ },
+ {
+  "id": "IMS-2026-SUP-Q13",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Lead Auditor",
+  "topic": "Remote and Hybrid Auditing",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 6 / Annex A",
+  "set": "supplemental_2026",
+  "verify": "verified_public_iso_source",
+  "answer": 1,
+  "ar": {
+   "question": "يتكرر فشل الاتصال عن بُعد أثناء مقابلات مع مالكي عمليات رئيسيين. ما أفضل استجابة للمدقق؟",
+   "options": [
+    "الاستمرار وافتراض أن الأدلة المفقودة مرضية",
+    "توثيق القيد وتقييم أثره على أهداف التدقيق وتعديل الخطة أو الأسلوب عند الضرورة",
+    "تجاهل العملية المتأثرة",
+    "إصدار حالات عدم مطابقة ضد الجهة لكل فشل اتصال"
+   ],
+   "explanation": "ينبغي تقييم وإدارة قيود التدقيق التي تهدد كفاية الأدلة أو أهداف التدقيق، بما في ذلك تغيير التوقيت أو أسلوب التدقيق عند الحاجة."
+  },
+  "en": {
+   "question": "A remote connection repeatedly fails during interviews with key process owners. What is the best auditor response?",
+   "options": [
+    "Continue and assume missed evidence is satisfactory",
+    "Document the limitation, evaluate its effect on audit objectives and modify the plan or method if necessary",
+    "Ignore the affected process",
+    "Issue nonconformities against the auditee for every connection failure"
+   ],
+   "explanation": "Audit limitations that threaten evidence sufficiency or audit objectives should be evaluated and managed, including changing timing or audit methods when needed."
+  }
+ },
+ {
+  "id": "IMS-2026-SUP-Q14",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Lead Auditor",
+  "topic": "Remote and Hybrid Auditing",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 Annex A",
+  "set": "supplemental_2026",
+  "verify": "verified_public_iso_source",
+  "answer": 2,
+  "ar": {
+   "question": "أي حالة تشير بصورة أقوى إلى الحاجة لأسلوب موقعي بالإضافة إلى التدقيق عن بُعد؟",
+   "options": [
+    "سيكون تقرير التدقيق إلكترونيًا",
+    "لدى الجهة منصة فيديو حديثة",
+    "تتضمن العملية ضوابط مادية حرجة للسلامة لا يمكن ملاحظتها أو اختبارها بموثوقية عن بُعد",
+    "يرغب المدقق في تقليل وقت استخدام الشاشة"
+   ],
+   "explanation": "ينبغي أن يدعم اختيار أسلوب التدقيق الحصول على أدلة موثوقة وتحقيق الأهداف. عندما لا يمكن تقييم ضوابط مادية حرجة بفعالية عن بُعد، قد يلزم نشاط موقعي."
+  },
+  "en": {
+   "question": "Which situation most strongly indicates that an on-site method may be needed in addition to remote auditing?",
+   "options": [
+    "The audit report will be electronic",
+    "The auditee has a modern video platform",
+    "The process includes physical safety-critical controls that cannot be reliably observed or tested remotely",
+    "The auditor wants to reduce screen time"
+   ],
+   "explanation": "The choice of audit method should support reliable evidence and audit objectives. Where critical physical controls cannot be effectively evaluated remotely, on-site activity may be necessary."
+  }
+ },
+ {
+  "id": "IMS-2026-SUP-Q15",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Lead Auditor",
+  "topic": "Auditor Competence",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 7 / Annex A",
+  "set": "supplemental_2026",
+  "verify": "verified_public_iso_source",
+  "answer": 3,
+  "ar": {
+   "question": "عند استخدام أساليب التدقيق عن بُعد، ما اعتبار الكفاءة الإضافي الذي يصبح مهمًا بصورة خاصة لفريق التدقيق؟",
+   "options": [
+    "القدرة على تصميم شبكة تقنية المعلومات للجهة الخاضعة للتدقيق",
+    "القدرة على تجنب جمع الأدلة الموضوعية",
+    "القدرة على إصلاح جميع أعطال الأجهزة",
+    "القدرة على استخدام التقنية ذات الصلة وفهم حدودها ومخاطرها"
+   ],
+   "explanation": "يحتاج المدققون الذين يستخدمون الأساليب عن بُعد إلى كفاءة كافية لاستخدام التقنية المختارة بفعالية وفهم تأثير حدودها على الأدلة ونتائج التدقيق."
+  },
+  "en": {
+   "question": "When remote methods are used, what additional competence consideration becomes especially important for the audit team?",
+   "options": [
+    "Ability to design the auditee's IT network",
+    "Ability to avoid collecting objective evidence",
+    "Ability to repair all hardware failures",
+    "Ability to use relevant technology and understand its limitations and risks"
+   ],
+   "explanation": "Auditors using remote methods need sufficient competence to use the selected technology effectively and understand how technology-related limitations can affect evidence and audit outcomes."
+  }
+ },
+ {
+  "id": "IMS-2026-SUP-Q16",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Lead Auditor",
+  "topic": "Audit Programme",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 5 / Annex A",
+  "set": "supplemental_2026",
+  "verify": "verified_public_iso_source",
+  "answer": 0,
+  "ar": {
+   "question": "لماذا ينبغي النظر في الأساليب عن بُعد والهجينة على مستوى برنامج التدقيق بدلًا من تركها لقرارات فردية غير منظمة من المدققين؟",
+   "options": [
+    "لأن اختيار الأسلوب يؤثر في مخاطر التدقيق والموارد والكفاءة وأمن المعلومات وتحقيق أهداف البرنامج",
+    "لأن جميع عمليات التدقيق يجب أن تستخدم التقنية نفسها",
+    "لأن المدققين غير مسموح لهم باختيار مصادر الأدلة",
+    "لأن التدقيق عن بُعد وحده يحتاج إلى تخطيط"
+   ],
+   "explanation": "يعطي إصدار 2026 اهتمامًا أكبر لتحليل المخاطر وواقع التقنية والرقمنة والبيئات الافتراضية، مما يجعل اختيار أسلوب التدقيق قضية تخطيط على مستوى البرنامج."
+  },
+  "en": {
+   "question": "Why should remote and hybrid methods be considered at audit-programme level rather than decided casually by individual auditors?",
+   "options": [
+    "Because method selection affects audit risks, resources, competence, information security and achievement of programme objectives",
+    "Because all audits must use the same technology",
+    "Because auditors are not allowed to choose evidence sources",
+    "Because only remote audits require planning"
+   ],
+   "explanation": "The 2026 revision places greater emphasis on risk analysis and the realities of technology, digitization and virtual environments, making method selection a programme-level planning issue."
+  }
+ },
+ {
+  "id": "IMS-2026-SUP-Q17",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Lead Auditor",
+  "topic": "IMS Auditing",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 6.1.2 / 8.1",
+  "set": "supplemental_2026",
+  "verify": "verified_public_iso_source",
+  "answer": 1,
+  "ar": {
+   "question": "أثناء تدقيق منتج جديد، أي مسار أدلة يختبر بصورة أفضل ما إذا كان التفكير في دورة الحياة مطبقًا فعليًا وليس مجرد شعار؟",
+   "options": [
+    "سجل الفحص النهائي فقط",
+    "معايير التصميم ومتطلبات الموردين وقرارات النقل واعتبارات مرحلة الاستخدام وضوابط نهاية العمر",
+    "السياسة البيئية فقط",
+    "قائمة حضور التدريب السنوي فقط"
+   ],
+   "explanation": "ينبغي أن يظهر منظور دورة الحياة عبر القرارات والضوابط من التصميم والتوريد مرورًا بالتسليم والاستخدام وحتى نهاية العمر، وفق درجة التحكم أو التأثير."
+  },
+  "en": {
+   "question": "While auditing a new product, which evidence trail best tests whether life-cycle thinking is embedded rather than treated as a slogan?",
+   "options": [
+    "Only the final inspection record",
+    "Design criteria, supplier requirements, logistics decisions, use-phase considerations and end-of-life controls",
+    "Only the environmental policy",
+    "Only the annual training attendance list"
+   ],
+   "explanation": "A life-cycle perspective should be visible across decisions and controls from design and sourcing through delivery, use and end-of-life, according to the degree of control or influence."
+  }
+ },
+ {
+  "id": "IMS-D4-Q01",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Audit preparation",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 6.2",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 2,
+  "ar": {
+   "question": "قبل تنفيذ التدقيق، ما الذي ينبغي أن يفهمه المدقق أولًا؟",
+   "options": [
+    "شعار العميل فقط",
+    "عدد الإجراءات فقط",
+    "أهداف ونطاق ومعايير التدقيق",
+    "اسم المدقق السابق فقط"
+   ],
+   "explanation": "تحدد الأهداف والنطاق والمعايير ما سيغطيه التدقيق وكيف سيتم تقييم الأدلة."
+  },
+  "en": {
+   "question": "Before conducting an audit, what should the auditor understand first?",
+   "options": [
+    "Only the client's logo",
+    "Only the number of procedures",
+    "Audit objectives, scope and criteria",
+    "Only the previous auditor name"
+   ],
+   "explanation": "Objectives, scope and criteria define what the audit will cover and how evidence will be evaluated."
+  }
+ },
+ {
+  "id": "IMS-D4-Q02",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Opening meeting",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 6.4.3",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "ما غرض رئيسي لاجتماع الافتتاح؟",
+   "options": [
+    "إصدار الشهادة",
+    "التفاوض على النتائج قبل جمع الأدلة",
+    "تدريب الجهة المدققة على جميع البنود",
+    "تأكيد خطة التدقيق وقنوات الاتصال والأدوار والترتيبات العملية"
+   ],
+   "explanation": "يوحد اجتماع الافتتاح فهم المشاركين بشأن أسلوب التدقيق وترتيباته."
+  },
+  "en": {
+   "question": "What is a key purpose of the opening meeting?",
+   "options": [
+    "Issue the certificate",
+    "Negotiate audit findings before evidence is collected",
+    "Train the auditee on all ISO clauses",
+    "Confirm the audit plan, communication channels, roles and practical arrangements"
+   ],
+   "explanation": "The opening meeting aligns participants on the audit approach and arrangements."
+  }
+ },
+ {
+  "id": "IMS-D4-Q03",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Interviewing",
+  "standard": "ISO 19011:2026",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 0,
+  "ar": {
+   "question": "أي سؤال هو الأكثر فعالية لبدء مقابلة تدقيق؟",
+   "options": [
+    "أرني كيف تتحكمون في التغييرات على هذه العملية.",
+    "هل مديرك دائمًا على صواب؟",
+    "لماذا أنتم غير مطابقين؟",
+    "أنتم تتحكمون في التغييرات، أليس كذلك؟"
+   ],
+   "explanation": "الأسئلة المفتوحة والمحايدة تشجع الجهة المدققة على شرح العملية وتقديم الأدلة."
+  },
+  "en": {
+   "question": "Which question is most effective for opening an audit interview?",
+   "options": [
+    "Show me how you control changes to this process.",
+    "Is your manager always correct?",
+    "Why are you noncompliant?",
+    "You do control changes, right?"
+   ],
+   "explanation": "Open, neutral questions encourage the auditee to explain the process and provide evidence."
+  }
+ },
+ {
+  "id": "IMS-D4-Q04",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Audit trails",
+  "standard": "ISO 19011:2026",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 1,
+  "ar": {
+   "question": "ما المقصود بمسار التدقيق؟",
+   "options": [
+    "قائمة تحقق ثابتة لا تتغير",
+    "تسلسل منطقي للأدلة يتم تتبعه عبر العمليات والسجلات ونقاط التفاعل",
+    "مسار السفر لموقع العميل",
+    "ملاحظات المدقق الشخصية فقط"
+   ],
+   "explanation": "تساعد مسارات التدقيق على ربط الأدلة عبر خطوات العملية ونقاط التفاعل لتقييم المطابقة والفعالية."
+  },
+  "en": {
+   "question": "What is an audit trail?",
+   "options": [
+    "A fixed checklist that cannot change",
+    "A logical sequence of evidence followed through processes, records and interfaces",
+    "The travel route to the client site",
+    "The auditor's personal notes only"
+   ],
+   "explanation": "Audit trails help connect evidence across process steps and interfaces to evaluate conformity and effectiveness."
+  }
+ },
+ {
+  "id": "IMS-D4-Q05",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Sampling",
+  "standard": "ISO 19011:2026",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 2,
+  "ar": {
+   "question": "أي عامل ينبغي أن يؤثر على عينة التدقيق؟",
+   "options": [
+    "الترتيب الأبجدي فقط",
+    "راحة المدقق فقط",
+    "المخاطر وأهمية العملية والتباين والأداء السابق",
+    "لون السجل"
+   ],
+   "explanation": "يجب أن تكون العينة هادفة وتعكس أهداف التدقيق والمخاطر والأدلة المتاحة."
+  },
+  "en": {
+   "question": "Which factor should influence audit sampling?",
+   "options": [
+    "Alphabetical order only",
+    "Auditor convenience only",
+    "Risk, process importance, variability and previous performance",
+    "Record color"
+   ],
+   "explanation": "Sampling should be purposeful and reflect audit objectives, risks and available evidence."
+  }
+ },
+ {
+  "id": "IMS-D4-Q06",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Nonconformity statement",
+  "standard": "ISO 19011:2026",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 3,
+  "ar": {
+   "question": "تحتوي صياغة عدم المطابقة القوية عادةً على:",
+   "options": [
+    "رأي المدقق ومشاعره",
+    "رقم البند فقط",
+    "حل استشاري مقترح",
+    "المتطلب والدليل الموضوعي والفجوة أو عدم المطابقة"
+   ],
+   "explanation": "يربط الاكتشاف الواضح المتطلب بدليل محدد ويشرح الحالة غير المستوفاة."
+  },
+  "en": {
+   "question": "A strong nonconformity statement normally contains:",
+   "options": [
+    "Auditor opinion and emotion",
+    "Only the clause number",
+    "A proposed consulting solution",
+    "Requirement, objective evidence and the gap/nonconformity"
+   ],
+   "explanation": "A clear finding links the requirement to specific evidence and explains the unmet condition."
+  }
+ },
+ {
+  "id": "IMS-D4-Q07",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Audit findings",
+  "standard": "ISO 19011:2026",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 0,
+  "ar": {
+   "question": "ما الفرق بين دليل التدقيق واكتشاف التدقيق؟",
+   "options": [
+    "الدليل معلومات تم التحقق منها؛ والاكتشاف ناتج تقييم الدليل مقابل المعايير",
+    "هما شيء واحد",
+    "الاكتشاف دائمًا عدم مطابقة جسيمة",
+    "الدليل شفهي فقط"
+   ],
+   "explanation": "تنشأ اكتشافات التدقيق من تقييم الأدلة مقابل معايير التدقيق المطبقة."
+  },
+  "en": {
+   "question": "What is the difference between audit evidence and an audit finding?",
+   "options": [
+    "Evidence is verified information; a finding results from evaluating evidence against criteria",
+    "They are identical",
+    "A finding is always a major nonconformity",
+    "Evidence is only verbal"
+   ],
+   "explanation": "Findings result from evaluation of evidence against applicable audit criteria."
+  }
+ },
+ {
+  "id": "IMS-D4-Q08",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Conformity",
+  "standard": "ISO 19011:2026",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 1,
+  "ar": {
+   "question": "أثناء التدقيق، يتم استنتاج المطابقة عندما:",
+   "options": [
+    "الجهة المدققة واثقة",
+    "توضح الأدلة المتاحة أن المتطلبات المطبقة مستوفاة",
+    "لم يتم طرح أسئلة",
+    "الإجراء يبدو احترافيًا"
+   ],
+   "explanation": "تعتمد المطابقة على الأدلة مقارنة بالمعايير وليس على المظهر أو الثقة."
+  },
+  "en": {
+   "question": "During an audit, conformity should be concluded when:",
+   "options": [
+    "The auditee is confident",
+    "Available evidence demonstrates applicable requirements are fulfilled",
+    "No questions were asked",
+    "The procedure looks professional"
+   ],
+   "explanation": "Conformity is based on evidence against criteria, not appearance or confidence."
+  }
+ },
+ {
+  "id": "IMS-D4-Q09",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Certification Audit Practice",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 2,
+  "ar": {
+   "question": "عند تصنيف عدم المطابقة في تدقيق المنح، ما أقوى أساس؟",
+   "options": [
+    "عدد صفحات الإجراء",
+    "حجم العميل فقط",
+    "تأثير ومدى الإخفاق وفق قواعد التصنيف المحددة لدى جهة المنح",
+    "مزاج المدقق"
+   ],
+   "explanation": "يجب أن يتبع التصنيف معايير جهة المنح الموثقة ويراعي أهمية وطبيعة المشكلة المنهجية."
+  },
+  "en": {
+   "question": "When classifying a nonconformity in certification auditing, what is the strongest basis?",
+   "options": [
+    "The number of pages in the procedure",
+    "The client's size only",
+    "Impact and extent of failure against the certification body's defined classification rules",
+    "The auditor's mood"
+   ],
+   "explanation": "Classification should follow the certification body's documented criteria and consider the significance and systemic nature of the issue."
+  }
+ },
+ {
+  "id": "IMS-D4-Q10",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Auditing",
+  "standard": "ISO 19011:2026",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 3,
+  "ar": {
+   "question": "أي دليل يثبت بشكل أفضل فعالية الإجراء التصحيحي؟",
+   "options": [
+    "الجهة المدققة تعد بالتحسين",
+    "النموذج موقع",
+    "تم تغيير اسم الإجراء",
+    "تمت معالجة السبب الجذري وتنفيذ الإجراء وأثبتت المتابعة منع أو خفض التكرار"
+   ],
+   "explanation": "تثبت الفعالية بأدلة أن السبب تمت معالجته وأن النتائج المقصودة تحققت."
+  },
+  "en": {
+   "question": "Which evidence best demonstrates effective corrective action?",
+   "options": [
+    "The auditee promises improvement",
+    "The form is signed",
+    "The procedure was renamed",
+    "Root cause addressed, action implemented, and follow-up shows recurrence has been prevented or reduced"
+   ],
+   "explanation": "Effectiveness is demonstrated by evidence that the cause was addressed and intended results were achieved."
+  }
+ },
+ {
+  "id": "IMS-D4-Q11",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Auditing",
+  "standard": "ISO 19011:2026",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 0,
+  "ar": {
+   "question": "أي مما يلي أقرب لبيان سبب جذري وليس عرضًا؟",
+   "options": [
+    "لم تكن هناك مسؤولية محددة للتحقق النهائي من السجلات بعد ترحيل النظام",
+    "وجد المدقق خطأ",
+    "النموذج غير مكتمل",
+    "ثلاثة سجلات مفقودة"
+   ],
+   "explanation": "يشرح السبب الجذري لماذا حدثت المشكلة على مستوى العملية أو النظام وليس فقط ما تمت ملاحظته."
+  },
+  "en": {
+   "question": "Which is most likely a root-cause statement rather than a symptom?",
+   "options": [
+    "The record-control process had no assigned responsibility for final verification after system migration",
+    "The auditor found an error",
+    "The form was incomplete",
+    "Three records were missing"
+   ],
+   "explanation": "A root cause explains why the issue occurred at the process/system level, not merely what was observed."
+  }
+ },
+ {
+  "id": "IMS-D4-Q12",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Closing meeting",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 6.4.10",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "ماذا ينبغي أن يحدث خلال اجتماع الختام؟",
+   "options": [
+    "تقديم استشارات تنفيذية",
+    "عرض النتائج والاستنتاجات بوضوح والتأكد من فهمها",
+    "تغيير المعايير بعد التدقيق",
+    "التفاوض على حذف أدلة صحيحة"
+   ],
+   "explanation": "ينقل اجتماع الختام النتائج والاستنتاجات بما في ذلك أي اختلافات رأي غير محلولة."
+  },
+  "en": {
+   "question": "What should happen during the closing meeting?",
+   "options": [
+    "Give consultancy on implementation",
+    "Present findings and conclusions clearly and ensure they are understood",
+    "Change criteria after the audit",
+    "Negotiate deletion of valid evidence"
+   ],
+   "explanation": "The closing meeting communicates findings and conclusions, including any unresolved differences of opinion."
+  }
+ },
+ {
+  "id": "IMS-D4-Q13",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Audit report",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 6.5",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 2,
+  "ar": {
+   "question": "ينبغي أن يكون تقرير التدقيق:",
+   "options": [
+    "مركزًا على الآراء الشخصية",
+    "مقتصرًا على النتائج الإيجابية",
+    "كاملًا ودقيقًا وموجزًا وواضحًا",
+    "مكتوبًا للمدقق فقط"
+   ],
+   "explanation": "يجب أن تنقل التقارير أهداف ونطاق ونتائج واستنتاجات التدقيق بدقة ووضوح."
+  },
+  "en": {
+   "question": "An audit report should be:",
+   "options": [
+    "Focused on personal opinions",
+    "Limited to positive findings",
+    "Complete, accurate, concise and clear",
+    "Written only for the auditor"
+   ],
+   "explanation": "Reports should communicate audit objectives, scope, findings and conclusions accurately and clearly."
+  }
+ },
+ {
+  "id": "IMS-D4-Q14",
+  "day": 4,
+  "type": "tf",
+  "difficulty": "Intermediate",
+  "topic": "Auditor behavior",
+  "standard": "ISO 19011:2026",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 0,
+  "ar": {
+   "question": "ينبغي للمدقق تجنب الجدال مع الجهة المدققة والتركيز على المتطلبات والأدلة.",
+   "options": [
+    "صح",
+    "خطأ"
+   ],
+   "explanation": "يساعد التواصل المهني والموضوعي في الحفاظ على تفاعل بنّاء أثناء التدقيق."
+  },
+  "en": {
+   "question": "An auditor should avoid arguing with an auditee and should focus discussion on requirements and evidence.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "Professional, objective communication helps maintain constructive audit interactions."
+  }
+ },
+ {
+  "id": "IMS-D4-Q15",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Process-based audit",
+  "standard": "ISO 9001:2026",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 3,
+  "ar": {
+   "question": "أي نهج يعكس التدقيق القائم على العمليات بشكل أفضل؟",
+   "options": [
+    "مقابلة الإدارة العليا فقط",
+    "تدقيق البنود منفصلة دون ربط بالعمليات",
+    "مراجعة الإجراءات الموثقة فقط",
+    "تتبع المدخلات والأنشطة والضوابط والمخرجات والمسؤوليات والمخاطر ومقاييس الأداء"
+   ],
+   "explanation": "يقيّم التدقيق القائم على العمليات كيفية تشغيل العمليات وتفاعلها لتحقيق النتائج المقصودة."
+  },
+  "en": {
+   "question": "Which approach best reflects process-based auditing?",
+   "options": [
+    "Interview only top management",
+    "Audit clauses in isolation with no process link",
+    "Review only documented procedures",
+    "Follow inputs, activities, controls, outputs, responsibilities, risks and performance measures"
+   ],
+   "explanation": "Process-based auditing evaluates how processes operate and interact to achieve intended results."
+  }
+ },
+ {
+  "id": "IMS-D4-Q16",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "IMS Auditing",
+  "standard": "ISO 19011:2026",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 0,
+  "ar": {
+   "question": "أثناء تدقيق متكامل لعملية المشتريات، ما أفضل مسار تدقيق؟",
+   "options": [
+    "مراجعة ضوابط جودة المورد والمتطلبات البيئية المتعلقة بالمشتريات ضمن مسار عملية واحد",
+    "تدقيق الجودة اليوم وتجاهل البيئة حتى العام التالي",
+    "تدقيق السياسة فقط",
+    "فحص الفواتير فقط"
+   ],
+   "explanation": "يتتبع التدقيق المتكامل عملية عمل واحدة مع اختبار المتطلبات ذات الصلة من عدة مواصفات نظم إدارة."
+  },
+  "en": {
+   "question": "During an IMS audit of purchasing, what is the best integrated audit trail?",
+   "options": [
+    "Review supplier quality controls and environmental requirements relevant to purchased goods/services in one process trail",
+    "Audit quality today and ignore environmental issues until next year",
+    "Audit only the policy",
+    "Check invoices only"
+   ],
+   "explanation": "Integrated auditing follows one business process while testing relevant requirements from multiple management-system standards."
+  }
+ },
+ {
+  "id": "IMS-D4-Q17",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Auditing",
+  "standard": "ISO 19011:2026",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 1,
+  "ar": {
+   "question": "إذا كانت المقابلة تستهلك وقتًا طويلًا دون أدلة مفيدة، ينبغي للمدقق:",
+   "options": [
+    "الاستمرار بلا نهاية",
+    "إعادة توجيه الحوار بأدب للأسئلة ذات الصلة والبحث عن مصادر أدلة بديلة",
+    "كتابة عدم مطابقة لإضاعة الوقت",
+    "إنهاء التدقيق فورًا"
+   ],
+   "explanation": "ينبغي للمدققين إدارة الوقت مع ضمان الحصول على أدلة كافية ومناسبة."
+  },
+  "en": {
+   "question": "If an interview is consuming too much audit time without useful evidence, the auditor should:",
+   "options": [
+    "Continue indefinitely",
+    "Politely redirect to relevant questions and seek alternative evidence sources",
+    "Create a nonconformity for wasting time",
+    "End the audit immediately"
+   ],
+   "explanation": "Auditors should manage time while ensuring sufficient and appropriate evidence is obtained."
+  }
+ },
+ {
+  "id": "IMS-D4-Q18",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Auditing",
+  "standard": "ISO 19011:2026",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 2,
+  "ar": {
+   "question": "وصف مشغل ضابطًا يختلف عن الإجراء الموثق. ماذا ينبغي على المدقق أن يفعل؟",
+   "options": [
+    "تجاهل الاختلاف",
+    "إصدار عدم مطابقة جسيمة فورًا",
+    "البحث عن أدلة موضوعية إضافية وتحديد الممارسة الفعلية ومقارنتها بالمتطلبات المطبقة",
+    "إعادة كتابة الإجراء للعميل"
+   ],
+   "explanation": "يجب التحقق من المعلومات المتعارضة عبر عينات إضافية قبل الوصول إلى استنتاج."
+  },
+  "en": {
+   "question": "An operator describes a control that differs from the documented procedure. What should the auditor do?",
+   "options": [
+    "Ignore the difference",
+    "Immediately issue a major nonconformity",
+    "Seek additional objective evidence, determine actual practice and compare it with applicable requirements",
+    "Rewrite the procedure for the client"
+   ],
+   "explanation": "Contradictory information should be verified through additional sampling before reaching a conclusion."
+  }
+ },
+ {
+  "id": "IMS-D4-Q19",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Follow-up",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 6.7",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "قد تشمل متابعة التدقيق:",
+   "options": [
+    "حذف النتائج الصحيحة",
+    "إصدار شهادة أثناء تدقيق داخلي",
+    "تغيير معايير التدقيق لتناسب الإجراء",
+    "التحقق من تنفيذ وفعالية الإجراءات التصحيحية المتفق عليها"
+   ],
+   "explanation": "تتحقق المتابعة من إتمام وفعالية الإجراءات عند الحاجة."
+  },
+  "en": {
+   "question": "Audit follow-up may include:",
+   "options": [
+    "Removing valid findings",
+    "Issuing a certificate during an internal audit",
+    "Changing audit criteria to fit the action",
+    "Verification that agreed corrective actions were implemented and effective"
+   ],
+   "explanation": "Follow-up verifies completion and effectiveness of actions where required."
+  }
+ },
+ {
+  "id": "IMS-D4-Q21",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Audit trail",
+  "standard": "ISO 19011",
+  "clause": "",
+  "set": "supplemental_core",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "عرض المشغل تعليمات عمل محدثة، لكن اتجاه عيوب مخرجات العملية مرتفع. ما أفضل خطوة تدقيق تالية؟",
+   "options": [
+    "متابعة مسار التدقيق عبر التطبيق والكفاءة وضوابط العملية وبيانات المتابعة والإجراءات التصحيحية لتحديد مدى التطبيق الفعال للمتطلبات",
+    "إصدار عدم مطابقة جسيمة فورًا",
+    "مطالبة المشغل بإعادة كتابة الإجراء",
+    "الاستنتاج بالمطابقة لأن التعليمات محدثة"
+   ],
+   "explanation": "وجود وثيقة محدثة وحده لا يثبت فعالية التطبيق؛ لذا يجب على المدقق تتبع أداء العملية وضوابطها باستخدام أدلة موضوعية إضافية."
+  },
+  "en": {
+   "question": "An operator shows a current work instruction, but the process output has a high defect trend. What is the BEST next audit step?",
+   "options": [
+    "Follow the audit trail through implementation, competence, process controls, monitoring data and corrective actions to determine whether requirements are effectively applied",
+    "Issue a major nonconformity immediately",
+    "Ask the operator to rewrite the procedure",
+    "Conclude conformity because the instruction is current"
+   ],
+   "explanation": "Document availability alone does not demonstrate effective implementation. The auditor should trace process performance and controls using additional objective evidence."
+  }
+ },
+ {
+  "id": "IMS-D4-Q22",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Sampling",
+  "standard": "ISO 19011",
+  "clause": "ISO 19011:2026, Annex A",
+  "set": "supplemental_core",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "أي عبارة عن أخذ العينات في التدقيق هي الأكثر دقة؟",
+   "options": [
+    "يجب على المدققين فحص 100% من السجلات دائمًا",
+    "يمكن لعينة مختارة بصورة مناسبة أن تدعم استنتاجات التدقيق، لكن يظل هناك خطر مرتبط بأخذ العينات ويجب مراعاته",
+    "سجل واحد مطابق يثبت مطابقة العملية بالكامل",
+    "يسمح بأخذ العينات فقط في التدقيق الداخلي"
+   ],
+   "explanation": "تعتمد عمليات التدقيق عادة على العينات لأن فحص كل المعلومات قد لا يكون عمليًا؛ ويجب اختيار العينات بما يتناسب مع الأهداف والمخاطر مع إدراك عدم اليقين المرتبط بها."
+  },
+  "en": {
+   "question": "Which statement about audit sampling is MOST accurate?",
+   "options": [
+    "Auditors must always inspect 100% of records",
+    "A properly selected sample can support audit conclusions, but sampling risk remains and should be considered",
+    "One conforming record proves the whole process conforms",
+    "Sampling is permitted only for internal audits"
+   ],
+   "explanation": "Audits normally rely on sampling because examining all available information is often impractical. Sample selection should be appropriate to objectives and risks, while recognizing sampling uncertainty."
+  }
+ },
+ {
+  "id": "IMS-D4-Q23",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Nonconformity writing",
+  "standard": "ISO 19011",
+  "clause": "",
+  "set": "supplemental_core",
+  "verify": "requires_2026_text_verification",
+  "answer": 2,
+  "ar": {
+   "question": "أي صياغة لحالة عدم المطابقة هي الأكثر فعالية؟",
+   "options": [
+    "الإدارة لا تهتم بالتدريب",
+    "يجب على الإدارة تدريب الجميع فورًا",
+    "المتطلب: يجب أن يكون الأفراد المؤثرون على مطابقة المنتج أكفاء. الدليل: 3 من أصل 5 مفتشين بالعينة ممن ينفذون الفحص النهائي لم يكن لديهم تقييم موثق للكفاءة وفق المعايير المحددة. وبالتالي لم يتم إثبات الكفاءة للأفراد محل العينة.",
+    "التدريب ضعيف"
+   ],
+   "explanation": "تربط صياغة عدم المطابقة الجيدة بوضوح بين المتطلب والدليل الموضوعي والفجوة دون فرض حل أو استخدام لغة ذاتية."
+  },
+  "en": {
+   "question": "Which nonconformity statement is written MOST effectively?",
+   "options": [
+    "The department does not care about training",
+    "Management should train everyone immediately",
+    "Requirement: personnel affecting product conformity shall be competent. Evidence: 3 of 5 sampled inspectors performing final inspection had no documented competence evaluation against the defined criteria. Therefore, competence was not demonstrated for the sampled personnel.",
+    "Training is poor"
+   ],
+   "explanation": "A strong nonconformity clearly links the requirement, objective evidence and the gap, without prescribing a solution or using subjective language."
+  }
+ },
+ {
+  "id": "IMS-D4-Q24",
+  "day": 4,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Closing meeting",
+  "standard": "ISO 19011",
+  "clause": "ISO 19011:2026, 6.4.10",
+  "set": "supplemental_core",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "ما الغرض الرئيسي من الاجتماع الختامي للتدقيق؟",
+   "options": [
+    "تصميم الإجراءات التصحيحية للجهة المدققة",
+    "التفاوض لإلغاء النتائج",
+    "اعتماد منح الشهادة",
+    "عرض استنتاجات ونتائج التدقيق لضمان فهمها وشرح عملية التقرير والمتابعة وتوضيح أي اختلافات لم تُحل"
+   ],
+   "explanation": "يهدف الاجتماع الختامي إلى توصيل النتائج والاستنتاجات والتأكد من فهمها وشرح الخطوات التالية، وليس التفاوض لإلغاء النتائج المبنية على الأدلة."
+  },
+  "en": {
+   "question": "What is the main purpose of the audit closing meeting?",
+   "options": [
+    "Design corrective actions for the auditee",
+    "Negotiate removal of findings",
+    "Approve certification",
+    "Present audit conclusions and findings so they are understood, explain the reporting/follow-up process, and clarify any unresolved differences"
+   ],
+   "explanation": "The closing meeting communicates findings and conclusions, confirms understanding and explains next steps; it is not intended to negotiate evidence-based findings away."
+  }
+ },
+ {
+  "id": "IMS-2026-SUP-Q18",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Expert",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "ISO 9001:2026 change controls / ISO 14001:2026 6.3",
+  "set": "supplemental_2026",
+  "verify": "partially_verified_public_iso_source",
+  "answer": 0,
+  "ar": {
+   "question": "تُدخل شركة خطوة إنتاج يتحكم فيها الذكاء الاصطناعي ويتوقع أن تخفض العيوب واستهلاك الطاقة، لكنها تغير أدوار المشغلين وضوابط البيانات وأنماط النفايات. ما أقوى استجابة لنظام الإدارة المتكامل قبل التطبيق؟",
+   "options": [
+    "استخدام تخطيط متكامل للتغيير لتقييم آثار الجودة والبيئة والكفاءة والتشغيل والمخاطر والفرص قبل التنفيذ",
+    "اعتباره مشروعًا بيئيًا فقط",
+    "التطبيق أولًا ثم تحديث النظام بعد ستة أشهر",
+    "اعتباره مشروع تحسين جودة فقط"
+   ],
+   "explanation": "ينبغي لنظام الإدارة المتكامل تقييم الآثار المتداخلة للتغيير قبل التنفيذ حتى لا يؤدي تحسين الجودة أو البيئة إلى مخاطر غير مضبوطة في جوانب أخرى."
+  },
+  "en": {
+   "question": "A company introduces an AI-controlled production step expected to reduce defects and energy consumption, but it changes operator roles, data controls and waste patterns. What is the strongest IMS response before deployment?",
+   "options": [
+    "Use integrated change planning to assess quality, environmental, competence, operational and risk/opportunity implications before implementation",
+    "Treat it only as an environmental project",
+    "Deploy first and update the IMS after six months",
+    "Treat it only as a quality-improvement project"
+   ],
+   "explanation": "An IMS should evaluate cross-functional effects of change before implementation so quality and environmental improvements do not create unmanaged risks elsewhere."
+  }
+ },
+ {
+  "id": "IMS-2026-SUP-Q19",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Expert",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "ISO 9001:2026 context / ISO 14001:2026 4.1 / 4.2",
+  "set": "supplemental_2026",
+  "verify": "partially_verified_public_iso_source",
+  "answer": 1,
+  "ar": {
+   "question": "تتسبب موجات الحرارة الشديدة في تأخير الموردين وارتفاع معدلات العيوب وزيادة استهلاك طاقة التبريد. ما أقوى استنتاج تدقيقي إذا كانت الإدارة تقيم فقط تكلفة الطاقة؟",
+   "options": [
+    "التحليل مكتمل لأن قضايا المناخ تخص المحاسبة البيئية فقط",
+    "قد يكون التحليل ضيقًا جدًا لأن المسألة قد تؤثر في الجودة والأداء البيئي والمرونة واحتياجات الأطراف المعنية عبر النظام المتكامل",
+    "ينبغي استبعاد المسألة حتى يشتكي عميل",
+    "تأخيرات الموردين لا ترتبط أبدًا بـ ISO 9001"
+   ],
+   "explanation": "قد تُحدث الظروف المرتبطة بالمناخ آثارًا مترابطة على الجودة والبيئة وسلسلة الإمداد والمرونة. ينبغي للنظام المتكامل تقييم الآثار مجتمعة بدلًا من حصرها في متغير تكلفة واحد."
+  },
+  "en": {
+   "question": "Extreme heat is causing supplier delays, higher defect rates and increased cooling-energy consumption. What is the strongest IMS audit conclusion if management evaluates only energy cost?",
+   "options": [
+    "The analysis is complete because climate issues belong only to environmental accounting",
+    "The analysis may be too narrow because the issue can affect quality, environmental performance, resilience and interested-party needs across the IMS",
+    "The issue should be excluded until a customer complains",
+    "Supplier delays are never relevant to ISO 9001"
+   ],
+   "explanation": "Climate-related conditions can create interconnected quality, environmental, supply-chain and resilience effects. An IMS should evaluate the combined implications rather than isolate a single cost variable."
+  }
+ },
+ {
+  "id": "IMS-2026-SUP-Q20",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Expert",
+  "topic": "IMS Auditing",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 3.4 / 5 / 6 / Annex A",
+  "set": "supplemental_2026",
+  "verify": "verified_public_iso_source",
+  "answer": 2,
+  "ar": {
+   "question": "في تدقيق نظام إدارة متكامل متعدد المواقع، تعمل الوظائف المركزية افتراضيًا، وأحد المخازن شديد الأتمتة، بينما يحتوي موقع معالجة كيميائية على ضوابط بيئية مادية مهمة. أي خطة هي الأقوى؟",
+   "options": [
+    "تدقيق كل الأنشطة موقعيًا بصرف النظر عن احتياجات الأدلة",
+    "استخدام أسلوب واحد لكل المواقع لضمان الاتساق",
+    "اختيار الأساليب عن بُعد أو الموقعية أو المدمجة حسب مخاطر العملية واحتياجات الأدلة والجدوى التقنية وأهداف التدقيق",
+    "تدقيق كل الأنشطة عن بُعد لخفض التكلفة"
+   ],
+   "explanation": "يدعم ISO 19011:2026 الاختيار القائم على المخاطر والجمع بين الأساليب عن بُعد والموقعية. ينبغي أن يلائم الأسلوب طبيعة العملية واحتياجات الأدلة وأهداف التدقيق بدلًا من توحيده للسهولة."
+  },
+  "en": {
+   "question": "For a multisite IMS audit, corporate functions are virtual, one warehouse is highly automated, and a chemical-treatment site has significant physical environmental controls. Which plan is strongest?",
+   "options": [
+    "Audit every activity on-site regardless of evidence needs",
+    "Use one method for every site to ensure consistency",
+    "Select remote, on-site or combined methods by process risk, evidence needs, technology feasibility and audit objectives",
+    "Audit every activity remotely to reduce cost"
+   ],
+   "explanation": "ISO 19011:2026 supports risk-based selection and combination of remote and on-site methods. The method should fit the process, evidence needs and audit objectives rather than being uniform for convenience."
+  }
+ },
+ {
+  "id": "IMS-D3-Q20",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Day 3 scenario",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 Clause 4",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "وجد المدقق سجلًا مفقودًا واحدًا واستنتج فورًا أن نظام الإدارة بالكامل غير فعال. أي مبدأ يتعرض للخطر أكثر؟",
+   "options": [
+    "السرية فقط",
+    "الاستقلال التسويقي",
+    "الحذر المالي",
+    "النهج المبني على الأدلة والعرض العادل"
+   ],
+   "explanation": "يجب أن تستند الاستنتاجات إلى أدلة كافية ومناسبة وأن يتم عرضها بصورة متناسبة دون تعميم مفرط."
+  },
+  "en": {
+   "question": "An auditor finds one missing record and immediately concludes the entire management system is ineffective. What principle is most at risk?",
+   "options": [
+    "Confidentiality only",
+    "Marketing independence",
+    "Financial prudence",
+    "Evidence-based approach and fair presentation"
+   ],
+   "explanation": "Conclusions should be supported by sufficient, appropriate evidence and reported proportionately without overgeneralization."
+  }
+ },
+ {
+  "id": "IMS-D4-Q20",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "IMS Auditing",
+  "standard": "ISO 19011:2026",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 0,
+  "ar": {
+   "question": "لاحظ المدقق أن سجلات تصريف المياه ضمن الحدود المسجلة لكنه اكتشف أن الحد القانوني تغير منذ شهرين. ما أفضل خطوة تالية؟",
+   "options": [
+    "التحقق من المتطلب القانوني الحالي وتقييم عملية تقييم الامتثال وتحديد المطابقة وفق المعيار الحالي",
+    "تجاهل القانون في تدقيق النظام المتكامل",
+    "قبول الحد القديم لأن السجلات مكتملة",
+    "طلب من المدقق تحديد حد قانوني جديد"
+   ],
+   "explanation": "يجب أن تعكس معايير التدقيق المتطلبات الحالية المطبقة؛ اكتمال السجلات لا يثبت الامتثال إذا كان المعيار قديمًا."
+  },
+  "en": {
+   "question": "An auditor observes wastewater discharge records within limits but notices the legal limit changed two months ago. What is the best next step?",
+   "options": [
+    "Verify the current applicable legal requirement, assess the organization's compliance evaluation and determine conformity using the current criterion",
+    "Ignore law during an IMS audit",
+    "Accept the old limit because records are complete",
+    "Ask the auditor to set a new legal limit"
+   ],
+   "explanation": "Audit criteria must reflect applicable current requirements; complete records do not demonstrate compliance if the criterion is outdated."
+  }
+ },
+ {
+  "id": "IMS-D5-Q02",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 1,
+  "ar": {
+   "question": "لدى شركة سجل مخاطر واحد لنظام الإدارة المتكامل. أي عبارة أدق؟",
+   "options": [
+    "يجب تقسيمه إلى سجلين بالضبط",
+    "يمكن أن يكون فعالًا إذا غطى مخاطر وفرص الجودة والبيئة وأدى إلى إجراءات مناسبة",
+    "محظور وفق ISO 14001",
+    "هو كافٍ تلقائيًا"
+   ],
+   "explanation": "يجوز دمج معلومات المخاطر متى تمت معالجة جميع المتطلبات والنتائج ذات الصلة بشكل كافٍ."
+  },
+  "en": {
+   "question": "A company has a single risk register for IMS risks. Which statement is most accurate?",
+   "options": [
+    "It must be separated into exactly two registers",
+    "It can be effective if it captures relevant quality and environmental risks/opportunities and drives appropriate actions",
+    "It is prohibited by ISO 14001",
+    "It is automatically sufficient"
+   ],
+   "explanation": "Integration of risk information is acceptable when all relevant requirements and consequences are adequately addressed."
+  }
+ },
+ {
+  "id": "IMS-D5-Q03",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Mock scenario",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 5.1 / 7.3",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 2,
+  "ar": {
+   "question": "تحقق شركة معظم مستهدفات المنتج، لكن المشرفين يخفون بصورة متكررة العيوب البسيطة لحماية الأرقام الشهرية. ما القضية الأكثر ارتباطًا بذلك وفق ISO 9001:2026؟",
+   "options": [
+    "تكرار توريد المورد فقط",
+    "تخطيط المخزن فقط",
+    "ثقافة الجودة والسلوك الأخلاقي ومساءلة القيادة",
+    "معايرة معدات القياس فقط"
+   ],
+   "explanation": "يعطي ISO 9001:2026 اهتمامًا أكبر للقيادة وثقافة الجودة والسلوك الأخلاقي. إخفاء العيوب يشير إلى ضعف ثقافي وقيادي، وليس مجرد مشكلة في ضبط المنتج."
+  },
+  "en": {
+   "question": "A company meets most product targets, but supervisors routinely hide minor defects to protect monthly figures. Which ISO 9001:2026 issue is most directly raised?",
+   "options": [
+    "Only supplier delivery frequency",
+    "Only warehouse layout",
+    "Quality culture, ethical behaviour and leadership accountability",
+    "Only calibration of monitoring equipment"
+   ],
+   "explanation": "ISO 9001:2026 gives greater emphasis to leadership, quality culture and ethical behaviour. Concealing defects indicates a cultural and leadership weakness, not merely a product-control issue."
+  }
+ },
+ {
+  "id": "IMS-D5-Q04",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Mock scenario",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 8.1",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "يوجد جانب بيئي مهم بلا ضابط تشغيلي لأن الحوادث لم تحدث من قبل. ما أفضل استنتاج؟",
+   "options": [
+    "حذف الجانب",
+    "انتظار تعليمات الجهة الرقابية",
+    "لا توجد مشكلة لأن الحادث لم يقع",
+    "ينبغي للمنظمة تحديد وتنفيذ الضوابط اللازمة لمعالجة الجوانب المهمة والالتزامات"
+   ],
+   "explanation": "يجب وضع الضوابط التشغيلية حسب الحاجة لمعالجة الجوانب المهمة والتزامات الامتثال والمخاطر."
+  },
+  "en": {
+   "question": "A significant environmental aspect has no operational control because incidents have never occurred. What is the best conclusion?",
+   "options": [
+    "Delete the aspect",
+    "Wait for regulator instruction",
+    "No issue because no incident occurred",
+    "The organization should determine and implement controls needed to address significant aspects and obligations"
+   ],
+   "explanation": "Operational controls should be established as needed to address significant aspects, compliance obligations and risks."
+  }
+ },
+ {
+  "id": "IMS-D5-Q05",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Auditing",
+  "standard": "ISO 19011:2026",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 0,
+  "ar": {
+   "question": "أخذ المدقق عينة من خمسة سجلات ووجدها كلها مطابقة. هل يمكنه القول إن كل سجلات المنظمة مطابقة؟",
+   "options": [
+    "لا؛ استنتاجات التدقيق مبنية على عينات ولا ينبغي المبالغة في اليقين",
+    "نعم دائمًا",
+    "نعم إذا كانت السجلات احترافية",
+    "فقط إذا وافق العميل"
+   ],
+   "explanation": "تدعم العينات استنتاجات معقولة لكنها لا تثبت مطابقة كل عنصر."
+  },
+  "en": {
+   "question": "An auditor samples five records and finds all conforming. Can the auditor state that every record in the organization is conforming?",
+   "options": [
+    "No; audit conclusions are based on sampled evidence and should not overstate certainty",
+    "Yes, always",
+    "Yes, if the records look professional",
+    "Only if the client agrees"
+   ],
+   "explanation": "Sampling supports reasonable audit conclusions but does not prove every item conforms."
+  }
+ },
+ {
+  "id": "IMS-D5-Q06",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Mock scenario",
+  "standard": "ISO 9001:2026",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 1,
+  "ar": {
+   "question": "يشترط الإجراء فحصًا نهائيًا لكن الأدلة توضح تجاوز الفحص في ثلاثة طلبات عاجلة. ما أفضل نهج لصياغة النتيجة؟",
+   "options": [
+    "التجاهل لأن الطلبات عاجلة",
+    "ذكر المتطلب بدقة والاستشهاد بالأدلة من العينة ووصف الإخفاق في تطبيق الضابط",
+    "اتهام الإدارة بالإهمال",
+    "كتابة فحص سيئ فقط"
+   ],
+   "explanation": "يجب أن تكون نتائج التدقيق موضوعية ويمكن ربطها بالمعايير ومدعومة بأدلة محددة."
+  },
+  "en": {
+   "question": "A procedure requires final inspection, but evidence shows inspection was skipped for three urgent orders. What is the best audit finding approach?",
+   "options": [
+    "Ignore because orders were urgent",
+    "State the exact requirement, cite the sampled evidence, and describe the failure to follow the control",
+    "Accuse management of negligence",
+    "Write only “bad inspection”"
+   ],
+   "explanation": "Audit findings should be objective, traceable to criteria and supported by specific evidence."
+  }
+ },
+ {
+  "id": "IMS-D5-Q07",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 2,
+  "ar": {
+   "question": "يوجد مؤشر يقيس التسليم في الموعد لكنه يشجع النقل العاجل المفرط مما يزيد الانبعاثات. ما أفضل استجابة متكاملة؟",
+   "options": [
+    "تجاهل الانبعاثات إذا كانت قانونية",
+    "إيقاف قياس التسليم",
+    "موازنة مؤشرات الأداء بحيث تراعي أهداف التسليم الآثار والمخاطر البيئية ذات الصلة",
+    "الإبقاء على المؤشر لأن الجودة أهم"
+   ],
+   "explanation": "ينبغي لمؤشرات الأداء في النظام المتكامل ألا تدفع إلى نتائج سلبية غير مقصودة في بُعد آخر من أبعاد النظام."
+  },
+  "en": {
+   "question": "One KPI measures on-time delivery but encourages excessive expedited transport, increasing emissions. What is the best IMS response?",
+   "options": [
+    "Ignore emissions if legal",
+    "Stop measuring delivery",
+    "Balance performance measures so delivery objectives consider relevant environmental impacts and risks",
+    "Keep the KPI unchanged because quality is more important"
+   ],
+   "explanation": "IMS performance measures should avoid driving unintended negative outcomes in another management-system dimension."
+  }
+ },
+ {
+  "id": "IMS-D5-Q08",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Mock scenario",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 8.1",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "يتولى مقاول التخلص من مخلفات المنظمة. أي عبارة أدق؟",
+   "options": [
+    "السعر فقط مهم في الاختيار",
+    "تنتقل المسؤولية البيئية بالكامل للمقاول تلقائيًا",
+    "المقاولون خارج نطاق النظام البيئي دائمًا",
+    "ينبغي للمنظمة التحكم أو التأثير في الأنشطة الخارجية حسب الحاجة والتأكد من إيصال المتطلبات البيئية ذات الصلة"
+   ],
+   "explanation": "يجب التحكم أو التأثير في العمليات والموردين الخارجيين حسب الملاءمة لنظام الإدارة البيئية ومنظور دورة الحياة."
+  },
+  "en": {
+   "question": "A contractor performs waste disposal for the organization. Which statement is most accurate?",
+   "options": [
+    "Only price matters in contractor selection",
+    "Environmental responsibility is automatically transferred completely to the contractor",
+    "Contractors are outside EMS scope in all cases",
+    "The organization should control or influence outsourced activities as appropriate and ensure relevant environmental requirements are communicated"
+   ],
+   "explanation": "Outsourced processes and providers should be controlled or influenced as appropriate to the EMS and life-cycle perspective."
+  }
+ },
+ {
+  "id": "IMS-D5-Q09",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Mock scenario",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 8.4",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "يتأخر مورد بشكل متكرر في التسليم رغم أن جودة المنتج مقبولة. أي مجال متطلبات هو الأكثر صلة؟",
+   "options": [
+    "ضبط وتقييم أداء الموردين الخارجيين",
+    "التحقق من التصميم فقط",
+    "الاتصال الداخلي فقط",
+    "المعايرة فقط"
+   ],
+   "explanation": "ينبغي متابعة أداء الموردين وإعادة تقييمهم وفق معايير المنظمة وتأثيرهم على المتطلبات."
+  },
+  "en": {
+   "question": "A supplier repeatedly delivers late, but product quality is acceptable. Which requirement area is most relevant?",
+   "options": [
+    "Control and performance evaluation of external providers",
+    "Design validation only",
+    "Internal communication only",
+    "Calibration only"
+   ],
+   "explanation": "External-provider performance should be monitored and re-evaluated based on the organization's criteria and impact on requirements."
+  }
+ },
+ {
+  "id": "IMS-D5-Q10",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Auditing",
+  "standard": "ISO 19011:2026",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 1,
+  "ar": {
+   "question": "خلال اجتماع الختام اعترضت الجهة المدققة على نتيجة. ماذا ينبغي لقائد الفريق أن يفعل؟",
+   "options": [
+    "حذف النتيجة فورًا",
+    "مراجعة المعايير والأدلة ومناقشة الخلاف وتسجيل الاختلافات غير المحلولة عند الحاجة",
+    "تغيير المتطلب",
+    "الجدال حتى يوافق العميل"
+   ],
+   "explanation": "يجب مناقشة الاختلافات بموضوعية وتسجيل الآراء غير المحلولة دون الإخلال بالاستنتاجات المبنية على الأدلة."
+  },
+  "en": {
+   "question": "During a closing meeting, the auditee disputes a finding. What should the lead auditor do?",
+   "options": [
+    "Delete the finding immediately",
+    "Review the criteria and evidence, discuss the disagreement, and record unresolved differences where necessary",
+    "Change the requirement",
+    "Argue until the auditee agrees"
+   ],
+   "explanation": "Differences should be discussed objectively and unresolved views recorded without compromising evidence-based conclusions."
+  }
+ },
+ {
+  "id": "IMS-D5-Q11",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Intermediate",
+  "topic": "Exam Technique",
+  "standard": "",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 2,
+  "ar": {
+   "question": "في سؤال سيناريو باختبار ISO، ما أفضل خطوة أولى عندما تبدو إجابتان محتملتين؟",
+   "options": [
+    "اختيار ج دائمًا",
+    "تجاهل تفاصيل السيناريو",
+    "تحديد المتطلب أو مبدأ التدقيق الذي يختبره السؤال واختيار الإجابة الأكثر وفاءً به",
+    "اختيار أطول إجابة"
+   ],
+   "explanation": "تحل أسئلة السيناريو بشكل أفضل بربط الوقائع بالمتطلب أو المبدأ المطبق بدل التخمين من صياغة الاختيارات."
+  },
+  "en": {
+   "question": "In a scenario-based ISO exam, what is usually the best first step when two answers appear plausible?",
+   "options": [
+    "Choose option C by default",
+    "Ignore scenario details",
+    "Identify the exact requirement or audit principle being tested and select the option that best satisfies it",
+    "Choose the longest answer"
+   ],
+   "explanation": "Scenario questions are best solved by linking facts to the applicable requirement/principle rather than guessing by wording."
+  }
+ },
+ {
+  "id": "IMS-D5-Q12",
+  "day": 5,
+  "type": "tf",
+  "difficulty": "Foundation",
+  "topic": "Exam Technique",
+  "standard": "",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 0,
+  "ar": {
+   "question": "إذا طلب السؤال أفضل إجراء فقد تكون أكثر من إجابة صحيحة جزئيًا، لكن واحدة تكون الأكثر توافقًا مع المتطلب والموقف.",
+   "options": [
+    "صح",
+    "خطأ"
+   ],
+   "explanation": "أسئلة «الأفضل» تختبر غالبًا الأولوية والاكتمال وليس مجرد كون الإجراء مقبولًا جزئيًا."
+  },
+  "en": {
+   "question": "If a question asks for the BEST action, more than one option may be partly correct, but one should align most completely with the requirement and situation.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "'Best' questions often test prioritization and completeness, not just whether an action could be acceptable."
+  }
+ },
+ {
+  "id": "IMS-D5-Q14",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Mock scenario",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 8.2.4",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "تم تغيير متطلب العميل هاتفيًا ولم يتم إبلاغ الإنتاج مما أدى إلى تكوين خاطئ. أي عملية أخفقت بشكل مباشر؟",
+   "options": [
+    "تقييم الجوانب البيئية",
+    "المعايرة",
+    "جدولة التدقيق الداخلي",
+    "مراجعة وإبلاغ التغييرات في متطلبات المنتجات والخدمات"
+   ],
+   "explanation": "يجب ضبط التغييرات في متطلبات المنتجات والخدمات وإبلاغ الأشخاص المعنيين بها."
+  },
+  "en": {
+   "question": "A customer requirement was changed by phone but not communicated to production, causing a wrong configuration. Which process failed most directly?",
+   "options": [
+    "Environmental aspect evaluation",
+    "Calibration",
+    "Internal audit scheduling",
+    "Review and communication of changes to requirements for products and services"
+   ],
+   "explanation": "Changes to product/service requirements should be controlled and relevant persons made aware."
+  }
+ },
+ {
+  "id": "IMS-D5-Q15",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Mock scenario",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 9.1.2",
+  "set": "core_100",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "حددت المنظمة متطلبًا قانونيًا بيئيًا لكنها لا تملك طريقة للتحقق من استمرار الامتثال. ما العنصر المفقود؟",
+   "options": [
+    "عملية تقييم الامتثال",
+    "هدف جودة",
+    "مراجعة تصميم",
+    "استبيان رضا العميل"
+   ],
+   "explanation": "تحديد الالتزامات وحده لا يكفي؛ يجب أيضًا تقييم الامتثال على فترات مخططة."
+  },
+  "en": {
+   "question": "An organization identifies an environmental legal requirement but has no method to check ongoing compliance. What is missing?",
+   "options": [
+    "Evaluation of compliance process",
+    "Quality objective",
+    "Design review",
+    "Customer satisfaction survey"
+   ],
+   "explanation": "Identification of obligations is not enough; compliance must also be evaluated at planned intervals."
+  }
+ },
+ {
+  "id": "IMS-D5-Q16",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Auditing",
+  "standard": "ISO 19011:2026",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 1,
+  "ar": {
+   "question": "أي موقف يبرر بقوة توسيع عينة التدقيق؟",
+   "options": [
+    "أدلة متسقة من جميع العينات",
+    "سجلات متعارضة ومؤشرات متكررة على فشل أوسع في الضبط",
+    "يريد المدقق ملء الوقت",
+    "تطلب الجهة المدققة أسئلة أقل"
+   ],
+   "explanation": "تبرر مؤشرات التباين أو الإخفاق المنهجي المحتمل زيادة العينة لفهم مدى وأهمية المشكلة."
+  },
+  "en": {
+   "question": "Which situation most strongly justifies expanding an audit sample?",
+   "options": [
+    "Consistent evidence from all samples",
+    "Contradictory records and repeated indications of a broader control failure",
+    "The auditor wants to fill time",
+    "The auditee requests fewer questions"
+   ],
+   "explanation": "Signs of variability or possible systemic failure justify additional sampling to understand extent and significance."
+  }
+ },
+ {
+  "id": "IMS-D5-Q17",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Integrated Management System",
+  "standard": "",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 2,
+  "ar": {
+   "question": "أزال إجراء تصحيحي عيبًا عن طريق زيادة التنظيف الكيميائي لكن تضاعفت المخلفات الخطرة. ماذا ينبغي على المنظمة أن تفعل؟",
+   "options": [
+    "قبوله لأن عيب الجودة انتهى",
+    "إخفاء بيانات المخلفات",
+    "إعادة تقييم الإجراء التصحيحي مع مراعاة فعالية الجودة والعواقب البيئية وتحسين الضوابط",
+    "إيقاف الإجراءات التصحيحية"
+   ],
+   "explanation": "يراعي التحسين المتكامل الآثار غير المقصودة عبر أهداف متعددة للنظام."
+  },
+  "en": {
+   "question": "A corrective action eliminates a defect by increasing chemical cleaning, but hazardous waste doubles. What should the organization do?",
+   "options": [
+    "Accept it because the quality defect is gone",
+    "Hide waste data",
+    "Reassess the corrective action considering both quality effectiveness and environmental consequences and optimize controls",
+    "Stop corrective actions"
+   ],
+   "explanation": "Integrated improvement considers unintended effects across multiple system objectives."
+  }
+ },
+ {
+  "id": "IMS-D5-Q18",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Mock scenario",
+  "standard": "ISO 19011:2026",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 3,
+  "ar": {
+   "question": "أي دليل يكون أقوى عادةً للتحقق من أن العملية تُتبع بصورة متسقة؟",
+   "options": [
+    "إجراء دون دليل تنفيذ",
+    "ملصق على الحائط",
+    "تصريح مدير واحد فقط",
+    "مزيج من المقابلات والملاحظة والسجلات بالعينة التي تؤكد بعضها بعضًا"
+   ],
+   "explanation": "تعزز الأدلة المتقاطعة من مصادر متعددة الثقة في استنتاجات التدقيق."
+  },
+  "en": {
+   "question": "Which evidence is generally strongest when verifying that a process is consistently followed?",
+   "options": [
+    "A procedure with no implementation evidence",
+    "A poster on the wall",
+    "One manager statement only",
+    "A combination of interviews, observation and sampled records that corroborate each other"
+   ],
+   "explanation": "Corroborated evidence from multiple sources increases confidence in audit conclusions."
+  }
+ },
+ {
+  "id": "IMS-D5-Q19",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "Certification Audit",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 0,
+  "ar": {
+   "question": "أي إجراء يهدد حياد تدقيق منح الطرف الثالث بشكل أكبر؟",
+   "options": [
+    "المدقق يصمم حل الإجراء التصحيحي للعميل ثم يدقق فعاليته لاحقًا",
+    "المدقق يقيم الأدلة مقابل المعايير",
+    "المدقق يطرح أسئلة مفتوحة",
+    "المدقق يراجع السجلات"
+   ],
+   "explanation": "تصميم حل العميل ينشئ خطر مراجعة العمل الذاتي ويتعارض مع التقييم المحايد من طرف ثالث."
+  },
+  "en": {
+   "question": "Which action would most threaten third-party certification impartiality?",
+   "options": [
+    "Auditor designs the client's corrective-action solution and later audits its effectiveness",
+    "Auditor evaluates evidence against criteria",
+    "Auditor asks open questions",
+    "Auditor reviews records"
+   ],
+   "explanation": "Designing the client's solution creates a self-review threat and conflicts with impartial third-party assessment."
+  }
+ },
+ {
+  "id": "IMS-D5-Q20",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Advanced",
+  "topic": "IMS Lead Auditor",
+  "standard": "ISO 19011:2026",
+  "clause": "",
+  "set": "core_100",
+  "verify": "not_applicable",
+  "answer": 1,
+  "ar": {
+   "question": "أثناء تدقيق نظام إدارة متكامل وجدت: زيادة شكاوى العملاء، زيادة المخلفات، تكرار عدم شمول التدقيق الداخلي للعملية، ومحاضر مراجعة الإدارة لا تناقش هذه الاتجاهات. ما أفضل نهج تدقيق؟",
+   "options": [
+    "كتابة أربع نتائج منفصلة فورًا دون تتبع إضافي",
+    "تتبع روابط العملية ونظام الإدارة بشكل أعمق وجمع أدلة كافية عبر تقييم الأداء والتدقيق الداخلي ومراجعة الإدارة والتحسين ثم الاستنتاج بشأن مدى وطبيعة الإخفاقات المنهجية",
+    "تدقيق الجوانب البيئية فقط",
+    "تجاهل الاتجاهات لأن بعض السجلات قد تكون مطابقة"
+   ],
+   "explanation": "قد تشير المؤشرات المترابطة إلى ضعف منهجي أوسع؛ لذا ينبغي توسيع مسار التدقيق وبناء الاستنتاجات على أدلة موضوعية كافية قبل تصنيف النتائج."
+  },
+  "en": {
+   "question": "During an IMS audit, you find: customer complaints rising, waste increasing, internal audits repeatedly missing the process, and management review minutes showing no discussion of these trends. What is the BEST audit approach?",
+   "options": [
+    "Write four unrelated findings immediately without further tracing",
+    "Follow the process and management-system links further, gather sufficient evidence across performance evaluation, internal audit, management review and improvement, then conclude on the extent and systemic nature of the failures",
+    "Only audit environmental aspects",
+    "Ignore trends because individual records may conform"
+   ],
+   "explanation": "Multiple connected signals may indicate a broader systemic weakness. The auditor should extend the audit trail and base conclusions on sufficient objective evidence before classifying findings."
+  }
+ },
+ {
+  "id": "IMS-D5-Q21",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Expert",
+  "topic": "Integrated scenario",
+  "standard": "IMS Lead Auditor",
+  "clause": "",
+  "set": "supplemental_core",
+  "verify": "requires_2026_text_verification",
+  "answer": 2,
+  "ar": {
+   "question": "تحقق عملية مؤشر التسليم المستهدف لكنها تعتمد بصورة متكررة على الشحن العاجل وتنتج كميات متزايدة من مخلفات التغليف. ما أفضل نهج لاستنتاج التدقيق في النظام المتكامل؟",
+   "options": [
+    "إصدار نتيجة بيئية فقط",
+    "اعتبار العملية فعالة لأن مؤشر الجودة تحقق",
+    "تقييم الفعالية عبر الأهداف والضوابط المتكاملة بما يشمل أداء العملاء وتأثيرات الموارد والتكلفة والجوانب البيئية والإجراءات لمعالجة الاتجاهات السلبية",
+    "تجاهل الشحن العاجل لأنه مسألة مالية"
+   ],
+   "explanation": "لا ينبغي تقييم مؤشر واحد بمعزل عن بقية النظام المتكامل؛ بل يجب تقييم تحقيق النتائج المقصودة مع إدارة التأثيرات ذات الصلة بالجودة والبيئة والاتجاهات السلبية."
+  },
+  "en": {
+   "question": "A process meets its delivery KPI but achieves this by frequent premium freight and generates increasing packaging waste. What is the BEST IMS audit conclusion approach?",
+   "options": [
+    "Raise only an environmental finding",
+    "Accept the process as effective because the quality KPI is achieved",
+    "Evaluate effectiveness across integrated objectives and controls, including customer performance, resource/cost impacts, environmental aspects and actions addressing adverse trends",
+    "Ignore premium freight because it is a financial issue"
+   ],
+   "explanation": "An IMS audit should not evaluate one KPI in isolation. The auditor should assess whether the process achieves intended results while managing relevant quality and environmental impacts and adverse trends."
+  }
+ },
+ {
+  "id": "IMS-D5-Q22",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Expert",
+  "topic": "Corrective action",
+  "standard": "ISO 9001 & ISO 14001",
+  "clause": "ISO 9001:2026, 10.2; ISO 14001:2026, 10.2",
+  "set": "supplemental_core",
+  "verify": "requires_2026_text_verification",
+  "answer": 3,
+  "ar": {
+   "question": "تكررت حالة عدم مطابقة مرتبطة بانسكاب بعد ثلاثة أشهر من إغلاق الإجراء التصحيحي. ما سؤال التدقيق الأكثر أهمية؟",
+   "options": [
+    "من المسؤول عن تكرار المشكلة؟",
+    "هل يمكن فقط إعادة فتح السجل القديم وتغيير تاريخه؟",
+    "هل كُتبت النتيجة الأصلية باللون الأحمر؟",
+    "هل كان تحليل السبب الجذري كافيًا وهل تم تقييم فعالية الإجراء التصحيحي بعد التنفيذ؟"
+   ],
+   "explanation": "قد يشير تكرار المشكلة إلى عدم كفاية تحديد الأسباب أو عدم التحقق من فعالية الإجراء التصحيحي؛ لذلك يجب فحص تحليل السبب وتقييم الفعالية معًا."
+  },
+  "en": {
+   "question": "The same spill-related nonconformity occurs three months after closure of corrective action. Which audit question is MOST important?",
+   "options": [
+    "Who should be blamed for the recurrence?",
+    "Can the old record simply be reopened and re-dated?",
+    "Was the original finding written in red font?",
+    "Was the root cause analysis adequate and was the effectiveness of corrective action evaluated after implementation?"
+   ],
+   "explanation": "Recurrence may indicate that causes were not adequately determined or that corrective action effectiveness was not verified. The audit should examine both cause analysis and effectiveness evaluation."
+  }
+ },
+ {
+  "id": "IMS-D5-Q23",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Expert",
+  "topic": "Management review",
+  "standard": "ISO 9001 & ISO 14001",
+  "clause": "ISO 9001:2026, 9.3; ISO 14001:2026, 9.3",
+  "set": "supplemental_core",
+  "verify": "requires_2026_text_verification",
+  "answer": 0,
+  "ar": {
+   "question": "تسجل محاضر مراجعة الإدارة قيم مؤشرات الأداء فقط دون تقييم الاتجاهات أو نتائج التدقيق أو ملاحظات العملاء أو الأداء البيئي أو الحاجة إلى تغييرات. ما أفضل تقييم؟",
+   "options": [
+    "قد تكون المراجعة غير فعالة وغير مكتملة لأن المدخلات المطلوبة ينبغي تقييمها لدعم القرارات والإجراءات",
+    "هي مطابقة بالكامل لأن قيم المؤشرات مسجلة",
+    "الأداء المالي فقط هو ذو صلة بمراجعة الإدارة",
+    "مراجعة الإدارة اختيارية إذا تم إجراء التدقيق الداخلي"
+   ],
+   "explanation": "مراجعة الإدارة عملية تقييم وليست مجرد سرد للبيانات؛ ويجب النظر في المدخلات المطلوبة وأن تتضمن المخرجات قرارات وإجراءات بشأن التحسين والتغييرات واحتياجات الموارد حسب الاقتضاء."
+  },
+  "en": {
+   "question": "Management review minutes list KPI values but contain no evaluation of trends, audit results, customer feedback, environmental performance or need for changes. What is the BEST assessment?",
+   "options": [
+    "The review may be ineffective and incomplete because required inputs should be evaluated to support decisions and actions",
+    "It is fully conforming because KPI values are recorded",
+    "Only financial performance is relevant to management review",
+    "Management review is optional if internal audits are performed"
+   ],
+   "explanation": "Management review is an evaluation process, not merely a data listing. Required inputs should be considered and outputs should include decisions/actions related to improvement, changes and resource needs as applicable."
+  }
+ },
+ {
+  "id": "IMS-D5-Q24",
+  "day": 5,
+  "type": "mcq",
+  "difficulty": "Expert",
+  "topic": "Final mock",
+  "standard": "IMS Lead Auditor",
+  "clause": "",
+  "set": "supplemental_core",
+  "verify": "requires_2026_text_verification",
+  "answer": 1,
+  "ar": {
+   "question": "أثناء تدقيق تجريبي نهائي تعارضت أدلة المقابلات مع السجلات والملاحظة المباشرة. ماذا ينبغي أن يفعل كبير المدققين؟",
+   "options": [
+    "اختيار الدليل الذي يدعم خطة التدقيق الأصلية",
+    "البحث عن أدلة إضافية مؤيدة وتقييم موثوقية واتساق المصادر وبناء النتيجة على أدلة كافية قابلة للتحقق",
+    "اعتماد المقابلة لأنها صادرة من مدير",
+    "اعتماد السجل لأن الوثائق دائمًا أكثر موثوقية"
+   ],
+   "explanation": "يستدعي تعارض الأدلة مزيدًا من التحقق؛ ويجب أن تستند استنتاجات التدقيق إلى أدلة كافية وذات صلة وقابلة للتحقق لا إلى المنصب أو سهولة الاعتماد على مصدر معين."
+  },
+  "en": {
+   "question": "During a final mock audit, evidence from interviews conflicts with records and direct observation. What should the lead auditor do?",
+   "options": [
+    "Choose whichever evidence supports the original audit plan",
+    "Seek additional corroborating evidence, evaluate reliability and consistency of sources, and base the finding on sufficient verifiable evidence",
+    "Accept the interview because it came from a manager",
+    "Accept the record because documents are always more reliable"
+   ],
+   "explanation": "Conflicting evidence should trigger further verification. Audit conclusions should be based on sufficient, relevant and verifiable evidence rather than hierarchy or convenience."
+  }
+ }
+]

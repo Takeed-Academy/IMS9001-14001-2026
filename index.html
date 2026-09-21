@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IMS Lead Auditor Practice — ISO 9001:2026 &amp; ISO 14001:2026 | المدقق الرئيسي لنظام الإدارة المتكامل</title>
+    <meta name="description" content="A bilingual IMS Lead Auditor practice bank covering ISO 9001:2026, ISO 14001:2026, ISO 19011:2026 and ISO/IEC 17021-1, split across the five course days with a full mock exam. بنك تدريبي ثنائي اللغة للمدقق الرئيسي لنظام الإدارة المتكامل، موزّع على أيام الدورة الخمسة مع اختبار شامل.">
+    <meta name="color-scheme" content="light">
+    <link rel="icon" type="image/png" href="assets/logos/takeed-mark.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#mainContent" id="skipLink">Skip to content</a>
+
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="#mainContent" id="brandLink">
+          <img class="brand-logo" src="assets/logos/takeed-academy-logo.svg" alt="Takeed Academy">
+          <span>
+            <strong id="brandTitle">IMS Lead Auditor</strong>
+            <small id="brandSubtitle">ISO 9001:2026 &amp; ISO 14001:2026</small>
+          </span>
+        </a>
+
+        <div class="top-actions">
+          <button class="ghost-button compact" type="button" id="backToHub" hidden></button>
+          <div class="lang-switch" role="group" id="langSwitch" aria-label="Language">
+            <button class="lang-button" type="button" data-lang="ar" lang="ar">العربية</button>
+            <button class="lang-button" type="button" data-lang="en" lang="en">English</button>
+          </div>
+        </div>
+      </header>
+
+      <main class="workspace" id="mainContent" tabindex="-1">
+        <section class="view-pane is-active" id="hubView" aria-labelledby="hubTitle"></section>
+        <section class="view-pane" id="practiceView" aria-labelledby="practiceTitle"></section>
+        <section class="view-pane" id="resultsView" aria-labelledby="resultsTitle"></section>
+        <section class="view-pane" id="reviewView" aria-labelledby="reviewTitle"></section>
+      </main>
+
+      <footer class="site-footer">
+        <p class="footer-brand" id="footerBrand"></p>
+        <p class="footer-note" id="footerNote"></p>
+        <p class="footer-note" id="footerVerify"></p>
+      </footer>
+    </div>
+
+    <div class="modal-layer" id="modalLayer" hidden>
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle" id="modalCard"></div>
+    </div>
+
+    <p class="sr-live" role="status" aria-live="polite" id="liveRegion"></p>
+
+    <script src="data/questions.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

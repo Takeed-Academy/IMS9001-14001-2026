@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 150" role="img" aria-labelledby="title desc">
+  <title id="title">Takeed Academy</title>
+  <desc id="desc">Takeed brand mark with navy and green shield and wordmark</desc>
+  <g transform="translate(12 9)">
+    <path d="M58 4 C80 4 101 10 116 20 L103 46 C88 36 73 32 58 32 C43 32 29 36 15 45 L2 20 C17 10 37 4 58 4Z" fill="#26398D"/>
+    <path d="M15 45 C20 75 30 101 58 126 C72 113 86 98 96 80 L76 65 C70 77 64 87 58 93 C47 82 41 68 38 52Z" fill="#26398D"/>
+    <path d="M58 126 C79 109 99 88 116 54 L94 43 C84 61 72 80 58 93 C50 86 43 78 37 68 L20 82 C31 100 43 114 58 126Z" fill="#46BB95"/>
+  </g>
+  <g transform="translate(150 30)">
+    <text x="0" y="47" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700" fill="#26398D">takeed</text>
+    <text x="3" y="78" font-family="Arial, Helvetica, sans-serif" font-size="18" letter-spacing="7" fill="#46BB95">WE ASSURE</text>
+    <text x="300" y="84" text-anchor="end" font-family="Tahoma, Arial, sans-serif" font-size="22" fill="#26398D">تأكيد</text>
+  </g>
+</svg>
