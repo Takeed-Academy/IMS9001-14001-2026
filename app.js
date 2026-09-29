@@ -1,64 +1,58 @@
 /*
- * Takeed Academy — IMS Lead Auditor Practice
+ * Takeed Academy — IMS Lead Auditor Expert Exam
  * ISO 9001:2026 · ISO 14001:2026 · ISO 19011:2026 · ISO/IEC 17021-1:2015
- * Bilingual (Arabic RTL / English LTR) static practice tool.
+ * Single-paper, English-only static exam tool.
  *
  * ANSWER-MAPPING CONTRACT (do not change casually):
  *   - Each question gets ONE permutation `order` of its original option indices.
  *   - `order[displayPosition] === originalOptionIndex`.
- *   - The SAME `order` renders both ar.options and en.options, so switching
- *     language never reorders or remaps anything.
  *   - Selections are stored as the ORIGINAL option index:
  *         answers[questionId] = order[clickedDisplayPosition]
- *   - Correctness is therefore language- and layout-independent:
+ *   - Correctness is therefore layout-independent:
  *         answers[questionId] === question.answer
  *   - `order` is persisted, so Resume restores the identical display order.
  *
- * MIXED FORMATS: MCQ items have 4 options and receive a fixed id-derived
- * arrangement. True/False items have 2 options and keep their natural
- * True-then-False order, because reversing them reads as a trick rather than
- * a shuffle. Both are just permutations, so the contract above is unchanged.
+ * The permutation machinery is retained even though this bank ships in its
+ * authored order (see REBALANCE_OPTIONS): it costs nothing, and it is the
+ * only thing standing between a future re-order and a silently wrong key.
+ *
+ * MIXED FORMATS: MCQ items have 4 options, True/False items have 2 and keep
+ * their natural True-then-False order, because reversing them reads as a
+ * trick rather than a shuffle. Both are permutations, so the contract holds.
  */
 
 (function () {
   "use strict";
 
-  var STORAGE_KEY = "takeedImsLeadAuditor.v1";
+  /* Bumped from .v1: the previous project stored six day-sessions against a
+     140-question bank. A stale record from it would resume into questions
+     that no longer exist, so the new key simply never sees it. */
+  var STORAGE_KEY = "takeedImsLeadAuditorExpert.v1";
   var BANK = (typeof window !== "undefined" && window.IMS_QUESTIONS) || [];
 
-  /* Must match the lang/dir that index.html is served with, and must precede
-     `state`. If these disagree the page paints in one direction and then flips
-     after first paint, which is a visible jump. Change both together. */
-  var DEFAULT_LANG = "en";
-
-  /* Day exams are for daily revision, so they reveal each answer as you go.
-     The full paper simulates the Day-5 mock exam, so it stays sealed until
-     the end. Change a mode here to alter that. */
+  /* One paper, sealed until submission — this is a Lead Auditor exam
+     simulation, not a revision drill. Set mode to "study" to reveal each
+     answer as you go instead. */
   var EXAMS = [
-    { key: "day1", day: 1, mode: "study" },
-    { key: "day2", day: 2, mode: "study" },
-    { key: "day3", day: 3, mode: "study" },
-    { key: "day4", day: 4, mode: "study" },
-    { key: "day5", day: 5, mode: "study" },
-    { key: "full", day: null, mode: "exam" }
+    { key: "full", mode: "exam" }
   ];
 
-  var PASS_MARK = 70;          // percent, applied to the full mock paper only
+  var PASS_MARK = 70;          // percent
 
   /* ------------------------------------------------- fixed option ordering
    *
-   * Bank v3.0 balances its correct answers at source: across the 110 MCQs the
-   * letters land A28 / B27 / C28 / D27, a spread of 1 and a hair above the
-   * 25% floor for four options. Re-arranging on top of that only re-randomises
-   * an already-fair distribution and measurably worsens it (it tested at a
-   * spread of 10), so the authored order is presented as-is.
+   * This bank balances its correct answers at source: across the 70 MCQs the
+   * letters land A18 / B18 / C17 / D17 — a spread of 1, and a 26% blind-guess
+   * ceiling against a 25% floor for four options. Re-arranging on top of that
+   * can only re-randomise an already-fair key, so the authored order ships
+   * untouched and `build_bank.py` performs no reordering at all.
    *
-   * The machinery below is kept because earlier revisions of this bank were
-   * heavily A/B-weighted — if a future bank regresses, set REBALANCE_OPTIONS
-   * to true to get a fixed, id-derived arrangement instead: stable on every
-   * device and in every session, but not the authored order. The test suite
-   * fails the build if the presented spread is ever worse than the authored
-   * one, whichever mode is active. */
+   * The machinery below is kept because earlier banks in this series were
+   * heavily A/B-weighted (one scored 48% on blind "A" alone) — if a future
+   * bank regresses, set REBALANCE_OPTIONS to true for a fixed, id-derived
+   * arrangement: stable on every device and in every session, but no longer
+   * the authored order. The test suite fails the build if the presented
+   * spread is ever worse than the authored one, whichever mode is active. */
   var REBALANCE_OPTIONS = false;
   var OPTION_PERMS = [[0,1,2,3],[0,1,3,2],[0,2,1,3],[0,2,3,1],[0,3,1,2],[0,3,2,1],
     [1,0,2,3],[1,0,3,2],[1,2,0,3],[1,2,3,0],[1,3,0,2],[1,3,2,0],
@@ -93,153 +87,26 @@
   /* ---------------------------------------------------------------- i18n */
 
   var I18N = {
-    ar: {
-      dir: "rtl", htmlLang: "ar",
-      docTitle: "المدقق الرئيسي لنظام الإدارة المتكامل — أسئلة تدريبية",
-      brandTitle: "المدقق الرئيسي — IMS",
-      brandSubtitle: "ISO 9001:2026 و ISO 14001:2026",
-      skip: "تخطٍّ إلى المحتوى",
-      langLabel: "اللغة",
-
-      heroEyebrow: "أداة مراجعة تدريبية",
-      heroTitle: "المدقق الرئيسي لنظام الإدارة المتكامل",
-      heroSubtitle: "ISO 9001:2026 · ISO 14001:2026 · ISO 19011:2026 · ISO/IEC 17021-1",
-      heroDescription: "بنك تدريبي ثنائي اللغة يغطي أيام الدورة الخمسة، مع اختبار شامل يحاكي الامتحان النهائي. هذه الأسئلة لأغراض التدريب والمراجعة وليست اختبار اعتماد رسمي.",
-      statQuestions: "سؤالًا",
-      statExams: "اختبارات",
-      statLanguages: "لغتان",
-
-      hubTitle: "اختر الاختبار",
-      hubHint: "اختبارات الأيام الخمسة تعرض الإجابة والشرح بعد كل سؤال. الاختبار الشامل يحاكي الامتحان: لا تظهر أي إجابة حتى الإنهاء.",
-      dayLabel: "اليوم {n}",
-      fullExamLabel: "الاختبار الشامل",
-      fullExamSub: "محاكاة الامتحان النهائي — جميع الأيام",
-      questionsCount: "{n} سؤالًا",
-      modeStudyTag: "وضع التعلّم",
-      modeExamTag: "وضع الاختبار",
-      passMarkTag: "النجاح {n}%",
-      startExam: "ابدأ",
-      resumeExam: "استكمال",
-      reviewExam: "عرض النتيجة",
-      inProgress: "قيد الحل — {done} من {total}",
-      completedTag: "مكتمل — {pct}%",
-
-      day1Title: "المقدمة وأساسيات نظام الإدارة المتكامل",
-      day1Sub: "Introduction · Fundamentals IMS · QMS",
-      day2Title: "متطلبات ISO 9001 و ISO 14001",
-      day2Sub: "ISO 9001 and ISO 14001 Requirements",
-      day3Title: "ISO 17021 ومدخل إلى ISO 19011",
-      day3Sub: "ISO 17021 · Intro to ISO 19011",
-      day4Title: "التدقيق",
-      day4Sub: "Auditing",
-      day5Title: "المراجعة وقواعد الامتحان",
-      day5Sub: "Recap · Exam Rules · Mock exam",
-
-      practiceEyebrow: "جلسة تدريب",
-      questionOf: "السؤال {current} من {total}",
-      answeredCount: "{n} مُجاب",
-      flaggedCount: "{n} مُعلَّم",
-      studyProgress: "{n} تم التحقق منها",
-      elapsed: "الوقت المنقضي",
-      progressLabel: "التقدم",
-      previous: "السابق",
-      next: "التالي",
-      clearAnswer: "مسح الإجابة",
-      flag: "تعليم للمراجعة",
-      unflag: "إلغاء التعليم",
-      finish: "إنهاء الاختبار",
-      pressNextToReveal: "اضغط «التالي» لعرض الإجابة الصحيحة والشرح.",
-      feedbackCorrect: "إجابة صحيحة",
-      feedbackIncorrect: "إجابة غير صحيحة",
-      feedbackCorrectIs: "الإجابة الصحيحة هي الخيار {letter}.",
-      answerLocked: "تم تسجيل إجابتك لهذا السؤال ولا يمكن تغييرها.",
-      questionMap: "لوحة الأسئلة",
-      legendCurrent: "الحالي",
-      legendAnswered: "مُجاب",
-      legendUnanswered: "غير مُجاب",
-      legendFlagged: "مُعلَّم",
-      goToQuestion: "الانتقال إلى السؤال {n}",
-
-      confirmTitle: "إنهاء الاختبار",
-      confirmUnanswered: "لديك {n} من الأسئلة غير مجابة. هل تريد الإنهاء وإظهار النتائج؟",
-      confirmComplete: "لقد أجبت عن جميع الأسئلة. هل تريد الإنهاء وإظهار النتائج؟",
-      confirmYes: "إنهاء وعرض النتائج",
-      confirmNo: "العودة للأسئلة",
-
-      resultsEyebrow: "ملخص الأداء",
-      resultsTitle: "نتيجة الاختبار",
-      scoreLabel: "النسبة",
-      correct: "إجابات صحيحة",
-      incorrect: "إجابات خاطئة",
-      unanswered: "غير مجابة",
-      totalQuestions: "إجمالي الأسئلة",
-      timeTaken: "الوقت المستغرق",
-      breakdownTitle: "التوزيع حسب المعيار",
-      performanceLabel: "مستوى الأداء التدريبي",
-      perfStrong: "أداء قوي",
-      perfGood: "أداء جيد",
-      perfDeveloping: "أداء يحتاج إلى تطوير",
-      perfFoundational: "أداء يحتاج إلى مراجعة أساسية",
-      mockPass: "تجاوز حد النجاح التدريبي ({n}%)",
-      mockFail: "دون حد النجاح التدريبي ({n}%)",
-      practiceOnlyNote: "هذه نتيجة تدريبية لأغراض المراجعة الذاتية فقط، وليست نتيجة اختبار اعتماد.",
-      reviewAnswers: "مراجعة الإجابات",
-      retakeExam: "إعادة الاختبار",
-      backToHub: "كل الاختبارات",
-
-      reviewEyebrow: "مراجعة تفصيلية",
-      reviewTitle: "مراجعة الإجابات",
-      backToResults: "العودة إلى النتيجة",
-      filterAll: "الكل",
-      filterIncorrect: "الخاطئة",
-      filterUnanswered: "غير المجابة",
-      filterFlagged: "المُعلَّمة",
-      filterEmpty: "لا توجد أسئلة ضمن هذا التصنيف.",
-      yourAnswer: "إجابتك",
-      correctAnswer: "الإجابة الصحيحة",
-      noAnswer: "لم تتم الإجابة",
-      explanation: "الشرح",
-      clauseLabel: "المرجع",
-      statusCorrect: "صحيحة",
-      statusIncorrect: "خاطئة",
-      statusUnanswered: "غير مجابة",
-      statusFlagged: "مُعلَّم",
-      questionN: "سؤال {n}",
-
-      restartConfirmTitle: "إعادة الاختبار",
-      restartConfirmBody: "سيتم حذف إجاباتك في هذا الاختبار والبدء من جديد. هل تريد المتابعة؟",
-      restartYes: "نعم، ابدأ من جديد",
-      cancel: "إلغاء",
-
-      footerBrand: "Takeed Academy — IMS Lead Auditor Practice Questions",
-      footerNote: "مادة تدريبية تعليمية مُعدة لأغراض المراجعة. معايير ISO محمية بحقوق الملكية الخاصة بالمنظمة الدولية للتقييس، وهذا الموقع يعرض مفاهيم بصياغة تعليمية ولا يعيد نشر نص المعيار.",
-      footerVerify: "مراجع البنود الواردة في شاشة المراجعة استرشادية، ويجري التحقق من بعضها مقابل نصوص إصدارات 2026. يُرجى الرجوع إلى المعيار المعتمد عند الاعتماد على أي بند.",
-
-      bankErrorTitle: "تعذّر تحميل بنك الأسئلة",
-      bankErrorBody: "لم يتم العثور على ملف الأسئلة. تأكد من وجود الملف data/questions.js بجانب الصفحة."
-    },
-
     en: {
       dir: "ltr", htmlLang: "en",
-      docTitle: "IMS Lead Auditor — Practice Questions",
+      docTitle: "IMS Lead Auditor — Expert Exam",
       brandTitle: "IMS Lead Auditor",
-      brandSubtitle: "ISO 9001:2026 & ISO 14001:2026",
+      brandSubtitle: "Expert Exam · 2026 editions",
       skip: "Skip to content",
-      langLabel: "Language",
 
-      heroEyebrow: "Practice and revision tool",
+      heroEyebrow: "Lead Auditor exam simulation",
       heroTitle: "Integrated Management System Lead Auditor",
-      heroSubtitle: "ISO 9001:2026 · ISO 14001:2026 · ISO 19011:2026 · ISO/IEC 17021-1",
-      heroDescription: "A bilingual practice bank covering all five course days, plus a full paper that simulates the final exam. These questions are for learning and revision and are not an official certification examination.",
+      heroSubtitle: "ISO 9001:2026 · ISO 14001:2026 · ISO 19011:2026 · ISO/IEC 17021-1:2015",
+      heroDescription: "One hundred expert-level questions weighted equally across the four standards, testing audit judgement, evidence and certification decisions rather than clause recall. This is a practice paper for revision, not an official certification examination.",
       statQuestions: "questions",
-      statExams: "exams",
-      statLanguages: "languages",
+      statStandards: "standards",
+      statUpdates: "on 2026 changes",
 
-      hubTitle: "Choose an exam",
-      hubHint: "The five day exams reveal the answer and explanation after each question. The full paper simulates the exam — nothing is revealed until you finish.",
-      dayLabel: "Day {n}",
-      fullExamLabel: "Full Mock Exam",
-      fullExamSub: "Final exam simulation — all days",
+      examTag: "Expert level",
+      hubTitle: "The exam",
+      hubHint: "Nothing is revealed while you work. Your score, the pass/fail verdict and every explanation appear once you finish.",
+      fullExamLabel: "IMS Lead Auditor — Expert Paper",
+      fullExamSub: "ISO 9001 · ISO 14001 · ISO/IEC 17021-1 · ISO 19011",
       questionsCount: "{n} questions",
       modeStudyTag: "Study mode",
       modeExamTag: "Exam mode",
@@ -250,18 +117,7 @@
       inProgress: "In progress — {done} of {total}",
       completedTag: "Completed — {pct}%",
 
-      day1Title: "Introduction and IMS Fundamentals",
-      day1Sub: "Introduction · Fundamentals IMS · QMS",
-      day2Title: "ISO 9001 and ISO 14001 Requirements",
-      day2Sub: "Clause-by-clause requirements",
-      day3Title: "ISO 17021 and Introduction to ISO 19011",
-      day3Sub: "Certification bodies · Audit guidelines",
-      day4Title: "Auditing",
-      day4Sub: "Planning · Conducting · Reporting",
-      day5Title: "Recap and Exam Rules",
-      day5Sub: "Recap · Exam Rules · Mock exam",
-
-      practiceEyebrow: "Practice session",
+      practiceEyebrow: "Exam session",
       questionOf: "Question {current} of {total}",
       answeredCount: "{n} answered",
       flaggedCount: "{n} flagged",
@@ -311,7 +167,7 @@
       practiceOnlyNote: "This is a practice result for self-revision only. It is not a certification examination result.",
       reviewAnswers: "Review Answers",
       retakeExam: "Retake Exam",
-      backToHub: "All exams",
+      backToHub: "Back to start",
 
       reviewEyebrow: "Detailed review",
       reviewTitle: "Review Answers",
@@ -337,9 +193,9 @@
       restartYes: "Yes, start over",
       cancel: "Cancel",
 
-      footerBrand: "Takeed Academy — IMS Lead Auditor Practice Questions",
+      footerBrand: "Takeed Academy — IMS Lead Auditor Expert Exam",
       footerNote: "Educational practice material prepared for Takeed Academy. ISO standards are the copyright of ISO. This practice tool paraphrases concepts for learning purposes and does not reproduce the standard.",
-      footerVerify: "Clause references shown in the review screen are indicative, and some are still being verified against the 2026 edition texts. Always consult the published standard before relying on a clause.",
+      footerVerify: "Clause references shown in the review screen are indicative. Always consult the published standard before relying on a clause. ISO/IEC 17021-1 is cited at its 2015 edition, current as of September 2026 and under review.",
 
       bankErrorTitle: "Question bank could not be loaded",
       bankErrorBody: "The question data file was not found. Make sure data/questions.js sits next to this page."
@@ -353,7 +209,7 @@
   var pendingModal = null;
 
   function defaultState() {
-    return { lang: DEFAULT_LANG, view: "hub", activeExam: null, sessions: {} };
+    return { view: "hub", activeExam: null, sessions: {} };
   }
 
   function examByKey(key) {
@@ -361,10 +217,11 @@
     return null;
   }
 
+  /* One paper, so this is the whole bank. It stays a function because the
+     exam record is what the rest of the engine is written against, and a
+     future split by standard would only change what happens here. */
   function questionsForExam(exam) {
-    if (!exam) return [];
-    return exam.day === null ? BANK.slice()
-      : BANK.filter(function (q) { return q.day === exam.day; });
+    return exam ? BANK.slice() : [];
   }
 
   function questionById(id) {
@@ -385,7 +242,6 @@
         if (clean) sessions[key] = clean;
       });
       return {
-        lang: saved.lang === "ar" || saved.lang === "en" ? saved.lang : fallback.lang,
         view: "hub",
         activeExam: null,
         sessions: sessions
@@ -472,7 +328,6 @@
   function saveState() {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify({
-        lang: state.lang,
         sessions: state.sessions
       }));
     } catch (e) { /* private mode / quota — keep the in-memory session alive */ }
@@ -488,9 +343,8 @@
   function $all(sel, root) { return Array.prototype.slice.call((root || document).querySelectorAll(sel)); }
 
   function t(key, vars) {
-    var dict = I18N[state.lang] || I18N.en;
-    var value = dict[key];
-    if (value === undefined) value = (I18N.en[key] !== undefined ? I18N.en[key] : key);
+    var value = I18N.en[key];
+    if (value === undefined) value = key;
     if (vars) Object.keys(vars).forEach(function (n) {
       value = value.split("{" + n + "}").join(String(vars[n]));
     });
@@ -529,10 +383,8 @@
       lock: '<path d="M6 11h12v9H6zM9 11V7.5a3 3 0 0 1 6 0V11" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>',
       book: '<path d="M4 5h7a2 2 0 0 1 2 2v13a2 2 0 0 0-2-2H4zM20 5h-7a2 2 0 0 0-2 2v13a2 2 0 0 1 2-2h7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>'
     };
-    var flip = (name === "arrowNext" || name === "arrowPrev" || name === "back") &&
-      state.lang === "ar" ? ' style="transform:scaleX(-1)"' : "";
-    return '<svg class="ic" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"' +
-      flip + ">" + (paths[name] || "") + "</svg>";
+    return '<svg class="ic" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" ' +
+      'focusable="false">' + (paths[name] || "") + "</svg>";
   }
 
   function announce(msg) { var r = $("#liveRegion"); if (r) r.textContent = msg; }
@@ -579,7 +431,10 @@
     return s ? questionById(s.ids[s.current]) : null;
   }
 
-  function localized(q) { return q[state.lang] || q.en; }
+  /* The bank is English-only, but the engine still reads question text
+     through this one accessor rather than touching `q.en` in a dozen places.
+     Adding a second language is then a change here, not a hunt. */
+  function localized(q) { return q.en; }
 
   function displayOptions(q) {
     var s = session();
@@ -720,7 +575,7 @@
   /* --------------------------------------------------------------- render */
 
   function render() {
-    applyLanguageChrome();
+    applyChrome();
     renderHub();
     renderPractice();
     renderResults();
@@ -737,9 +592,11 @@
     }
   }
 
-  function applyLanguageChrome() {
-    if (!I18N[state.lang]) state.lang = DEFAULT_LANG;
-    var dict = I18N[state.lang];
+  /* index.html ships with the right lang/dir already set, so this is not
+     fixing the document so much as keeping the two sources of truth in
+     agreement — and it is the one place to change if a language is added. */
+  function applyChrome() {
+    var dict = I18N.en;
     var html = document.documentElement;
     html.setAttribute("lang", dict.htmlLang);
     html.setAttribute("dir", dict.dir);
@@ -750,15 +607,6 @@
     if (bs) bs.textContent = t("brandSubtitle");
     if (sk) sk.textContent = t("skip");
 
-    var sw = $("#langSwitch");
-    if (sw) {
-      sw.setAttribute("aria-label", t("langLabel"));
-      $all(".lang-button", sw).forEach(function (b) {
-        var on = b.getAttribute("data-lang") === state.lang;
-        b.classList.toggle("is-active", on);
-        b.setAttribute("aria-pressed", on ? "true" : "false");
-      });
-    }
     var fb = $("#footerBrand"), fn = $("#footerNote"), fv = $("#footerVerify");
     if (fb) fb.textContent = t("footerBrand");
     if (fn) fn.textContent = t("footerNote");
@@ -767,14 +615,23 @@
 
   /* ------------------------------------------------------------- the hub */
 
-  function examMeta(exam) {
-    if (exam.day === null) {
-      return { title: t("fullExamLabel"), sub: t("fullExamSub"), tag: t("dayLabel", { n: "1–5" }) };
-    }
+  /* Both derived from the bank rather than hard-coded, so the hero stats
+     cannot drift away from what the paper actually contains. */
+  function standardCount() {
+    var seen = {};
+    BANK.forEach(function (q) { if (q.standard) seen[q.standard] = 1; });
+    return Object.keys(seen).length;
+  }
+
+  function updateCount() {
+    return BANK.filter(function (q) { return q.update2026; }).length;
+  }
+
+  function examMeta() {
     return {
-      title: t("day" + exam.day + "Title"),
-      sub: t("day" + exam.day + "Sub"),
-      tag: t("dayLabel", { n: num(exam.day) })
+      title: t("fullExamLabel"),
+      sub: t("fullExamSub"),
+      tag: t("examTag")
     };
   }
 
@@ -793,7 +650,7 @@
       var meta = examMeta(exam);
       var count = questionsForExam(exam).length;
       var s = state.sessions[exam.key];
-      var isFull = exam.day === null;
+      var isFull = true;
 
       var status = "", action = t("startExam"), actionIcon = "play", extra = "";
       if (s && s.finished) {
@@ -835,8 +692,8 @@
       '<p class="hero-description">' + esc(t("heroDescription")) + "</p>" +
       '<div class="stat-row">' +
       "<span><strong>" + num(BANK.length) + "</strong>" + esc(t("statQuestions")) + "</span>" +
-      "<span><strong>" + num(EXAMS.length) + "</strong>" + esc(t("statExams")) + "</span>" +
-      "<span><strong>2</strong>" + esc(t("statLanguages")) + "</span>" +
+      "<span><strong>" + num(standardCount()) + "</strong>" + esc(t("statStandards")) + "</span>" +
+      "<span><strong>" + num(updateCount()) + "</strong>" + esc(t("statUpdates")) + "</span>" +
       "</div></section>" +
       '<section class="hub-head">' +
       "<h2>" + esc(t("hubTitle")) + "</h2>" +
@@ -1016,7 +873,7 @@
     var totals = scoreSession(s);
     var exam = examByKey(s.examKey);
     var meta = examMeta(exam);
-    var isFull = exam.day === null;
+    var isFull = true;
 
     var verdict;
     if (isFull) {
@@ -1227,19 +1084,7 @@
 
   /* --------------------------------------------------------------- events */
 
-  function setLanguage(lang) {
-    if ((lang !== "ar" && lang !== "en") || state.lang === lang) return;
-    state.lang = lang;
-    saveState();
-    /* ids, orders, answers, flags and revealed are all language-neutral, so
-       re-rendering only swaps strings. */
-    render();
-  }
-
   function onClick(e) {
-    var lang = e.target.closest("[data-lang]");
-    if (lang) { setLanguage(lang.getAttribute("data-lang")); return; }
-
     var modal = e.target.closest("[data-modal]");
     if (modal) {
       var kind = modal.getAttribute("data-modal");
@@ -1299,8 +1144,8 @@
     var tag = (e.target.tagName || "").toLowerCase();
     if (tag === "input" || tag === "textarea") return;
 
-    var forward = state.lang === "ar" ? "ArrowLeft" : "ArrowRight";
-    var back = state.lang === "ar" ? "ArrowRight" : "ArrowLeft";
+    var forward = "ArrowRight";
+    var back = "ArrowLeft";
     if (e.key === forward) { e.preventDefault(); advance(); }
     else if (e.key === back) { e.preventDefault(); goTo(s.current - 1); }
     else if (/^[1-4]$/.test(e.key)) {

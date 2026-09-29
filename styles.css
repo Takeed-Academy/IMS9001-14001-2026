@@ -1,9 +1,10 @@
 /*
- * Takeed Academy — IMS Lead Auditor Practice
- * ISO 9001:2026 · ISO 14001:2026 · ISO 19011:2026 · ISO/IEC 17021-1
+ * Takeed Academy — IMS Lead Auditor Expert Exam
+ * ISO 9001:2026 · ISO 14001:2026 · ISO 19011:2026 · ISO/IEC 17021-1:2015
  * Palette, card system, topbar and question-palette styling carried over from
- * the Takeed reference platform. Layout uses CSS logical properties so the
- * same rules serve Arabic (RTL) and English (LTR) without duplication.
+ * the Takeed reference platform. Layout is written in CSS logical properties
+ * throughout — correct for the LTR document this ships as, and the reason a
+ * right-to-left translation would need no new rules here.
  */
 
 :root {
@@ -146,30 +147,6 @@ ul { margin: 0; padding: 0; list-style: none; }
   display: flex;
   align-items: center;
   gap: 10px;
-}
-
-.lang-switch {
-  display: inline-flex;
-  padding: 3px;
-  background: var(--soft);
-  border: 1px solid var(--line);
-  border-radius: 999px;
-}
-
-.lang-button {
-  padding: 7px 16px;
-  color: var(--muted);
-  background: transparent;
-  border: 0;
-  border-radius: 999px;
-  font-size: 13.5px;
-  font-weight: 700;
-  transition: background 0.15s ease, color 0.15s ease;
-}
-
-.lang-button.is-active {
-  color: #fff;
-  background: var(--navy);
 }
 
 .icon-button {
@@ -332,10 +309,15 @@ html[lang="ar"] .eyebrow { letter-spacing: 0; text-transform: none; }
 .hub-head h2 { margin-block-end: 6px; }
 .hub-head .muted-text { max-inline-size: 86ch; margin: 0; }
 
+/* One paper, so this is a single centred card rather than a wall of them.
+   auto-fill is kept so that splitting the bank back into several exams needs
+   no change here — it simply starts filling the row. */
 .exam-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 16px;
+  max-inline-size: 560px;
+  margin-inline: auto;
 }
 
 .exam-card {
@@ -517,12 +499,6 @@ html[lang="ar"] .exam-tag { letter-spacing: 0; text-transform: none; font-size: 
   block-size: 100%;
   background: linear-gradient(90deg, var(--teal), var(--brand-green));
   transition: width 0.25s ease;
-}
-
-/* Bars fill from the inline-start edge, so the gradient must follow the
-   writing direction or it reads backwards in Arabic. */
-html[dir="rtl"] .bar > span {
-  background: linear-gradient(-90deg, var(--teal), var(--brand-green));
 }
 
 /* --------------------------------------------------------------- practice */
@@ -919,10 +895,6 @@ html[lang="ar"] .question-text { line-height: 1.95; }
   background: linear-gradient(90deg, var(--steel), var(--teal));
 }
 
-html[dir="rtl"] .breakdown-bar > span {
-  background: linear-gradient(-90deg, var(--steel), var(--teal));
-}
-
 .breakdown-score {
   color: var(--muted);
   font-variant-numeric: tabular-nums;
@@ -1115,7 +1087,6 @@ body.modal-open { overflow: hidden; }
   .brand span { padding-inline-start: 10px; }
   .brand strong { font-size: 13.5px; }
   .brand small { font-size: 11.5px; }
-  .lang-button { padding: 7px 12px; font-size: 12.5px; }
 
   .section-head { align-items: flex-start; }
   .metric-row span { font-size: 12px; padding: 6px 11px; }
