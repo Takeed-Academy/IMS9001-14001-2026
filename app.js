@@ -30,11 +30,11 @@
   var STORAGE_KEY = "takeedImsLeadAuditorExpert.v1";
   var BANK = (typeof window !== "undefined" && window.IMS_QUESTIONS) || [];
 
-  /* One paper, sealed until submission — this is a Lead Auditor exam
-     simulation, not a revision drill. Set mode to "study" to reveal each
-     answer as you go instead. */
+  /* One paper in study mode: answering a question and pressing Next reveals
+     the result and the explanation, and a second press moves on. Set mode to
+     "exam" to seal the paper until submission instead. */
   var EXAMS = [
-    { key: "full", mode: "exam" }
+    { key: "full", mode: "study" }
   ];
 
   var PASS_MARK = 70;          // percent
@@ -104,7 +104,7 @@
 
       examTag: "Expert level",
       hubTitle: "The exam",
-      hubHint: "Nothing is revealed while you work. Your score, the pass/fail verdict and every explanation appear once you finish.",
+      hubHint: "Answer a question, then press Next: the correct answer and the explanation appear before you move on. Your score and the pass/fail verdict come at the end.",
       fullExamLabel: "IMS Lead Auditor — Expert Paper",
       fullExamSub: "ISO 9001 · ISO 14001 · ISO/IEC 17021-1 · ISO 19011",
       questionsCount: "{n} questions",
@@ -775,7 +775,13 @@
         (right ? "" : '<p class="feedback-correct-line">' +
           esc(t("feedbackCorrectIs", { letter: correctAnswerName(q, s.orders[q.id]) })) + "</p>") +
         '<div class="explanation"><strong>' + esc(t("explanation")) + "</strong><p>" +
-        esc(loc.explanation) + "</p></div></section>";
+        esc(loc.explanation) + "</p></div>" +
+        /* The clause is what turns a revealed answer into something the
+           candidate can go and read. The review screen has always shown it;
+           there is no reason to make them wait until the end for it. */
+        (q.clause ? '<p class="feedback-clause"><strong>' + esc(t("clauseLabel")) +
+          ":</strong> " + esc(q.clause) + "</p>" : "") +
+        "</section>";
     }
 
     var willReveal = isStudyMode() && hasAnswer && !revealed;

@@ -1027,6 +1027,16 @@ html[lang="ar"] .question-text { line-height: 1.95; }
   font-size: 14px;
 }
 
+/* Sits under the explanation, quieter than it: the reason comes first, the
+   place to go and check it second. */
+.feedback-clause {
+  margin-block-start: 10px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.feedback-clause strong { color: var(--steel); }
+
 .explanation strong { display: block; margin-block-end: 5px; color: var(--navy); }
 .explanation p { margin: 0; color: var(--ink); line-height: 1.8; }
 

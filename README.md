@@ -23,18 +23,25 @@ an official certification examination.
 | Per standard | 25 each |
 | Targeting 2026 changes | 31 |
 | Pass mark | 70% |
-| Mode | Exam — sealed until submission |
+| Mode | Study — each answer is revealed as you go |
 
 Questions are pitched at audit judgement, evidence and certification decisions
 rather than clause recall, and the distractors are deliberately close in
 meaning and similar in length.
 
-### Exam mode
+### Study mode
 
-Nothing is revealed while you work — no correct answers, no explanations, and
-no correctness hints in the question palette. The score, the pass/fail verdict
-and every explanation appear only after you finish. Answers stay changeable
-until submission.
+Answer a question, then press **Next**. The first press reveals the result
+rather than navigating: the correct option turns green, a wrong pick turns red,
+and the verdict panel gives the explanation and the clause reference. Press
+**Next** again to move on.
+
+The question locks once revealed, so the explanation cannot be used to change
+the answer. Unanswered questions are skipped on a single press. The palette
+marks right and wrong, but only for questions already revealed.
+
+The score and the pass/fail verdict against the 70% mark still come at the end,
+as does the full review screen.
 
 ---
 
@@ -161,7 +168,7 @@ bash tools/verify_all.sh        # rebuild, prove fidelity, run the suite
 2. prove every correct answer survived the reordering, and that no section is
    guessable above 35%;
 3. rebuild the PDF and prove the printed key equals what the screen shows;
-4. run 110 site tests in jsdom against the real shipped HTML and JS.
+4. run 119 site tests in jsdom against the real shipped HTML and JS.
 
 ---
 
@@ -192,7 +199,7 @@ embedded font: it uses Helvetica, a base font present in every PDF reader.
 
 - One question per screen, with progress bar, elapsed timer and answer counters.
 - Question palette showing current / answered / unanswered / flagged, with
-  direct jump to any question. It never leaks correctness during the exam.
+  direct jump to any question. It marks right and wrong only once revealed.
 - Flag for review, clear answer, previous / next.
 - Confirmation before finishing, naming how many questions are still unanswered.
 - Results: score, correct / incorrect / unanswered, time taken, pass/fail
@@ -203,7 +210,7 @@ embedded font: it uses Helvetica, a base font present in every PDF reader.
 - Retake without losing the question or option order.
 - Autosaves to `localStorage`; reopening offers **Resume**.
 - Keyboard: `←` / `→` between questions, `1`–`4` to select an option, `Enter` to
-  advance, `Esc` to dismiss a dialog.
+  reveal then advance, `Esc` to dismiss a dialog.
 
 ---
 
@@ -216,12 +223,12 @@ var PASS_MARK = 70;             // percent
 var REBALANCE_OPTIONS = false;  // the bank is already balanced at build time
 
 var EXAMS = [
-  { key: "full", mode: "exam" } // "study" reveals each answer as you go
+  { key: "full", mode: "study" } // "exam" seals the paper until submission
 ];
 ```
 
-Switching the paper to `"study"` mode is a one-word change: **Next** then
-reveals the answer before advancing, rather than moving straight on.
+Switching the paper to `"exam"` mode is a one-word change: nothing is then
+revealed until the candidate finishes, and answers stay editable throughout.
 
 ---
 
