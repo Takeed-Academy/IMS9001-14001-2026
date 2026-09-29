@@ -24,10 +24,14 @@ an official certification examination.
 | Targeting 2026 changes | 31 |
 | Pass mark | 70% |
 | Mode | Study — each answer is revealed as you go |
+| Question order | Random, drawn fresh per sitting |
+| Option order | Fixed and balanced at build time |
 
 Questions are pitched at audit judgement, evidence and certification decisions
 rather than clause recall, and the distractors are deliberately close in
 meaning and similar in length.
+
+**Every sitting draws its own random question order** — see below.
 
 ### Study mode
 
@@ -72,6 +76,59 @@ IMS-Lead-Auditor-Expert/
 ├── .nojekyll
 └── README.md
 ```
+
+---
+
+## Every sitting is a different paper
+
+The source bank arrives in four solid blocks of 25: every ISO 9001 question,
+then every ISO 14001 question, then 17021-1, then 19011. That is a sensible way
+to author a bank and a poor way to sit one — a candidate settles into a single
+standard's vocabulary for twenty-five questions at a stretch, and a weak area
+arrives as one demoralising block.
+
+So the site shuffles. **The question order is drawn fresh every time the paper
+is started.** Two candidates side by side are never on the same question, and a
+retake is not the same paper in the same sequence.
+
+The shuffle is Fisher-Yates, not `sort(() => Math.random() - 0.5)`. That
+one-liner is the classic way to do this and it is wrong twice over: it does not
+produce a uniform permutation, and because the result depends on the engine's
+sorting algorithm it is *differently* wrong in each browser. The test suite
+scans for it.
+
+The order is drawn once and then **persisted**, so Resume brings back the
+identical sequence rather than reshuffling — a refresh mid-exam must not cost
+anyone their place.
+
+### What does not shuffle: the options
+
+Question order and option order are separate decisions, and only one of them is
+randomised.
+
+Shuffling questions changes *what you are asked next*. Shuffling options would
+change *which letter is correct* — and the answer key is balanced at build time
+(next section) precisely so that letter is fair. Randomising it per session
+would throw that work away and make any printed key meaningless. So option A is
+always the same option A, for everyone.
+
+### The consequence: ids, not numbers
+
+Once the order is per-sitting, a position is meaningless as a reference.
+"Question 7" is a different question for every person in the room, so a printed
+key numbered 1–100 would match nobody's screen.
+
+The **question id** (`LA-001` … `LA-100`) is therefore the anchor:
+
+- every review card on the site shows its id;
+- the model answer PDF is keyed by id, grouped by standard, and sorted by id;
+- a trainer and a candidate discussing `LA-043` are always discussing the same
+  question.
+
+Set `SHUFFLE_QUESTIONS = false` in `app.js` to sit the paper in the bank's own
+fixed order instead. That order is itself interleaved at build time — the four
+standards alternate rather than running in blocks — so it is a usable fallback
+rather than the source's original block layout.
 
 ---
 
@@ -168,27 +225,32 @@ bash tools/verify_all.sh        # rebuild, prove fidelity, run the suite
 2. prove every correct answer survived the reordering, and that no section is
    guessable above 35%;
 3. rebuild the PDF and prove the printed key equals what the screen shows;
-4. run 119 site tests in jsdom against the real shipped HTML and JS.
+4. run 135 site tests in jsdom against the real shipped HTML and JS.
 
 ---
 
 ## Model answer PDF
 
 `tools/build_model_answer.py` produces **`IMS-Lead-Auditor-Expert-Model-Answer.pdf`** —
-a 22-page answer key: a cover, a quick-key grid per standard for fast marking,
-then every question followed directly by its answer. The distractors are not
-printed; each entry shows the question, the correct answer in green, the
-explanation, and the clause reference.
+a 22-page answer key: a cover, a quick-key grid for fast marking, then every
+question followed directly by its answer. The distractors are not printed; each
+entry shows the question, the correct answer in green, the explanation, and the
+clause reference.
+
+Everything is keyed by **question id**, grouped by standard and sorted by id —
+never by position. The site draws a fresh random order for each sitting, so a
+printed position would match nobody. A marker looks up `LA-023` rather than
+counting to 23, and the id is printed on every review card on the site.
 
 The answer letter stays in each entry's header, so a marker can line an entry
 up with the quick key and with the website even though the option list is
 absent. True/False answers print as the word, not a letter.
 
 It reads `data/questions.json`, the same file the site ships, so the printed
-letters are the letters a delegate actually sees. That only holds because the
-bank is ordered and balanced at build time — with per-session shuffling a
-printed key would be meaningless. `tools/check_pdf.py` derives the on-screen
-answer independently and fails the build if the two ever disagree.
+letters are the letters a delegate actually sees. That holds because the
+*options* are fixed even though the questions are shuffled. `tools/check_pdf.py`
+derives the on-screen answer independently and fails the build if the two ever
+disagree.
 
 Because there is no Arabic, the PDF needs no text shaping, no bidi pass and no
 embedded font: it uses Helvetica, a base font present in every PDF reader.
@@ -204,11 +266,12 @@ embedded font: it uses Helvetica, a base font present in every PDF reader.
 - Confirmation before finishing, naming how many questions are still unanswered.
 - Results: score, correct / incorrect / unanswered, time taken, pass/fail
   against the 70% mark, and a breakdown per standard.
-- Review: every question with your answer, the correct answer, the clause
-  reference and the explanation — filterable by All / Incorrect / Unanswered /
-  Flagged.
-- Retake without losing the question or option order.
-- Autosaves to `localStorage`; reopening offers **Resume**.
+- Review: every question with its id, your answer, the correct answer, the
+  clause reference and the explanation — filterable by All / Incorrect /
+  Unanswered / Flagged.
+- Retake draws a new random order; the option order stays fixed.
+- Autosaves to `localStorage`; reopening offers **Resume**, restoring the same
+  random order rather than reshuffling.
 - Keyboard: `←` / `→` between questions, `1`–`4` to select an option, `Enter` to
   reveal then advance, `Esc` to dismiss a dialog.
 
@@ -220,6 +283,7 @@ Near the top of `app.js`:
 
 ```js
 var PASS_MARK = 70;             // percent
+var SHUFFLE_QUESTIONS = true;   // fresh random order for every sitting
 var REBALANCE_OPTIONS = false;  // the bank is already balanced at build time
 
 var EXAMS = [

@@ -1,107 +1,23 @@
 [
  {
-  "id": "LA-001",
+  "id": "LA-035",
   "type": "mcq",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Context",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 4.1",
+  "topic": "Management review",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 9.3",
   "set": "Lead_Auditor_100",
   "update2026": true,
-  "answer": 2,
-  "en": {
-   "question": "During a certification audit, which evidence most convincingly demonstrates that the organization has determined relevant internal and external issues rather than merely listing them?",
-   "options": [
-    "The issues are recorded in management-review minutes, although no connection to QMS scope or process planning is evident.",
-    "The issues appear in an annually approved SWOT analysis, while process objectives and controls are managed independently.",
-    "The issues are linked to QMS planning, risks, opportunities and strategic decisions, with evidence that changes are monitored.",
-    "The issues are maintained by the quality manager and communicated to top management only when major changes occur."
-   ],
-   "explanation": "Clause 4.1 is demonstrated by relevance and use, not by a standalone list; auditors should trace issues into QMS planning and review."
-  }
- },
- {
-  "id": "LA-002",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Interested parties",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 4.2",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 0,
-  "en": {
-   "question": "A manufacturer identifies regulators, key customers and a parent company as relevant interested parties. What is the strongest audit test of conformity?",
-   "options": [
-    "Verify which relevant requirements affect the QMS, how they are addressed, and how changes in those requirements are monitored.",
-    "Confirm that every interested party has a documented satisfaction survey and a measurable annual improvement target.",
-    "Check that all stakeholder expectations are included in the quality policy and are formally approved by the board.",
-    "Verify that interested-party requirements are reviewed only when a complaint, legal notice or contractual dispute is received."
-   ],
-   "explanation": "The auditor should test determination, relevance, QMS impact and monitoring of applicable interested-party requirements."
-  }
- },
- {
-  "id": "LA-003",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "QMS scope",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 4.3",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 2,
-  "en": {
-   "question": "Which situation creates the strongest concern about the stated QMS scope?",
-   "options": [
-    "The scope names products and services in broad commercial terms while operational processes are defined elsewhere in the QMS.",
-    "A support function is located at another site but is included through documented interfaces and process controls.",
-    "A process materially affecting conformity is excluded from the scope without a defensible basis tied to applicability requirements.",
-    "The scope was revised after an acquisition and the organization retained evidence of review and approval by top management."
-   ],
-   "explanation": "The QMS scope must reflect context, relevant requirements, products/services and applicable requirements; unjustified exclusions are not acceptable."
-  }
- },
- {
-  "id": "LA-004",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Process approach",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 4.4",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
   "answer": 1,
   "en": {
-   "question": "Which evidence best demonstrates effective application of the process approach at Lead Auditor level?",
+   "question": "Which management-review evidence best demonstrates the 2026 emphasis on outcomes?",
    "options": [
-    "Each department maintains a current procedure and an organization chart identifying the manager responsible for the department.",
-    "Process owners can explain interactions, criteria, resources, risks, controls and performance trends, and records show those elements are managed.",
-    "The quality manual maps clauses to procedures and each procedure includes document-control approval and revision history.",
-    "The internal audit checklist contains all standard clauses and every clause is audited at least once during the calendar year."
+    "Top management receives a complete environmental report and signs the final page to confirm awareness of performance before the annual external audit.",
+    "Top management evaluates trends, environmental performance, compliance, audit results, changing context and resource needs, then records decisions and actions.",
+    "The environmental manager presents objectives and incidents, while strategic context and resource decisions are addressed through separate business meetings.",
+    "The review focuses on conformance to procedures and closure of corrective actions because performance improvement is addressed through environmental objectives."
    ],
-   "explanation": "A process approach is evidenced through managed interactions, inputs/outputs, criteria, responsibilities, risks, resources and evaluation."
-  }
- },
- {
-  "id": "LA-005",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Leadership and quality culture",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 5.1",
-  "set": "Lead_Auditor_100",
-  "update2026": true,
-  "answer": 2,
-  "en": {
-   "question": "Under ISO 9001:2026, which audit evidence most strongly supports leadership's responsibility for quality culture?",
-   "options": [
-    "Leaders attend the opening and closing meetings of external audits and review the certification body's report before distribution.",
-    "Leaders sign the quality policy annually and delegate all day-to-day QMS matters to the management representative and internal auditors.",
-    "Leaders consistently reinforce quality expectations and ethical behaviour through decisions, resource allocation, accountability and observed management practices.",
-    "Leaders require each employee to complete an annual quality-awareness course and retain completion certificates as the primary evidence."
-   ],
-   "explanation": "The 2026 edition strengthens leadership, quality culture and ethical behaviour; evidence should show lived governance, not ceremonial participation."
+   "explanation": "Management review should support governance and performance decisions using defined inputs and outputs, not simply acknowledge reports."
   }
  },
  {
@@ -113,16 +29,96 @@
   "clause": "ISO 9001:2026 5.2",
   "set": "Lead_Auditor_100",
   "update2026": true,
-  "answer": 2,
+  "answer": 1,
   "en": {
    "question": "Which finding would most directly challenge conformity of the quality policy in the 2026 edition?",
    "options": [
     "The policy does not contain numerical quality objectives, although measurable objectives are established and monitored separately.",
-    "The policy is available electronically rather than displayed physically at every workplace and customer-facing location.",
     "The policy is generic and does not meaningfully align with the organization's context and strategic direction despite significant business changes.",
+    "The policy is available electronically rather than displayed physically at every workplace and customer-facing location.",
     "The policy is reviewed during management review rather than through a separate documented annual policy-review procedure."
    ],
    "explanation": "ISO 9001:2026 more explicitly links the quality policy to context and strategic direction; objectives need not be embedded in the policy."
+  }
+ },
+ {
+  "id": "LA-048",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Certification decision",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 9.5",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 0,
+  "en": {
+   "question": "Why should the certification decision be made by competent person(s) different from those who carried out the audit?",
+   "options": [
+    "To provide an independent evaluation of audit information and conclusions before granting, maintaining, renewing or changing certification.",
+    "To ensure the decision maker has no knowledge of the client beyond the final audit report, thereby eliminating all potential bias.",
+    "To make the decision administrative rather than technical because technical evaluation is completed entirely by the audit team.",
+    "To allow the decision maker to renegotiate disputed findings with the client without influencing the audit team's original report."
+   ],
+   "explanation": "Separation supports impartiality and independent review; decision makers still need sufficient competence and information to evaluate the case."
+  }
+ },
+ {
+  "id": "LA-067",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Audit findings",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 6.4",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 2,
+  "en": {
+   "question": "Which finding statement is strongest?",
+   "options": [
+    "The auditor explains the preferred corrective solution and states that failure to adopt it will result in escalation of the finding.",
+    "The finding summarizes several concerns from unrelated clauses because combining issues makes the audit report shorter and easier for management.",
+    "Requirement, objective evidence and the demonstrated gap are clearly linked, with wording limited to what the evidence supports.",
+    "The finding avoids citing criteria so the auditee can focus on the practical problem rather than debating interpretation of the requirement."
+   ],
+   "explanation": "A robust finding is criterion-based, evidence-based and precisely bounded; the auditor should not prescribe the corrective solution."
+  }
+ },
+ {
+  "id": "LA-096",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Programme risks",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 5.3",
+  "set": "Lead_Auditor_100",
+  "update2026": true,
+  "answer": 1,
+  "en": {
+   "question": "Audit-programme risks are limited to risks arising from the auditee's operations; risks related to auditor competence, resources, communication or audit methods are outside the programme-risk concept.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "False. Audit-programme risks include factors that can prevent the programme from achieving its objectives, including competence, resources, communication, methods and logistics."
+  }
+ },
+ {
+  "id": "LA-092",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Suspension",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 9.6.5",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 0,
+  "en": {
+   "question": "While certification is suspended, the client's certification is temporarily invalid and the certification body should have enforceable arrangements governing related claims.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "Suspension makes certification temporarily invalid and requires controls over status and claims."
   }
  },
  {
@@ -134,247 +130,16 @@
   "clause": "ISO 9001:2026 6.1",
   "set": "Lead_Auditor_100",
   "update2026": true,
-  "answer": 0,
+  "answer": 2,
   "en": {
    "question": "What is the most accurate Lead Auditor interpretation of the 2026 treatment of risks and opportunities?",
    "options": [
-    "The organization should distinguish consideration of risks from pursuit of opportunities and determine proportionate actions for both.",
-    "The organization must maintain separate quantitative registers for risks and opportunities using identical scoring and approval criteria.",
     "The organization may address risks through operational controls, but opportunities are expected to be handled only through quality objectives.",
+    "The organization must maintain separate quantitative registers for risks and opportunities using identical scoring and approval criteria.",
+    "The organization should distinguish consideration of risks from pursuit of opportunities and determine proportionate actions for both.",
     "The organization should eliminate significant risks before pursuing opportunities because opportunities are optional elements of QMS planning."
    ],
    "explanation": "The 2026 edition clarifies the distinction between risks and opportunities while keeping actions proportionate to their potential effects."
-  }
- },
- {
-  "id": "LA-008",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Quality objectives",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 6.2",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 1,
-  "en": {
-   "question": "Which objective provides the strongest evidence of conformity with planning requirements?",
-   "options": [
-    "Improve complaint handling significantly during the year, with the customer-service manager reporting progress whenever performance declines.",
-    "Reduce validated repeat complaints from 6.0% to below 3.0% by Q4, with monthly review, assigned ownership, resources and defined evaluation criteria.",
-    "Maintain world-class customer satisfaction by ensuring all departments focus on service quality and take prompt action when problems arise.",
-    "Achieve fewer customer complaints than last year, with the quality department responsible for deciding corrective actions at year end."
-   ],
-   "explanation": "A robust objective is measurable, monitored and supported by defined actions, responsibilities, resources, timing and evaluation."
-  }
- },
- {
-  "id": "LA-009",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Planning of changes",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 6.3",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 3,
-  "en": {
-   "question": "A company is replacing its ERP and inspection-record system. Which audit evidence best demonstrates controlled QMS change?",
-   "options": [
-    "The quality manager updated document-control procedures after implementation and scheduled a special internal audit three months later.",
-    "The IT department approved a migration plan and obtained management authorization before transferring the legacy data into the new system.",
-    "All users completed system training before go-live, and the project closed after the vendor confirmed successful software installation.",
-    "The organization considered purpose, consequences, system integrity, resources and responsibilities, and verified controls during implementation."
-   ],
-   "explanation": "Planning changes requires consideration of purpose/consequences, QMS integrity, resources and responsibilities, not only project or IT controls."
-  }
- },
- {
-  "id": "LA-010",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Organizational knowledge",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 7.1.6",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 1,
-  "en": {
-   "question": "Which situation best demonstrates effective management of organizational knowledge?",
-   "options": [
-    "All controlled procedures are stored on the intranet and employees are instructed to read the documents applicable to their departments.",
-    "Critical know-how is identified, maintained and made available, while future knowledge needs are assessed when technologies, people or markets change.",
-    "Experienced employees are encouraged to coach new staff, but knowledge needs are not formally considered unless a competence gap is reported.",
-    "External training records are retained for seven years because retained certificates are considered the organization's primary knowledge base."
-   ],
-   "explanation": "Organizational knowledge is broader than documents or training records and includes maintaining existing knowledge and acquiring needed knowledge."
-  }
- },
- {
-  "id": "LA-011",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Competence and awareness",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 7.2-7.3",
-  "set": "Lead_Auditor_100",
-  "update2026": true,
-  "answer": 0,
-  "en": {
-   "question": "Which evidence would most strongly support conformity with the strengthened 2026 awareness expectations?",
-   "options": [
-    "Personnel understand their contribution to QMS effectiveness, relevant consequences, quality culture expectations and ethical behaviour, supported by observed practice.",
-    "Personnel have signed job descriptions and completed induction training that includes the quality policy and the location of controlled procedures.",
-    "Personnel can identify the quality manager and know that nonconformities should be reported through the formal corrective-action software.",
-    "Personnel receive annual performance appraisals and their managers confirm that no significant competence-related customer complaints were received."
-   ],
-   "explanation": "The 2026 edition explicitly strengthens awareness around quality culture and ethical behaviour; auditors should seek understanding and behaviour, not attendance alone."
-  }
- },
- {
-  "id": "LA-012",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Documented information",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 7.5",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 1,
-  "en": {
-   "question": "Which control weakness is most likely to constitute a nonconformity?",
-   "options": [
-    "Several procedures use different formatting templates, although their approval, revision, access and change controls are consistently effective.",
-    "Operators can access obsolete inspection criteria at the point of use and there is no reliable control preventing unintended use.",
-    "Some process records are stored electronically and others on paper, with retention periods defined according to business and legal needs.",
-    "External specifications are controlled by process owners rather than centrally by the quality department, with revision status traceable."
-   ],
-   "explanation": "Documented information must be controlled for availability, suitability, protection and change; unintended use of obsolete information is a direct control failure."
-  }
- },
- {
-  "id": "LA-013",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Customer requirements",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 8.2",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 0,
-  "en": {
-   "question": "A sales team accepts a customized order before engineering feasibility is complete. What should the auditor examine first?",
-   "options": [
-    "Whether requirements were reviewed before commitment and whether differences, feasibility and subsequent changes were controlled and communicated.",
-    "Whether the customer accepted the quotation terms and whether the commercial margin was approved at the required management level.",
-    "Whether engineering completed a formal design review after order entry and whether purchasing identified the required external providers.",
-    "Whether production scheduled sufficient capacity and whether final inspection was increased for the first delivery of the customized product."
-   ],
-   "explanation": "The key issue is review of product/service requirements before commitment, including resolution of differences and control of changed requirements."
-  }
- },
- {
-  "id": "LA-014",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Design and development",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 8.3",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 3,
-  "en": {
-   "question": "Which audit trail provides the strongest evidence that design controls are effective rather than merely documented?",
-   "options": [
-    "Confirm that each project file includes an approved design plan, meeting minutes and a signed release form before production begins.",
-    "Review competency records for engineers and confirm that design software licenses and calibration records are current and available.",
-    "Verify that the design procedure assigns responsibilities and that the latest template is used for each phase of the development process.",
-    "Trace selected outputs back to inputs, reviews, verification/validation, changes and acceptance criteria, then confirm resulting product performance."
-   ],
-   "explanation": "Effectiveness is shown by traceability across inputs, controls, outputs, changes and actual conformity/performance, not file completeness alone."
-  }
- },
- {
-  "id": "LA-015",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "External providers",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 8.4",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 0,
-  "en": {
-   "question": "A strategic supplier has excellent delivery but rising defect escape rates. Which response is most consistent with ISO 9001?",
-   "options": [
-    "Re-evaluate supplier performance and adjust the type and extent of controls according to risk, impact and demonstrated capability.",
-    "Retain the supplier rating because delivery performance remains acceptable and increase final inspection until the next annual review.",
-    "Suspend the supplier automatically because any adverse quality trend requires immediate requalification before further purchase orders.",
-    "Transfer responsibility to incoming inspection because conformity of externally provided outputs is verified before release to production."
-   ],
-   "explanation": "The organization remains responsible for externally provided outputs and should adjust controls using performance, risk and impact."
-  }
- },
- {
-  "id": "LA-016",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Production/service provision and release",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 8.5-8.6",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 1,
-  "en": {
-   "question": "Which scenario most clearly indicates a control failure before release?",
-   "options": [
-    "A batch is released by an authorized inspector using statistically valid sampling defined in the control plan rather than 100% inspection.",
-    "A batch is shipped based on schedule urgency before required acceptance evidence is complete and authorized release criteria are met.",
-    "A process parameter is automatically recorded by validated software and reviewed by exception rather than manually signed for every production cycle.",
-    "A service output is accepted through customer confirmation because the defined service-validation method relies on customer-observed performance."
-   ],
-   "explanation": "Release requires evidence that acceptance criteria have been met and traceability to authorized release; schedule pressure does not override this."
-  }
- },
- {
-  "id": "LA-017",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Performance evaluation",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 9.1-9.3",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 3,
-  "en": {
-   "question": "Management review receives extensive KPI data but records no evaluation of trends, audit results, customer feedback, resource needs or improvement opportunities. What is the best conclusion?",
-   "options": [
-    "The review is acceptable when internal audits cover the omitted subjects because management review and internal audit may substitute for one another.",
-    "The review conforms if the KPI dashboard is comprehensive because detailed evaluation may be performed informally by process owners before the meeting.",
-    "The review conforms if top management attends because the standard does not prescribe what information must be evaluated during management review.",
-    "The review may be incomplete because required inputs must be considered to support decisions on suitability, adequacy, effectiveness and improvement."
-   ],
-   "explanation": "Management review is an evaluation process with defined inputs and outputs; data accumulation alone does not demonstrate effective review."
-  }
- },
- {
-  "id": "LA-018",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Corrective action and continual improvement",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 10.2-10.3",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 3,
-  "en": {
-   "question": "The same customer-complaint mode recurs after a corrective action was closed. What should the auditor most critically examine?",
-   "options": [
-    "Whether the complaint owner met the target closure time and obtained management approval before marking the action as complete.",
-    "Whether the nonconformity was classified consistently with previous complaints and entered in the correct corrective-action category.",
-    "Whether containment was implemented within the response time defined by the complaint-handling procedure and customer contract.",
-    "Whether the organization adequately determined causes and subsequently evaluated the effectiveness of actions taken."
-   ],
-   "explanation": "Recurrence points directly to the adequacy of cause analysis and effectiveness evaluation, not merely closure discipline."
   }
  },
  {
@@ -386,163 +151,16 @@
   "clause": "ISO 14001:2026 4.1-4.2",
   "set": "Lead_Auditor_100",
   "update2026": true,
-  "answer": 2,
+  "answer": 0,
   "en": {
    "question": "Which audit evidence best reflects the broadened environmental-context expectations in ISO 14001:2026?",
    "options": [
-    "The organization considers climate change only when a carbon-reduction objective exists and treats biodiversity as relevant only for protected sites.",
-    "The organization lists environmental legislation and significant aspects but treats external environmental conditions as outside the EMS unless legally regulated.",
     "The organization evaluates how climate, pollution, resource availability, biodiversity and ecosystem conditions can affect or be affected by its activities and strategy.",
+    "The organization lists environmental legislation and significant aspects but treats external environmental conditions as outside the EMS unless legally regulated.",
+    "The organization considers climate change only when a carbon-reduction objective exists and treats biodiversity as relevant only for protected sites.",
     "The organization reviews environmental incidents and complaints annually and considers wider environmental conditions only during emergency planning."
    ],
    "explanation": "The 2026 edition broadens explicit attention to environmental conditions, including climate, pollution, resources, biodiversity and ecosystems."
-  }
- },
- {
-  "id": "LA-020",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "EMS scope",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 4.3",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 2,
-  "en": {
-   "question": "Which scope decision presents the greatest certification-audit concern?",
-   "options": [
-    "A remote administrative office is included although its environmental impacts are comparatively minor and centrally controlled.",
-    "A leased facility is included because the organization controls operations and has defined responsibilities with the property owner.",
-    "A high-impact warehouse under organizational control is omitted primarily to avoid including its significant environmental aspects.",
-    "A distribution activity is addressed through influence over contracted providers even though direct operational control is limited."
-   ],
-   "explanation": "The scope cannot be manipulated to exclude activities, products or services that materially fall within the determined EMS boundaries and control/influence."
-  }
- },
- {
-  "id": "LA-021",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Leadership",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 5.1",
-  "set": "Lead_Auditor_100",
-  "update2026": true,
-  "answer": 3,
-  "en": {
-   "question": "Which evidence best demonstrates the stronger leadership accountability emphasized in the 2026 EMS edition?",
-   "options": [
-    "Top management receives monthly environmental reports and signs corrective actions exceeding the threshold defined in the governance procedure.",
-    "Top management approves the environmental policy and delegates all operational environmental decisions to the environmental manager and site coordinators.",
-    "Top management attends management review and relies on compliance specialists to decide whether environmental objectives remain strategically relevant.",
-    "Top management integrates environmental considerations into business decisions, visibly owns performance outcomes and provides resources consistent with strategic direction."
-   ],
-   "explanation": "Leadership accountability is demonstrated through integration, ownership, strategic alignment and resource decisions, not merely approvals."
-  }
- },
- {
-  "id": "LA-022",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Environmental policy",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 5.2",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 1,
-  "en": {
-   "question": "Which policy commitment is essential to ISO 14001 rather than optional wording?",
-   "options": [
-    "A commitment to carbon neutrality by a defined year, elimination of all hazardous substances and restoration of affected biodiversity.",
-    "Commitments to environmental protection, meeting compliance obligations and continual improvement of the EMS to enhance environmental performance.",
-    "A commitment to publish all environmental monitoring results and obtain third-party assurance of annual sustainability disclosures.",
-    "A commitment to apply the best available technology to every significant aspect regardless of economic or operational feasibility."
-   ],
-   "explanation": "The policy must include the standard's required commitments; specific targets such as carbon neutrality depend on organizational context and objectives."
-  }
- },
- {
-  "id": "LA-023",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Environmental aspects",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 6.1.2",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 0,
-  "en": {
-   "question": "Which approach best demonstrates determination of significant environmental aspects?",
-   "options": [
-    "Identify aspects and impacts considering normal, abnormal and reasonably foreseeable emergencies, apply defined significance criteria, and use a life-cycle perspective.",
-    "Rank only legally regulated emissions and wastes using severity scores, because non-regulated aspects cannot create compliance or certification risk.",
-    "Evaluate environmental impacts only at sites under direct ownership, while supplier and customer stages are addressed through interested-party analysis.",
-    "Treat all environmental aspects as significant to avoid subjectivity, then prioritize controls using departmental budgets and management preference."
-   ],
-   "explanation": "Aspect evaluation should consider operating conditions, foreseeable emergencies, significance criteria and a life-cycle perspective."
-  }
- },
- {
-  "id": "LA-024",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Compliance obligations",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 6.1.3",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 2,
-  "en": {
-   "question": "What is the most appropriate audit test for compliance obligations?",
-   "options": [
-    "Confirm that the legal register contains every environmental law issued nationally, regardless of whether the requirements apply to the organization.",
-    "Verify that external legal counsel annually certifies full compliance and that the certification is retained as objective evidence for the audit.",
-    "Verify that applicable obligations are determined, accessible, understood in relation to the EMS and considered when establishing, implementing and improving controls.",
-    "Confirm that regulatory permits are current, because voluntary commitments and contractual environmental requirements are outside compliance obligations."
-   ],
-   "explanation": "Compliance obligations include applicable legal and other requirements the organization has to or chooses to comply with; they must be translated into EMS action."
-  }
- },
- {
-  "id": "LA-025",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Actions for risks and opportunities",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 6.1.4",
-  "set": "Lead_Auditor_100",
-  "update2026": true,
-  "answer": 0,
-  "en": {
-   "question": "Which interpretation best reflects the clarified 2026 planning framework?",
-   "options": [
-    "The organization should plan integrated actions addressing significant aspects, compliance obligations, risks and opportunities, and evaluate effectiveness of those actions.",
-    "The organization must maintain a single numerical risk register combining all environmental aspects, legal obligations and emergency scenarios into one score.",
-    "The organization should prioritize legal risks first, significant aspects second and opportunities last, because the standard establishes that mandatory sequence.",
-    "The organization may rely on existing operational controls without separately considering whether planned actions are effective if legal compliance is maintained."
-   ],
-   "explanation": "Clause 6.1.4 strengthens structured planning and evaluation of actions; it does not mandate one register or scoring methodology."
-  }
- },
- {
-  "id": "LA-026",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Environmental objectives",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 6.2",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 3,
-  "en": {
-   "question": "Which objective is best aligned with environmental-performance requirements?",
-   "options": [
-    "Improve water conservation by encouraging staff to identify savings and reporting notable initiatives during the annual management review.",
-    "Maintain responsible water use by meeting permit conditions and investigating deviations that could create compliance concerns.",
-    "Minimize water use whenever practicable while continuing production and ensuring any conservation actions remain economically reasonable.",
-    "Reduce process water intensity by 12% per unit output by year-end, with defined actions, resources, ownership, monthly tracking and performance evaluation."
-   ],
-   "explanation": "Effective objectives are measurable where practicable, monitored, communicated and supported by planned actions and evaluation."
   }
  },
  {
@@ -567,402 +185,43 @@
   }
  },
  {
-  "id": "LA-028",
+  "id": "LA-003",
   "type": "mcq",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Competence and awareness",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 7.2-7.3",
+  "topic": "QMS scope",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 4.3",
   "set": "Lead_Auditor_100",
   "update2026": false,
-  "answer": 1,
+  "answer": 0,
   "en": {
-   "question": "An operator controls a significant chemical-discharge process. Which evidence best demonstrates effective competence and awareness?",
+   "question": "Which situation creates the strongest concern about the stated QMS scope?",
    "options": [
-    "The operator attended environmental induction and signed the attendance register, while the supervisor informally confirms adequate practical performance.",
-    "The operator can perform controls correctly, understands significant impacts and compliance consequences, and competence has been evaluated against defined needs.",
-    "The operator has worked in the process for several years and has not been associated with a recorded environmental incident or regulatory complaint.",
-    "The operator has access to the work instruction and knows how to contact the environmental manager if an abnormal condition occurs."
+    "A process materially affecting conformity is excluded from the scope without a defensible basis tied to applicability requirements.",
+    "A support function is located at another site but is included through documented interfaces and process controls.",
+    "The scope names products and services in broad commercial terms while operational processes are defined elsewhere in the QMS.",
+    "The scope was revised after an acquisition and the organization retained evidence of review and approval by top management."
    ],
-   "explanation": "Competence requires ability based on appropriate education/training/experience and evaluation; awareness should include relevant aspects, impacts and consequences."
+   "explanation": "The QMS scope must reflect context, relevant requirements, products/services and applicable requirements; unjustified exclusions are not acceptable."
   }
  },
  {
-  "id": "LA-029",
-  "type": "mcq",
+  "id": "LA-100",
+  "type": "tf",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Operational planning and control",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 8.1",
+  "topic": "Virtual evidence",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 Annex A",
   "set": "Lead_Auditor_100",
   "update2026": true,
   "answer": 0,
   "en": {
-   "question": "Which evidence most strongly demonstrates life-cycle perspective in operational control?",
+   "question": "Evidence obtained remotely should be evaluated for reliability and verifiability using the same fundamental evidence-based principles applied to on-site evidence.",
    "options": [
-    "Environmental requirements are considered at relevant stages such as design, procurement, external provision, delivery, use information and end-of-life where the organization can control or influence outcomes.",
-    "The organization performs a formal cradle-to-grave life-cycle assessment for every product and retains third-party verification reports for significant impacts.",
-    "The organization controls internal production aspects and addresses upstream and downstream impacts only when specific legislation imposes direct responsibility.",
-    "The organization asks suppliers to hold ISO 14001 certification and therefore treats supplier environmental impacts as outside its own operational planning."
+    "True",
+    "False"
    ],
-   "explanation": "Life-cycle perspective is broader than direct operations but does not mandate full formal life-cycle assessment for every product."
-  }
- },
- {
-  "id": "LA-030",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Externally provided processes",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 8.1",
-  "set": "Lead_Auditor_100",
-  "update2026": true,
-  "answer": 3,
-  "en": {
-   "question": "Why is the 2026 terminology shift toward externally provided processes, products and services important to an auditor?",
-   "options": [
-    "It means all external providers must be incorporated into the organization's EMS scope and audited annually against every ISO 14001 requirement.",
-    "It requires organizations to use environmental criteria as the primary factor in supplier selection even when environmental impacts are insignificant.",
-    "It transfers responsibility for environmental compliance from providers to the certified organization whenever a purchasing contract exists.",
-    "It reinforces that environmental accountability and appropriate controls can extend across external provision rather than being limited to narrowly defined outsourcing."
-   ],
-   "explanation": "The revised terminology emphasizes relevant control or influence across external provision and the value chain without imposing universal certification or audit requirements."
-  }
- },
- {
-  "id": "LA-031",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Emergency preparedness",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 8.2",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 0,
-  "en": {
-   "question": "Which audit evidence best demonstrates effective emergency preparedness and response?",
-   "options": [
-    "Potential emergencies are identified, response arrangements are maintained and tested where practicable, lessons are evaluated and plans are revised when needed.",
-    "Emergency procedures are approved by authorities and displayed at key locations, while testing is performed only after a material environmental incident.",
-    "Emergency drills occur annually using the same scenario so personnel become familiar with their assigned duties and expected communication channels.",
-    "The emergency plan focuses on life safety because environmental consequences are addressed later through corrective action and incident investigation."
-   ],
-   "explanation": "EMS emergency arrangements should address environmental consequences, be tested where practicable and improved based on tests and events."
-  }
- },
- {
-  "id": "LA-032",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Monitoring and measurement",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 9.1.1",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 1,
-  "en": {
-   "question": "Which monitoring weakness is most serious from a conformity perspective?",
-   "options": [
-    "A non-significant waste stream is measured quarterly rather than monthly, although the organization has justified the frequency based on stable performance.",
-    "A critical emissions instrument influences reported compliance data but its fitness, calibration status and data validity cannot be demonstrated.",
-    "Environmental KPIs are displayed in dashboards using rolling averages rather than raw daily data, while underlying records remain available for analysis.",
-    "The organization uses different monitoring technologies at separate sites because process conditions and environmental permits differ."
-   ],
-   "explanation": "Monitoring must produce valid results; unreliable equipment or data undermines evaluation of environmental performance and compliance."
-  }
- },
- {
-  "id": "LA-033",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Evaluation of compliance",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 9.1.2",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 2,
-  "en": {
-   "question": "What distinguishes evaluation of compliance from routine monitoring?",
-   "options": [
-    "The organization asks regulators whether any violations have been recorded and treats the absence of enforcement notices as evidence of compliance.",
-    "The organization collects operating data required by permits and automatically treats results within legal limits as a complete compliance evaluation.",
-    "The organization periodically determines its compliance status against applicable obligations and retains knowledge and evidence of that status.",
-    "The organization reviews its legal register annually and considers that review sufficient unless a permit condition changed during the year."
-   ],
-   "explanation": "Evaluation of compliance is a deliberate assessment of compliance status, not merely monitoring or absence of enforcement."
-  }
- },
- {
-  "id": "LA-034",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Internal audit",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 9.2",
-  "set": "Lead_Auditor_100",
-  "update2026": true,
-  "answer": 3,
-  "en": {
-   "question": "Which element reflects strengthened governance expectations highlighted in the 2026 edition?",
-   "options": [
-    "Each clause is audited every year using a standardized checklist so the organization can demonstrate complete clause coverage to the certification body.",
-    "The audit programme is approved by top management and cannot be adjusted during the year unless a major environmental incident occurs.",
-    "Internal auditors are organizationally independent from the environmental function and may not audit any process within their own business unit.",
-    "The organization maintains a documented audit programme and objectives that consider process importance, environmental significance, changes and previous audit results."
-   ],
-   "explanation": "The 2026 edition highlights rigorous documented audit programmes and objectives; risk-based prioritization remains more important than mechanical clause coverage."
-  }
- },
- {
-  "id": "LA-035",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Management review",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 9.3",
-  "set": "Lead_Auditor_100",
-  "update2026": true,
-  "answer": 3,
-  "en": {
-   "question": "Which management-review evidence best demonstrates the 2026 emphasis on outcomes?",
-   "options": [
-    "The review focuses on conformance to procedures and closure of corrective actions because performance improvement is addressed through environmental objectives.",
-    "Top management receives a complete environmental report and signs the final page to confirm awareness of performance before the annual external audit.",
-    "The environmental manager presents objectives and incidents, while strategic context and resource decisions are addressed through separate business meetings.",
-    "Top management evaluates trends, environmental performance, compliance, audit results, changing context and resource needs, then records decisions and actions."
-   ],
-   "explanation": "Management review should support governance and performance decisions using defined inputs and outputs, not simply acknowledge reports."
-  }
- },
- {
-  "id": "LA-036",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Nonconformity and corrective action",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 10.2",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 1,
-  "en": {
-   "question": "A permit exceedance was contained and reported, but the same cause recurs twice. What should concern the auditor most?",
-   "options": [
-    "The organization did not increase the classification of the second event from minor to major within its internal incident-rating scheme.",
-    "The organization may not have adequately determined causes, considered similar potential occurrences, or evaluated corrective-action effectiveness.",
-    "The environmental manager closed the first action before the next management review and therefore prevented top-management approval of the closure.",
-    "The organization used the same containment method for each event even though containment had successfully limited the immediate environmental impact."
-   ],
-   "explanation": "Recurrence indicates possible weakness in systemic cause analysis and effectiveness evaluation, core elements of corrective action."
-  }
- },
- {
-  "id": "LA-037",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Principles and impartiality",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 4-5",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 0,
-  "en": {
-   "question": "A certification body's largest client contributes 18% of annual revenue. What is the most appropriate response under impartiality requirements?",
-   "options": [
-    "Identify and evaluate the financial self-interest threat, determine safeguards, and demonstrate that certification decisions remain objective.",
-    "Accept the relationship if the audit team has no direct financial bonus linked to the client's certification outcome.",
-    "Terminate the client relationship because any client exceeding 10% of revenue automatically creates an unacceptable impartiality threat.",
-    "Transfer certification decision authority to the lead auditor because the lead auditor has first-hand knowledge of the client's management system."
-   ],
-   "explanation": "ISO/IEC 17021-1 requires identification and management of impartiality threats; it does not prescribe a universal revenue threshold."
-  }
- },
- {
-  "id": "LA-038",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Consultancy conflict",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 5.2",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 1,
-  "en": {
-   "question": "Which scenario presents the clearest prohibited conflict for a certification body?",
-   "options": [
-    "An auditor previously worked in the client's industry but has never worked for, consulted to or audited the client before.",
-    "The certification body certifies a management system for which it provided management-system consultancy to the same client.",
-    "A technical expert supports an audit under the direction of an auditor and does not independently make audit conclusions.",
-    "The certification body provides public training explaining standard requirements without prescribing client-specific management-system solutions."
-   ],
-   "explanation": "A certification body must not provide management-system consultancy to the client it certifies; general information/training can be permissible when not client-specific consultancy."
-  }
- },
- {
-  "id": "LA-039",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Structure",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 6",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 2,
-  "en": {
-   "question": "Why must a certification body retain authority over certification decisions even when it outsources audit activities?",
-   "options": [
-    "Because outsourced auditors may collect evidence but are prohibited from participating in opening meetings, interviews or reporting activities.",
-    "Because all audit-team members must be direct employees of the certification body whenever accredited certification is provided.",
-    "Because responsibility for conformity assessment and certification decisions cannot be transferred to an external provider.",
-    "Because external providers can conduct only surveillance audits, while initial and recertification audits must be performed by employees."
-   ],
-   "explanation": "The certification body may use external resources under controlled arrangements but remains responsible for certification activities and decisions."
-  }
- },
- {
-  "id": "LA-040",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Competence",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 7",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 0,
-  "en": {
-   "question": "Which approach best meets competence-management requirements for personnel involved in certification?",
-   "options": [
-    "Define competence criteria for each certification function and technical area, evaluate individuals against those criteria, and monitor continuing performance.",
-    "Rely on professional qualifications and client feedback because formal competence criteria are needed only for certification decision makers.",
-    "Approve auditors by witnessed audit once, then renew approval automatically unless a complaint or appeal indicates a performance problem.",
-    "Require all auditors to hold the same Lead Auditor certificate and a minimum number of audit days regardless of technical area or certification function."
-   ],
-   "explanation": "Competence must be determined by function and technical area, evaluated using appropriate methods and monitored over time."
-  }
- },
- {
-  "id": "LA-041",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Public information",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 8",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 0,
-  "en": {
-   "question": "Which information should a certification body make publicly accessible or provide on request as applicable?",
-   "options": [
-    "Information about certification processes, status of certifications and processes for complaints and appeals, subject to confidentiality requirements.",
-    "The full competence files of auditors and decision makers assigned to each certified client.",
-    "Detailed audit working papers, auditor notes and client corrective-action records for every certified organization.",
-    "Commercial pricing models and internal financial-risk thresholds used when accepting certification applications."
-   ],
-   "explanation": "The standard requires transparency about certification status/processes and complaints/appeals while protecting confidential client information."
-  }
- },
- {
-  "id": "LA-042",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Application review",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 9.1",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 1,
-  "en": {
-   "question": "What is the strongest purpose of application review before accepting a certification client?",
-   "options": [
-    "Perform a preliminary conformity assessment so the certification body can predict whether the client is likely to pass Stage 2.",
-    "Confirm sufficient information, resolve differences, determine competence/resource capability, scope and audit requirements before proceeding.",
-    "Verify that the client has completed internal audit and management review because these are mandatory prerequisites before an application can be accepted.",
-    "Agree the likely number and severity of nonconformities with the client so audit duration and corrective-action time can be planned."
-   ],
-   "explanation": "Application review ensures the certification body can competently and properly conduct the requested certification; it is not a pre-audit decision."
-  }
- },
- {
-  "id": "LA-043",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Audit programme",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 9.1.3",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 2,
-  "en": {
-   "question": "For an initial three-year certification cycle, what should the certification body's audit programme normally include?",
-   "options": [
-    "A single initial audit followed by annual surveillance, with recertification optional when surveillance results remain satisfactory.",
-    "Stage 1, Stage 2 and quarterly surveillance for the first year, followed by annual surveillance until the client requests recertification.",
-    "A two-stage initial certification audit followed by surveillance audits and a recertification audit planned before certificate expiry.",
-    "Stage 1 and Stage 2 only; subsequent surveillance frequency is determined solely by the client contract and accreditation body."
-   ],
-   "explanation": "Certification programmes normally cover initial Stage 1/2, surveillance and recertification across the certification cycle."
-  }
- },
- {
-  "id": "LA-044",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Audit time",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 9.1.4",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 1,
-  "en": {
-   "question": "Which factor is most defensible when determining management-system audit time?",
-   "options": [
-    "A fixed number of days for each standard because consistency between clients is more important than organizational complexity.",
-    "Client size, complexity, scope, processes, sites, risks and effectiveness of prior system knowledge, with justification for adjustments.",
-    "The number of documented procedures because each controlled procedure should receive a proportional amount of audit time.",
-    "The client's requested budget and preferred audit duration, provided the audit team agrees the planned sample can be completed."
-   ],
-   "explanation": "Audit duration should be determined using relevant complexity and scope factors and documented justification, not commercial preference."
-  }
- },
- {
-  "id": "LA-045",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Stage 1",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 9.3.1.2",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 0,
-  "en": {
-   "question": "Which objective is most characteristic of Stage 1?",
-   "options": [
-    "Evaluate readiness for Stage 2 by understanding the management system, scope, site conditions, key processes and relevant documented information.",
-    "Witness every critical operational process because Stage 2 should focus primarily on management review and internal audit effectiveness.",
-    "Collect sufficient evidence to make the certification decision and resolve all nonconformities before Stage 2 is scheduled.",
-    "Verify corrective-action effectiveness from the client's previous certification body before determining whether transfer can proceed."
-   ],
-   "explanation": "Stage 1 supports readiness and planning for Stage 2; it does not replace the full effectiveness audit or certification decision."
-  }
- },
- {
-  "id": "LA-046",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Stage 2",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 9.3.1.3",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 3,
-  "en": {
-   "question": "Which evidence should receive greatest emphasis during Stage 2?",
-   "options": [
-    "Completion of the client's documented procedures because Stage 1 already established that operational controls were effectively implemented.",
-    "Resolution of every improvement opportunity identified at Stage 1, whether or not the matter represented a requirement of the certification criteria.",
-    "Conformity of only the processes classified as high risk because lower-risk processes can be addressed during future surveillance audits.",
-    "Implementation and effectiveness of the management system against certification criteria, including performance, processes, internal audit and management review."
-   ],
-   "explanation": "Stage 2 evaluates implementation and effectiveness across the applicable certification criteria and scope."
+   "explanation": "The method changes, but evidence still needs to be relevant, sufficient and verifiable."
   }
  },
  {
@@ -987,213 +246,169 @@
   }
  },
  {
-  "id": "LA-048",
+  "id": "LA-060",
   "type": "mcq",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Certification decision",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 9.5",
+  "topic": "Initiating the audit",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 6.2",
   "set": "Lead_Auditor_100",
   "update2026": false,
-  "answer": 3,
+  "answer": 1,
   "en": {
-   "question": "Why should the certification decision be made by competent person(s) different from those who carried out the audit?",
+   "question": "Before accepting an audit assignment, what should the audit team leader most importantly establish?",
    "options": [
-    "To allow the decision maker to renegotiate disputed findings with the client without influencing the audit team's original report.",
-    "To ensure the decision maker has no knowledge of the client beyond the final audit report, thereby eliminating all potential bias.",
-    "To make the decision administrative rather than technical because technical evaluation is completed entirely by the audit team.",
-    "To provide an independent evaluation of audit information and conclusions before granting, maintaining, renewing or changing certification."
+    "The likely number of nonconformities so sufficient time can be reserved in the closing meeting for dispute resolution and corrective-action advice.",
+    "Feasibility, objectives, scope, criteria, relevant information, auditee contact arrangements and any significant risks affecting effective conduct.",
+    "The auditee's preferred audit conclusions because expectations should be clarified early to prevent disagreement when findings are presented.",
+    "The final sampling plan because changing samples during the audit can compromise consistency and create perceptions of auditor subjectivity."
    ],
-   "explanation": "Separation supports impartiality and independent review; decision makers still need sufficient competence and information to evaluate the case."
+   "explanation": "Audit initiation establishes feasibility and key parameters; findings and detailed samples remain evidence-driven and adaptable."
   }
  },
  {
-  "id": "LA-049",
+  "id": "LA-033",
   "type": "mcq",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Surveillance",
+  "topic": "Evaluation of compliance",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 9.1.2",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 1,
+  "en": {
+   "question": "What distinguishes evaluation of compliance from routine monitoring?",
+   "options": [
+    "The organization collects operating data required by permits and automatically treats results within legal limits as a complete compliance evaluation.",
+    "The organization periodically determines its compliance status against applicable obligations and retains knowledge and evidence of that status.",
+    "The organization asks regulators whether any violations have been recorded and treats the absence of enforcement notices as evidence of compliance.",
+    "The organization reviews its legal register annually and considers that review sufficient unless a permit condition changed during the year."
+   ],
+   "explanation": "Evaluation of compliance is a deliberate assessment of compliance status, not merely monitoring or absence of enforcement."
+  }
+ },
+ {
+  "id": "LA-038",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Consultancy conflict",
   "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 9.6.2",
+  "clause": "ISO/IEC 17021-1:2015 5.2",
   "set": "Lead_Auditor_100",
   "update2026": false,
   "answer": 0,
   "en": {
-   "question": "Which statement best describes surveillance auditing?",
+   "question": "Which scenario presents the clearest prohibited conflict for a certification body?",
    "options": [
-    "It samples representative areas and functions over the cycle to maintain confidence that the certified management system continues to fulfil requirements.",
-    "It focuses only on previous nonconformities and complaints because unchanged processes were already demonstrated effective at initial certification.",
-    "It repeats the complete Stage 2 audit every year because every applicable requirement must be fully reassessed before certification is maintained.",
-    "It may be replaced by remote document review if the client reports no major organizational, legal or process changes during the year."
+    "The certification body certifies a management system for which it provided management-system consultancy to the same client.",
+    "The certification body provides public training explaining standard requirements without prescribing client-specific management-system solutions.",
+    "A technical expert supports an audit under the direction of an auditor and does not independently make audit conclusions.",
+    "An auditor previously worked in the client's industry but has never worked for, consulted to or audited the client before."
    ],
-   "explanation": "Surveillance is a planned sampling activity across the cycle, with mandatory areas and attention to changes/performance."
+   "explanation": "A certification body must not provide management-system consultancy to the client it certifies; general information/training can be permissible when not client-specific consultancy."
   }
  },
  {
-  "id": "LA-050",
+  "id": "LA-011",
   "type": "mcq",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Recertification",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 9.6.3",
+  "topic": "Competence and awareness",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 7.2-7.3",
   "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 3,
+  "update2026": true,
+  "answer": 0,
   "en": {
-   "question": "What is the principal purpose of recertification?",
+   "question": "Which evidence would most strongly support conformity with the strengthened 2026 awareness expectations?",
    "options": [
-    "Verify only changes since the previous surveillance because previously audited controls remain accepted for the next certification cycle.",
-    "Repeat Stage 1 and Stage 2 in every case using the same audit duration as the original certification, regardless of system maturity.",
-    "Close all outstanding opportunities for improvement before the existing certificate expires because OFIs become mandatory at recertification.",
-    "Confirm continued conformity and effectiveness of the management system as a whole and its continued relevance to the certification scope."
+    "Personnel understand their contribution to QMS effectiveness, relevant consequences, quality culture expectations and ethical behaviour, supported by observed practice.",
+    "Personnel have signed job descriptions and completed induction training that includes the quality policy and the location of controlled procedures.",
+    "Personnel can identify the quality manager and know that nonconformities should be reported through the formal corrective-action software.",
+    "Personnel receive annual performance appraisals and their managers confirm that no significant competence-related customer complaints were received."
    ],
-   "explanation": "Recertification evaluates continued system-wide conformity/effectiveness and continued relevance to scope, informed by cycle performance."
+   "explanation": "The 2026 edition explicitly strengthens awareness around quality culture and ethical behaviour; auditors should seek understanding and behaviour, not attendance alone."
   }
  },
  {
-  "id": "LA-051",
+  "id": "LA-025",
   "type": "mcq",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Special audits and suspension",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 9.6.4-9.6.5",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 2,
-  "en": {
-   "question": "A certified client repeatedly fails to address a major nonconformity within agreed time. Which response is most consistent with certification control?",
-   "options": [
-    "Maintain certification until the next scheduled surveillance because certification status cannot be changed between planned audits.",
-    "Immediately withdraw certification in every case because suspension is permitted only when requested voluntarily by the certified client.",
-    "Apply the certification body's defined process, which may include suspension and, if unresolved, withdrawal or reduction of scope as appropriate.",
-    "Reduce the scope only if the client signs a new certification agreement and completes a full initial Stage 1 and Stage 2 audit."
-   ],
-   "explanation": "Certification bodies need controlled processes for suspension, withdrawal and scope reduction based on failure to meet requirements."
-  }
- },
- {
-  "id": "LA-052",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Appeals and complaints",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 9.7-9.8",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 3,
-  "en": {
-   "question": "Which arrangement best protects impartiality when handling an appeal against a certification decision?",
-   "options": [
-    "The lead auditor reviews the appeal first because that person has the strongest understanding of the evidence and can resolve misunderstandings quickly.",
-    "The sales manager decides the appeal because that role is independent from audit delivery and understands the client's contractual expectations.",
-    "The original decision maker reconsiders the case after receiving additional information because consistency is best preserved by using the same evaluator.",
-    "The appeal is investigated and decided by competent personnel who were not involved in the audit or original certification decision being appealed."
-   ],
-   "explanation": "Appeals require impartial handling by personnel independent of the activities/decision under appeal, with no discriminatory action against the appellant."
-  }
- },
- {
-  "id": "LA-053",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Records and management system",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 9.9-10",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 1,
-  "en": {
-   "question": "Which record-control practice is most important for certification integrity?",
-   "options": [
-    "Retain only final audit reports and certificates because working records may expose confidential client information and should be destroyed after decision.",
-    "Maintain sufficient, secure and retrievable records to demonstrate certification activities, decisions, competence and status while protecting confidentiality.",
-    "Allow auditors to retain personal working notes indefinitely because such notes remain the auditor's property rather than certification-body records.",
-    "Store all records permanently because certification bodies may not define risk-based retention periods for conformity-assessment information."
-   ],
-   "explanation": "Certification-body records must support traceability and integrity of certification while being protected and retained under defined controls."
-  }
- },
- {
-  "id": "LA-054",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Audit principles",
-  "standard": "ISO 19011:2026",
-  "clause": "ISO 19011:2026 4",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 3,
-  "en": {
-   "question": "Which principle is most directly compromised if an auditor suppresses a significant finding to preserve a commercial relationship?",
-   "options": [
-    "Confidentiality and independence, because commercial information should not influence whether evidence is retained in the audit record.",
-    "Evidence-based approach and due professional care, because the auditor did not increase the sample before deciding to omit the finding.",
-    "Risk-based approach and confidentiality, because the commercial relationship should have been documented as an audit-programme risk.",
-    "Integrity and fair presentation, because truthful, accurate and impartial reporting has been subordinated to an external interest."
-   ],
-   "explanation": "Suppressing a valid finding breaches ethical conduct and truthful reporting; commercial pressure must not distort conclusions."
-  }
- },
- {
-  "id": "LA-055",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Risk-based approach",
-  "standard": "ISO 19011:2026",
-  "clause": "ISO 19011:2026 4.8",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 1,
-  "en": {
-   "question": "What does the risk-based approach to auditing most appropriately influence?",
-   "options": [
-    "The classification of every finding using the auditee's enterprise risk matrix so high-risk findings automatically become major nonconformities.",
-    "Planning, conduct and reporting so audit effort focuses on matters significant to objectives while also considering audit-process risks and opportunities.",
-    "The decision to omit low-risk management-system requirements whenever the audit duration is insufficient to sample every process.",
-    "The requirement that auditors calculate numerical risk scores before interviews so sampling decisions can be statistically justified."
-   ],
-   "explanation": "Risk-based auditing prioritizes audit attention and recognizes risks/opportunities to the audit process; it does not mechanically classify findings."
-  }
- },
- {
-  "id": "LA-056",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Remote auditing methods",
-  "standard": "ISO 19011:2026",
-  "clause": "ISO 19011:2026 3.4, Annex A",
+  "topic": "Actions for risks and opportunities",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 6.1.4",
   "set": "Lead_Auditor_100",
   "update2026": true,
   "answer": 3,
   "en": {
-   "question": "Which statement best reflects ISO 19011:2026 treatment of remote auditing?",
+   "question": "Which interpretation best reflects the clarified 2026 planning framework?",
    "options": [
-    "Remote auditing is limited to document review and interviews because observation and sampling require the auditor to be physically present at the auditee.",
-    "Remote auditing may be used only for internal audits, while second- and third-party audits require on-site methods for objective evidence.",
-    "Remote auditing replaces on-site auditing for virtual organizations because physical-location sampling is not relevant when digital processes predominate.",
-    "Remote methods may be used from locations other than the auditee's location and can be combined with on-site methods when they support an effective audit."
+    "The organization may rely on existing operational controls without separately considering whether planned actions are effective if legal compliance is maintained.",
+    "The organization must maintain a single numerical risk register combining all environmental aspects, legal obligations and emergency scenarios into one score.",
+    "The organization should prioritize legal risks first, significant aspects second and opportunities last, because the standard establishes that mandatory sequence.",
+    "The organization should plan integrated actions addressing significant aspects, compliance obligations, risks and opportunities, and evaluate effectiveness of those actions."
    ],
-   "explanation": "The 2026 edition explicitly expands remote-audit guidance and recognizes blended methods and virtual locations."
+   "explanation": "Clause 6.1.4 strengthens structured planning and evaluation of actions; it does not mandate one register or scoring methodology."
   }
  },
  {
-  "id": "LA-057",
-  "type": "mcq",
+  "id": "LA-076",
+  "type": "tf",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Audit programme objectives",
-  "standard": "ISO 19011:2026",
-  "clause": "ISO 19011:2026 5.2",
+  "topic": "Nonconforming outputs",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 8.7",
   "set": "Lead_Auditor_100",
   "update2026": false,
   "answer": 0,
   "en": {
-   "question": "Which audit-programme objective is strongest?",
+   "question": "Correcting a nonconforming output does not by itself complete control; conformity should be verified after correction as applicable.",
    "options": [
-    "Evaluate whether priority processes effectively manage identified business and management-system risks while supporting strategic and compliance objectives.",
-    "Complete all planned audits within the approved annual budget and close every finding within thirty days of the closing meeting.",
-    "Audit every clause of every applicable standard once per calendar year using the same checklist so coverage can be objectively demonstrated.",
-    "Ensure each department receives equal audit time to maintain fairness and avoid concerns about auditor bias or management preference."
+    "True",
+    "False"
    ],
-   "explanation": "Programme objectives should relate to management-system needs, risks, changes and strategic/compliance priorities, not mechanical equality or closure targets."
+   "explanation": "Corrected outputs should be subject to verification of conformity with requirements."
+  }
+ },
+ {
+  "id": "LA-040",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Competence",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 7",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 3,
+  "en": {
+   "question": "Which approach best meets competence-management requirements for personnel involved in certification?",
+   "options": [
+    "Require all auditors to hold the same Lead Auditor certificate and a minimum number of audit days regardless of technical area or certification function.",
+    "Rely on professional qualifications and client feedback because formal competence criteria are needed only for certification decision makers.",
+    "Approve auditors by witnessed audit once, then renew approval automatically unless a complaint or appeal indicates a performance problem.",
+    "Define competence criteria for each certification function and technical area, evaluate individuals against those criteria, and monitor continuing performance."
+   ],
+   "explanation": "Competence must be determined by function and technical area, evaluated using appropriate methods and monitored over time."
+  }
+ },
+ {
+  "id": "LA-069",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Auditor competence",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 7",
+  "set": "Lead_Auditor_100",
+  "update2026": true,
+  "answer": 2,
+  "en": {
+   "question": "Which competence evidence is strongest for assigning an auditor to a complex digitalized process?",
+   "options": [
+    "Completion of a Lead Auditor course and prior audits in any management-system discipline, because generic audit competence transfers fully across technologies.",
+    "An academic qualification in information technology, even if the person has limited practical auditing experience and no management-system audit training.",
+    "Demonstrated audit competence combined with relevant process/technology knowledge and the ability to apply suitable methods, including remote techniques where needed.",
+    "Extensive experience using videoconferencing tools, because competence in remote methods is the primary requirement for digitalized-process auditing."
+   ],
+   "explanation": "Auditor competence combines audit knowledge/skills with discipline, sector and technology competence appropriate to the assignment."
   }
  },
  {
@@ -1218,108 +433,140 @@
   }
  },
  {
-  "id": "LA-059",
-  "type": "mcq",
+  "id": "LA-074",
+  "type": "tf",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Audit programme implementation",
-  "standard": "ISO 19011:2026",
-  "clause": "ISO 19011:2026 5.4-5.5",
+  "topic": "Traceability",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 8.5",
   "set": "Lead_Auditor_100",
   "update2026": false,
-  "answer": 2,
+  "answer": 0,
   "en": {
-   "question": "When allocating audit resources, which decision is most consistent with ISO 19011?",
+   "question": "Identification and traceability controls are required to the extent necessary to ensure conformity, rather than universally requiring unique serial numbers for all outputs.",
    "options": [
-    "Use the same audit team for repeated audits because familiarity with the auditee improves efficiency and therefore overrides independence concerns.",
-    "Allocate equal audit days to each process because risk-based allocation could create inconsistent treatment between different departments.",
-    "Assign competent auditors and suitable methods according to audit objectives, scope, complexity, risk and available evidence, adjusting the programme when conditions change.",
-    "Select remote methods whenever travel cost is lower, provided the auditee has adequate videoconferencing and electronic document systems."
+    "True",
+    "False"
    ],
-   "explanation": "Resources and methods should be matched to objectives, competence needs, complexity and risks; efficiency alone is not determinative."
+   "explanation": "Traceability requirements depend on what is necessary for conformity and applicable requirements."
   }
  },
  {
-  "id": "LA-060",
-  "type": "mcq",
+  "id": "LA-091",
+  "type": "tf",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Initiating the audit",
-  "standard": "ISO 19011:2026",
-  "clause": "ISO 19011:2026 6.2",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 1,
-  "en": {
-   "question": "Before accepting an audit assignment, what should the audit team leader most importantly establish?",
-   "options": [
-    "The likely number of nonconformities so sufficient time can be reserved in the closing meeting for dispute resolution and corrective-action advice.",
-    "Feasibility, objectives, scope, criteria, relevant information, auditee contact arrangements and any significant risks affecting effective conduct.",
-    "The auditee's preferred audit conclusions because expectations should be clarified early to prevent disagreement when findings are presented.",
-    "The final sampling plan because changing samples during the audit can compromise consistency and create perceptions of auditor subjectivity."
-   ],
-   "explanation": "Audit initiation establishes feasibility and key parameters; findings and detailed samples remain evidence-driven and adaptable."
-  }
- },
- {
-  "id": "LA-061",
-  "type": "mcq",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Audit preparation",
-  "standard": "ISO 19011:2026",
-  "clause": "ISO 19011:2026 6.3",
+  "topic": "Confidentiality",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 8.4",
   "set": "Lead_Auditor_100",
   "update2026": false,
   "answer": 1,
   "en": {
-   "question": "What is the best purpose of reviewing documented information before field activities?",
+   "question": "Because certification status is public information, all information obtained during the audit becomes publicly releasable after certification is granted.",
    "options": [
-    "Determine preliminary findings so interviews can focus on obtaining confirmation and identifying the responsible process owners.",
-    "Develop understanding, identify potential audit trails and information gaps, and plan efficient evidence collection without pre-judging conformity.",
-    "Verify full conformity of documented requirements so field activities can focus exclusively on implementation and operational effectiveness.",
-    "Finalize the audit report structure and classify likely findings before on-site or remote interviews begin."
+    "True",
+    "False"
    ],
-   "explanation": "Document review informs planning and audit trails; it should not become a premature conformity decision."
+   "explanation": "Confidential information remains protected except as required by authorized disclosure arrangements or law."
   }
  },
  {
-  "id": "LA-062",
-  "type": "mcq",
+  "id": "LA-084",
+  "type": "tf",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Opening meeting",
-  "standard": "ISO 19011:2026",
-  "clause": "ISO 19011:2026 6.4",
+  "topic": "Improvement",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 10.3",
   "set": "Lead_Auditor_100",
   "update2026": true,
   "answer": 0,
   "en": {
-   "question": "Which opening-meeting action is most important when remote methods will be used?",
+   "question": "Improvement of the EMS should be directed toward enhancing environmental performance, not solely toward reducing the number of documented nonconformities.",
    "options": [
-    "Confirm communication technology, information-security expectations, access arrangements, contingencies and how remote evidence will be obtained and validated.",
-    "Agree that all documents will be emailed to auditors in advance because screen sharing provides insufficient evidence for formal management-system audits.",
-    "Confirm that remote evidence will be treated as lower confidence than on-site evidence and therefore cannot independently support nonconformity findings.",
-    "Require the auditee to record all remote sessions so the audit team can replay interviews when deciding findings after the closing meeting."
+    "True",
+    "False"
    ],
-   "explanation": "Remote auditing requires practical controls for technology, access, confidentiality, evidence reliability and contingency planning."
+   "explanation": "Environmental performance outcomes are central to EMS improvement."
   }
  },
  {
-  "id": "LA-063",
+  "id": "LA-028",
   "type": "mcq",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Interviewing",
-  "standard": "ISO 19011:2026",
-  "clause": "ISO 19011:2026 6.4",
+  "topic": "Competence and awareness",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 7.2-7.3",
   "set": "Lead_Auditor_100",
   "update2026": false,
-  "answer": 3,
+  "answer": 1,
   "en": {
-   "question": "A process owner gives a polished explanation that conflicts with observed practice. What should an experienced auditor do next?",
+   "question": "An operator controls a significant chemical-discharge process. Which evidence best demonstrates effective competence and awareness?",
    "options": [
-    "Accept the process owner's explanation because responsible managers are accountable for process implementation and are therefore authoritative evidence.",
-    "Record an immediate nonconformity because contradictory verbal evidence demonstrates that the documented process is not effectively communicated.",
-    "Ask the process owner to revise the explanation in writing so the audit file contains one definitive version of the process.",
-    "Seek corroborating evidence through records, observation and additional interviews, then evaluate consistency against the audit criteria."
+    "The operator attended environmental induction and signed the attendance register, while the supervisor informally confirms adequate practical performance.",
+    "The operator can perform controls correctly, understands significant impacts and compliance consequences, and competence has been evaluated against defined needs.",
+    "The operator has worked in the process for several years and has not been associated with a recorded environmental incident or regulatory complaint.",
+    "The operator has access to the work instruction and knows how to contact the environmental manager if an abnormal condition occurs."
    ],
-   "explanation": "Interviews are one evidence source; contradictory evidence should trigger corroboration and further sampling before conclusions."
+   "explanation": "Competence requires ability based on appropriate education/training/experience and evaluation; awareness should include relevant aspects, impacts and consequences."
+  }
+ },
+ {
+  "id": "LA-012",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Documented information",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 7.5",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 0,
+  "en": {
+   "question": "Which control weakness is most likely to constitute a nonconformity?",
+   "options": [
+    "Operators can access obsolete inspection criteria at the point of use and there is no reliable control preventing unintended use.",
+    "Several procedures use different formatting templates, although their approval, revision, access and change controls are consistently effective.",
+    "Some process records are stored electronically and others on paper, with retention periods defined according to business and legal needs.",
+    "External specifications are controlled by process owners rather than centrally by the quality department, with revision status traceable."
+   ],
+   "explanation": "Documented information must be controlled for availability, suitability, protection and change; unintended use of obsolete information is a direct control failure."
+  }
+ },
+ {
+  "id": "LA-094",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Independence",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 4.6",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 1,
+  "en": {
+   "question": "Independence means an internal auditor can never audit a process within the same department, regardless of safeguards or organizational circumstances.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "Independence supports objectivity, but practical internal-audit arrangements can use safeguards; absolute structural separation is not universally required."
+  }
+ },
+ {
+  "id": "LA-087",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Initial certification",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 9.3",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 0,
+  "en": {
+   "question": "Stage 1 and Stage 2 have distinct purposes, and a successful Stage 1 does not by itself provide sufficient basis for an initial certification decision.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "Stage 1 supports readiness and Stage 2 planning; certification depends on Stage 2 evidence and subsequent independent decision."
   }
  },
  {
@@ -1331,16 +578,140 @@
   "clause": "ISO 19011:2026 6.4",
   "set": "Lead_Auditor_100",
   "update2026": false,
-  "answer": 3,
+  "answer": 2,
   "en": {
    "question": "Which statement about audit sampling is most accurate?",
    "options": [
     "A conforming random sample proves the entire population conforms when the sample size exceeds the organization's defined statistical threshold.",
     "Auditors should inspect 100% of records for high-risk processes because sampling is suitable only when process risk is low or moderate.",
-    "Judgemental sampling is inherently less valid than statistical sampling and should not be used for certification or regulatory-related audits.",
-    "Appropriate sampling can support reliable conclusions, but sampling risk remains and should influence sample design and auditor judgement."
+    "Appropriate sampling can support reliable conclusions, but sampling risk remains and should influence sample design and auditor judgement.",
+    "Judgemental sampling is inherently less valid than statistical sampling and should not be used for certification or regulatory-related audits."
    ],
    "explanation": "Sampling is normal in audits; both statistical and judgemental methods can be appropriate, but sampling uncertainty cannot be eliminated."
+  }
+ },
+ {
+  "id": "LA-042",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Application review",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 9.1",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 2,
+  "en": {
+   "question": "What is the strongest purpose of application review before accepting a certification client?",
+   "options": [
+    "Perform a preliminary conformity assessment so the certification body can predict whether the client is likely to pass Stage 2.",
+    "Agree the likely number and severity of nonconformities with the client so audit duration and corrective-action time can be planned.",
+    "Confirm sufficient information, resolve differences, determine competence/resource capability, scope and audit requirements before proceeding.",
+    "Verify that the client has completed internal audit and management review because these are mandatory prerequisites before an application can be accepted."
+   ],
+   "explanation": "Application review ensures the certification body can competently and properly conduct the requested certification; it is not a pre-audit decision."
+  }
+ },
+ {
+  "id": "LA-082",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Compliance evaluation",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 9.1.2",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 1,
+  "en": {
+   "question": "The absence of regulatory enforcement action is sufficient objective evidence that the organization has fulfilled its requirement to evaluate compliance.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "The organization must deliberately evaluate compliance status against applicable obligations and retain evidence/knowledge of that status."
+  }
+ },
+ {
+  "id": "LA-017",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Performance evaluation",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 9.1-9.3",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 1,
+  "en": {
+   "question": "Management review receives extensive KPI data but records no evaluation of trends, audit results, customer feedback, resource needs or improvement opportunities. What is the best conclusion?",
+   "options": [
+    "The review conforms if the KPI dashboard is comprehensive because detailed evaluation may be performed informally by process owners before the meeting.",
+    "The review may be incomplete because required inputs must be considered to support decisions on suitability, adequacy, effectiveness and improvement.",
+    "The review conforms if top management attends because the standard does not prescribe what information must be evaluated during management review.",
+    "The review is acceptable when internal audits cover the omitted subjects because management review and internal audit may substitute for one another."
+   ],
+   "explanation": "Management review is an evaluation process with defined inputs and outputs; data accumulation alone does not demonstrate effective review."
+  }
+ },
+ {
+  "id": "LA-024",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Compliance obligations",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 6.1.3",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 3,
+  "en": {
+   "question": "What is the most appropriate audit test for compliance obligations?",
+   "options": [
+    "Confirm that the legal register contains every environmental law issued nationally, regardless of whether the requirements apply to the organization.",
+    "Confirm that regulatory permits are current, because voluntary commitments and contractual environmental requirements are outside compliance obligations.",
+    "Verify that external legal counsel annually certifies full compliance and that the certification is retained as objective evidence for the audit.",
+    "Verify that applicable obligations are determined, accessible, understood in relation to the EMS and considered when establishing, implementing and improving controls."
+   ],
+   "explanation": "Compliance obligations include applicable legal and other requirements the organization has to or chooses to comply with; they must be translated into EMS action."
+  }
+ },
+ {
+  "id": "LA-014",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Design and development",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 8.3",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 3,
+  "en": {
+   "question": "Which audit trail provides the strongest evidence that design controls are effective rather than merely documented?",
+   "options": [
+    "Confirm that each project file includes an approved design plan, meeting minutes and a signed release form before production begins.",
+    "Review competency records for engineers and confirm that design software licenses and calibration records are current and available.",
+    "Verify that the design procedure assigns responsibilities and that the latest template is used for each phase of the development process.",
+    "Trace selected outputs back to inputs, reviews, verification/validation, changes and acceptance criteria, then confirm resulting product performance."
+   ],
+   "explanation": "Effectiveness is shown by traceability across inputs, controls, outputs, changes and actual conformity/performance, not file completeness alone."
+  }
+ },
+ {
+  "id": "LA-051",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Special audits and suspension",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 9.6.4-9.6.5",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 2,
+  "en": {
+   "question": "A certified client repeatedly fails to address a major nonconformity within agreed time. Which response is most consistent with certification control?",
+   "options": [
+    "Maintain certification until the next scheduled surveillance because certification status cannot be changed between planned audits.",
+    "Immediately withdraw certification in every case because suspension is permitted only when requested voluntarily by the certified client.",
+    "Apply the certification body's defined process, which may include suspension and, if unresolved, withdrawal or reduction of scope as appropriate.",
+    "Reduce the scope only if the client signs a new certification agreement and completes a full initial Stage 1 and Stage 2 audit."
+   ],
+   "explanation": "Certification bodies need controlled processes for suspension, withdrawal and scope reduction based on failure to meet requirements."
   }
  },
  {
@@ -1352,14 +723,14 @@
   "clause": "ISO 19011:2026 6.4",
   "set": "Lead_Auditor_100",
   "update2026": false,
-  "answer": 2,
+  "answer": 3,
   "en": {
    "question": "A KPI is on target, but repeated expedited shipments and rework are required to achieve it. What is the best audit response?",
    "options": [
     "Accept conformity because the defined KPI target is achieved and the standard does not prohibit additional operational cost or rework.",
     "Raise a nonconformity against continual improvement because any use of rework demonstrates that the process is not capable of achieving intended results.",
-    "Extend the audit trail to underlying process effectiveness, resources, controls, adverse trends and unintended consequences rather than accepting the KPI at face value.",
-    "Limit the issue to financial efficiency because expedited freight is outside management-system audit criteria unless explicitly included in the audit scope."
+    "Limit the issue to financial efficiency because expedited freight is outside management-system audit criteria unless explicitly included in the audit scope.",
+    "Extend the audit trail to underlying process effectiveness, resources, controls, adverse trends and unintended consequences rather than accepting the KPI at face value."
    ],
    "explanation": "Auditors should evaluate effectiveness and the reliability/meaning of performance indicators, not only whether a numeric target is met."
   }
@@ -1386,24 +757,895 @@
   }
  },
  {
-  "id": "LA-067",
+  "id": "LA-015",
   "type": "mcq",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Audit findings",
+  "topic": "External providers",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 8.4",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 3,
+  "en": {
+   "question": "A strategic supplier has excellent delivery but rising defect escape rates. Which response is most consistent with ISO 9001?",
+   "options": [
+    "Transfer responsibility to incoming inspection because conformity of externally provided outputs is verified before release to production.",
+    "Retain the supplier rating because delivery performance remains acceptable and increase final inspection until the next annual review.",
+    "Suspend the supplier automatically because any adverse quality trend requires immediate requalification before further purchase orders.",
+    "Re-evaluate supplier performance and adjust the type and extent of controls according to risk, impact and demonstrated capability."
+   ],
+   "explanation": "The organization remains responsible for externally provided outputs and should adjust controls using performance, risk and impact."
+  }
+ },
+ {
+  "id": "LA-086",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Competence",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 7",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 0,
+  "en": {
+   "question": "Competence criteria should be established for the different certification functions, not only for auditors who conduct on-site activities.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "Competence applies to functions such as application review, audit, technical evaluation and certification decision as relevant."
+  }
+ },
+ {
+  "id": "LA-083",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Internal audit",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 9.2",
+  "set": "Lead_Auditor_100",
+  "update2026": true,
+  "answer": 0,
+  "en": {
+   "question": "The internal audit programme should take account of environmental importance, changes and previous audit results rather than merely rotating departments on an equal schedule.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "Audit-programme planning is intended to be risk/performance informed."
+  }
+ },
+ {
+  "id": "LA-099",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Competence",
   "standard": "ISO 19011:2026",
-  "clause": "ISO 19011:2026 6.4",
+  "clause": "ISO 19011:2026 7",
   "set": "Lead_Auditor_100",
   "update2026": false,
   "answer": 1,
   "en": {
-   "question": "Which finding statement is strongest?",
+   "question": "Successful completion of a Lead Auditor course is sufficient by itself to demonstrate competence for every technical sector and every audit assignment.",
    "options": [
-    "The auditor explains the preferred corrective solution and states that failure to adopt it will result in escalation of the finding.",
-    "Requirement, objective evidence and the demonstrated gap are clearly linked, with wording limited to what the evidence supports.",
-    "The finding summarizes several concerns from unrelated clauses because combining issues makes the audit report shorter and easier for management.",
-    "The finding avoids citing criteria so the auditee can focus on the practical problem rather than debating interpretation of the requirement."
+    "True",
+    "False"
    ],
-   "explanation": "A robust finding is criterion-based, evidence-based and precisely bounded; the auditor should not prescribe the corrective solution."
+   "explanation": "Competence is assignment-specific and includes audit skills plus relevant discipline, sector and technical knowledge."
+  }
+ },
+ {
+  "id": "LA-036",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Nonconformity and corrective action",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 10.2",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 2,
+  "en": {
+   "question": "A permit exceedance was contained and reported, but the same cause recurs twice. What should concern the auditor most?",
+   "options": [
+    "The organization did not increase the classification of the second event from minor to major within its internal incident-rating scheme.",
+    "The environmental manager closed the first action before the next management review and therefore prevented top-management approval of the closure.",
+    "The organization may not have adequately determined causes, considered similar potential occurrences, or evaluated corrective-action effectiveness.",
+    "The organization used the same containment method for each event even though containment had successfully limited the immediate environmental impact."
+   ],
+   "explanation": "Recurrence indicates possible weakness in systemic cause analysis and effectiveness evaluation, core elements of corrective action."
+  }
+ },
+ {
+  "id": "LA-052",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Appeals and complaints",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 9.7-9.8",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 1,
+  "en": {
+   "question": "Which arrangement best protects impartiality when handling an appeal against a certification decision?",
+   "options": [
+    "The lead auditor reviews the appeal first because that person has the strongest understanding of the evidence and can resolve misunderstandings quickly.",
+    "The appeal is investigated and decided by competent personnel who were not involved in the audit or original certification decision being appealed.",
+    "The original decision maker reconsiders the case after receiving additional information because consistency is best preserved by using the same evaluator.",
+    "The sales manager decides the appeal because that role is independent from audit delivery and understands the client's contractual expectations."
+   ],
+   "explanation": "Appeals require impartial handling by personnel independent of the activities/decision under appeal, with no discriminatory action against the appellant."
+  }
+ },
+ {
+  "id": "LA-016",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Production/service provision and release",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 8.5-8.6",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 1,
+  "en": {
+   "question": "Which scenario most clearly indicates a control failure before release?",
+   "options": [
+    "A batch is released by an authorized inspector using statistically valid sampling defined in the control plan rather than 100% inspection.",
+    "A batch is shipped based on schedule urgency before required acceptance evidence is complete and authorized release criteria are met.",
+    "A process parameter is automatically recorded by validated software and reviewed by exception rather than manually signed for every production cycle.",
+    "A service output is accepted through customer confirmation because the defined service-validation method relies on customer-observed performance."
+   ],
+   "explanation": "Release requires evidence that acceptance criteria have been met and traceability to authorized release; schedule pressure does not override this."
+  }
+ },
+ {
+  "id": "LA-075",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Internal audit",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 9.2",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 1,
+  "en": {
+   "question": "Internal auditors must always be organizationally independent from the function they audit; otherwise the audit is automatically nonconforming.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "Objectivity and impartiality are required, but the standard does not universally mandate organizational separation; arrangements should address conflict and objectivity."
+  }
+ },
+ {
+  "id": "LA-093",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Remote audit",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 3.4, Annex A",
+  "set": "Lead_Auditor_100",
+  "update2026": true,
+  "answer": 0,
+  "en": {
+   "question": "ISO 19011:2026 explicitly recognizes remote auditing methods and virtual locations, including blended use with on-site methods.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "Remote methods and virtual locations are explicit features of the 2026 revision."
+  }
+ },
+ {
+  "id": "LA-021",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Leadership",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 5.1",
+  "set": "Lead_Auditor_100",
+  "update2026": true,
+  "answer": 0,
+  "en": {
+   "question": "Which evidence best demonstrates the stronger leadership accountability emphasized in the 2026 EMS edition?",
+   "options": [
+    "Top management integrates environmental considerations into business decisions, visibly owns performance outcomes and provides resources consistent with strategic direction.",
+    "Top management approves the environmental policy and delegates all operational environmental decisions to the environmental manager and site coordinators.",
+    "Top management attends management review and relies on compliance specialists to decide whether environmental objectives remain strategically relevant.",
+    "Top management receives monthly environmental reports and signs corrective actions exceeding the threshold defined in the governance procedure."
+   ],
+   "explanation": "Leadership accountability is demonstrated through integration, ownership, strategic alignment and resource decisions, not merely approvals."
+  }
+ },
+ {
+  "id": "LA-044",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Audit time",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 9.1.4",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 0,
+  "en": {
+   "question": "Which factor is most defensible when determining management-system audit time?",
+   "options": [
+    "Client size, complexity, scope, processes, sites, risks and effectiveness of prior system knowledge, with justification for adjustments.",
+    "The client's requested budget and preferred audit duration, provided the audit team agrees the planned sample can be completed.",
+    "The number of documented procedures because each controlled procedure should receive a proportional amount of audit time.",
+    "A fixed number of days for each standard because consistency between clients is more important than organizational complexity."
+   ],
+   "explanation": "Audit duration should be determined using relevant complexity and scope factors and documented justification, not commercial preference."
+  }
+ },
+ {
+  "id": "LA-097",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Remote methods",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 6.4",
+  "set": "Lead_Auditor_100",
+  "update2026": true,
+  "answer": 1,
+  "en": {
+   "question": "If a remote audit experiences unstable connectivity, the auditor must automatically terminate the audit and reschedule it as a fully on-site audit.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "The audit team should apply contingency arrangements and determine whether objectives can still be achieved; automatic termination is not required."
+  }
+ },
+ {
+  "id": "LA-085",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Impartiality",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 5.2",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 1,
+  "en": {
+   "question": "A certification body can eliminate an impartiality threat simply by disclosing it to the client before the audit begins.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "Threats must be identified, analyzed and managed; disclosure alone is not necessarily an adequate safeguard."
+  }
+ },
+ {
+  "id": "LA-010",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Organizational knowledge",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 7.1.6",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 2,
+  "en": {
+   "question": "Which situation best demonstrates effective management of organizational knowledge?",
+   "options": [
+    "All controlled procedures are stored on the intranet and employees are instructed to read the documents applicable to their departments.",
+    "Experienced employees are encouraged to coach new staff, but knowledge needs are not formally considered unless a competence gap is reported.",
+    "Critical know-how is identified, maintained and made available, while future knowledge needs are assessed when technologies, people or markets change.",
+    "External training records are retained for seven years because retained certificates are considered the organization's primary knowledge base."
+   ],
+   "explanation": "Organizational knowledge is broader than documents or training records and includes maintaining existing knowledge and acquiring needed knowledge."
+  }
+ },
+ {
+  "id": "LA-020",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "EMS scope",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 4.3",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 0,
+  "en": {
+   "question": "Which scope decision presents the greatest certification-audit concern?",
+   "options": [
+    "A high-impact warehouse under organizational control is omitted primarily to avoid including its significant environmental aspects.",
+    "A remote administrative office is included although its environmental impacts are comparatively minor and centrally controlled.",
+    "A leased facility is included because the organization controls operations and has defined responsibilities with the property owner.",
+    "A distribution activity is addressed through influence over contracted providers even though direct operational control is limited."
+   ],
+   "explanation": "The scope cannot be manipulated to exclude activities, products or services that materially fall within the determined EMS boundaries and control/influence."
+  }
+ },
+ {
+  "id": "LA-072",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Quality culture",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 5.1,7.3",
+  "set": "Lead_Auditor_100",
+  "update2026": true,
+  "answer": 0,
+  "en": {
+   "question": "An auditor may reasonably test quality culture through leadership behaviour, decision patterns and workforce awareness rather than relying solely on a written culture programme.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "The 2026 edition strengthens quality culture and ethical-behaviour expectations without requiring one prescribed programme format."
+  }
+ },
+ {
+  "id": "LA-053",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Records and management system",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 9.9-10",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 3,
+  "en": {
+   "question": "Which record-control practice is most important for certification integrity?",
+   "options": [
+    "Retain only final audit reports and certificates because working records may expose confidential client information and should be destroyed after decision.",
+    "Allow auditors to retain personal working notes indefinitely because such notes remain the auditor's property rather than certification-body records.",
+    "Store all records permanently because certification bodies may not define risk-based retention periods for conformity-assessment information.",
+    "Maintain sufficient, secure and retrievable records to demonstrate certification activities, decisions, competence and status while protecting confidentiality."
+   ],
+   "explanation": "Certification-body records must support traceability and integrity of certification while being protected and retained under defined controls."
+  }
+ },
+ {
+  "id": "LA-023",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Environmental aspects",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 6.1.2",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 3,
+  "en": {
+   "question": "Which approach best demonstrates determination of significant environmental aspects?",
+   "options": [
+    "Treat all environmental aspects as significant to avoid subjectivity, then prioritize controls using departmental budgets and management preference.",
+    "Rank only legally regulated emissions and wastes using severity scores, because non-regulated aspects cannot create compliance or certification risk.",
+    "Evaluate environmental impacts only at sites under direct ownership, while supplier and customer stages are addressed through interested-party analysis.",
+    "Identify aspects and impacts considering normal, abnormal and reasonably foreseeable emergencies, apply defined significance criteria, and use a life-cycle perspective."
+   ],
+   "explanation": "Aspect evaluation should consider operating conditions, foreseeable emergencies, significance criteria and a life-cycle perspective."
+  }
+ },
+ {
+  "id": "LA-054",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Audit principles",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 4",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 1,
+  "en": {
+   "question": "Which principle is most directly compromised if an auditor suppresses a significant finding to preserve a commercial relationship?",
+   "options": [
+    "Confidentiality and independence, because commercial information should not influence whether evidence is retained in the audit record.",
+    "Integrity and fair presentation, because truthful, accurate and impartial reporting has been subordinated to an external interest.",
+    "Risk-based approach and confidentiality, because the commercial relationship should have been documented as an audit-programme risk.",
+    "Evidence-based approach and due professional care, because the auditor did not increase the sample before deciding to omit the finding."
+   ],
+   "explanation": "Suppressing a valid finding breaches ethical conduct and truthful reporting; commercial pressure must not distort conclusions."
+  }
+ },
+ {
+  "id": "LA-095",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Evidence-based approach",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 4.7",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 0,
+  "en": {
+   "question": "An audit conclusion can be reliable even though the audit uses samples, provided evidence is sufficient, appropriate and selected with awareness of sampling risk.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "Audit evidence is normally sample-based; reliability depends on appropriate evidence and judgement rather than exhaustive examination."
+  }
+ },
+ {
+  "id": "LA-080",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Change",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 6.3",
+  "set": "Lead_Auditor_100",
+  "update2026": true,
+  "answer": 0,
+  "en": {
+   "question": "The 2026 edition introduces a clearer formalized approach to managing change so environmental considerations are incorporated into organizational decisions.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "ISO 14001:2026 highlights Clause 6.3 planning/managing change as a clearer structured requirement."
+  }
+ },
+ {
+  "id": "LA-041",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Public information",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 8",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 3,
+  "en": {
+   "question": "Which information should a certification body make publicly accessible or provide on request as applicable?",
+   "options": [
+    "Detailed audit working papers, auditor notes and client corrective-action records for every certified organization.",
+    "The full competence files of auditors and decision makers assigned to each certified client.",
+    "Commercial pricing models and internal financial-risk thresholds used when accepting certification applications.",
+    "Information about certification processes, status of certifications and processes for complaints and appeals, subject to confidentiality requirements."
+   ],
+   "explanation": "The standard requires transparency about certification status/processes and complaints/appeals while protecting confidential client information."
+  }
+ },
+ {
+  "id": "LA-018",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Corrective action and continual improvement",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 10.2-10.3",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 0,
+  "en": {
+   "question": "The same customer-complaint mode recurs after a corrective action was closed. What should the auditor most critically examine?",
+   "options": [
+    "Whether the organization adequately determined causes and subsequently evaluated the effectiveness of actions taken.",
+    "Whether the complaint owner met the target closure time and obtained management approval before marking the action as complete.",
+    "Whether containment was implemented within the response time defined by the complaint-handling procedure and customer contract.",
+    "Whether the nonconformity was classified consistently with previous complaints and entered in the correct corrective-action category."
+   ],
+   "explanation": "Recurrence points directly to the adequacy of cause analysis and effectiveness evaluation, not merely closure discipline."
+  }
+ },
+ {
+  "id": "LA-034",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Internal audit",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 9.2",
+  "set": "Lead_Auditor_100",
+  "update2026": true,
+  "answer": 1,
+  "en": {
+   "question": "Which element reflects strengthened governance expectations highlighted in the 2026 edition?",
+   "options": [
+    "Each clause is audited every year using a standardized checklist so the organization can demonstrate complete clause coverage to the certification body.",
+    "The organization maintains a documented audit programme and objectives that consider process importance, environmental significance, changes and previous audit results.",
+    "Internal auditors are organizationally independent from the environmental function and may not audit any process within their own business unit.",
+    "The audit programme is approved by top management and cannot be adjusted during the year unless a major environmental incident occurs."
+   ],
+   "explanation": "The 2026 edition highlights rigorous documented audit programmes and objectives; risk-based prioritization remains more important than mechanical clause coverage."
+  }
+ },
+ {
+  "id": "LA-073",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Risks/opportunities",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 6.1",
+  "set": "Lead_Auditor_100",
+  "update2026": true,
+  "answer": 1,
+  "en": {
+   "question": "ISO 9001:2026 requires risks and opportunities to be entered in separate formal registers before related actions can be considered conforming.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "The standard clarifies risks and opportunities but does not prescribe separate registers or a mandatory documentation format."
+  }
+ },
+ {
+  "id": "LA-056",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Remote auditing methods",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 3.4, Annex A",
+  "set": "Lead_Auditor_100",
+  "update2026": true,
+  "answer": 2,
+  "en": {
+   "question": "Which statement best reflects ISO 19011:2026 treatment of remote auditing?",
+   "options": [
+    "Remote auditing is limited to document review and interviews because observation and sampling require the auditor to be physically present at the auditee.",
+    "Remote auditing may be used only for internal audits, while second- and third-party audits require on-site methods for objective evidence.",
+    "Remote methods may be used from locations other than the auditee's location and can be combined with on-site methods when they support an effective audit.",
+    "Remote auditing replaces on-site auditing for virtual organizations because physical-location sampling is not relevant when digital processes predominate."
+   ],
+   "explanation": "The 2026 edition explicitly expands remote-audit guidance and recognizes blended methods and virtual locations."
+  }
+ },
+ {
+  "id": "LA-088",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Decision",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 9.5",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 1,
+  "en": {
+   "question": "The lead auditor may make the final certification decision if another person independently reviews the audit report afterwards.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "The certification decision must be made by competent person(s) different from those who carried out the audit."
+  }
+ },
+ {
+  "id": "LA-059",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Audit programme implementation",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 5.4-5.5",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 1,
+  "en": {
+   "question": "When allocating audit resources, which decision is most consistent with ISO 19011?",
+   "options": [
+    "Use the same audit team for repeated audits because familiarity with the auditee improves efficiency and therefore overrides independence concerns.",
+    "Assign competent auditors and suitable methods according to audit objectives, scope, complexity, risk and available evidence, adjusting the programme when conditions change.",
+    "Allocate equal audit days to each process because risk-based allocation could create inconsistent treatment between different departments.",
+    "Select remote methods whenever travel cost is lower, provided the auditee has adequate videoconferencing and electronic document systems."
+   ],
+   "explanation": "Resources and methods should be matched to objectives, competence needs, complexity and risks; efficiency alone is not determinative."
+  }
+ },
+ {
+  "id": "LA-049",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Surveillance",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 9.6.2",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 1,
+  "en": {
+   "question": "Which statement best describes surveillance auditing?",
+   "options": [
+    "It repeats the complete Stage 2 audit every year because every applicable requirement must be fully reassessed before certification is maintained.",
+    "It samples representative areas and functions over the cycle to maintain confidence that the certified management system continues to fulfil requirements.",
+    "It focuses only on previous nonconformities and complaints because unchanged processes were already demonstrated effective at initial certification.",
+    "It may be replaced by remote document review if the client reports no major organizational, legal or process changes during the year."
+   ],
+   "explanation": "Surveillance is a planned sampling activity across the cycle, with mandatory areas and attention to changes/performance."
+  }
+ },
+ {
+  "id": "LA-002",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Interested parties",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 4.2",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 3,
+  "en": {
+   "question": "A manufacturer identifies regulators, key customers and a parent company as relevant interested parties. What is the strongest audit test of conformity?",
+   "options": [
+    "Confirm that every interested party has a documented satisfaction survey and a measurable annual improvement target.",
+    "Verify that interested-party requirements are reviewed only when a complaint, legal notice or contractual dispute is received.",
+    "Check that all stakeholder expectations are included in the quality policy and are formally approved by the board.",
+    "Verify which relevant requirements affect the QMS, how they are addressed, and how changes in those requirements are monitored."
+   ],
+   "explanation": "The auditor should test determination, relevance, QMS impact and monitoring of applicable interested-party requirements."
+  }
+ },
+ {
+  "id": "LA-029",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Operational planning and control",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 8.1",
+  "set": "Lead_Auditor_100",
+  "update2026": true,
+  "answer": 3,
+  "en": {
+   "question": "Which evidence most strongly demonstrates life-cycle perspective in operational control?",
+   "options": [
+    "The organization asks suppliers to hold ISO 14001 certification and therefore treats supplier environmental impacts as outside its own operational planning.",
+    "The organization performs a formal cradle-to-grave life-cycle assessment for every product and retains third-party verification reports for significant impacts.",
+    "The organization controls internal production aspects and addresses upstream and downstream impacts only when specific legislation imposes direct responsibility.",
+    "Environmental requirements are considered at relevant stages such as design, procurement, external provision, delivery, use information and end-of-life where the organization can control or influence outcomes."
+   ],
+   "explanation": "Life-cycle perspective is broader than direct operations but does not mandate full formal life-cycle assessment for every product."
+  }
+ },
+ {
+  "id": "LA-078",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Environmental context",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 4.1-4.2",
+  "set": "Lead_Auditor_100",
+  "update2026": true,
+  "answer": 0,
+  "en": {
+   "question": "ISO 14001:2026 broadens context considerations to include conditions such as climate change, biodiversity, ecosystem health, pollution and resource availability.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "These environmental conditions are explicitly highlighted in the 2026 edition's broader context focus."
+  }
+ },
+ {
+  "id": "LA-013",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Customer requirements",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 8.2",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 2,
+  "en": {
+   "question": "A sales team accepts a customized order before engineering feasibility is complete. What should the auditor examine first?",
+   "options": [
+    "Whether engineering completed a formal design review after order entry and whether purchasing identified the required external providers.",
+    "Whether the customer accepted the quotation terms and whether the commercial margin was approved at the required management level.",
+    "Whether requirements were reviewed before commitment and whether differences, feasibility and subsequent changes were controlled and communicated.",
+    "Whether production scheduled sufficient capacity and whether final inspection was increased for the first delivery of the customized product."
+   ],
+   "explanation": "The key issue is review of product/service requirements before commitment, including resolution of differences and control of changed requirements."
+  }
+ },
+ {
+  "id": "LA-046",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Stage 2",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 9.3.1.3",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 0,
+  "en": {
+   "question": "Which evidence should receive greatest emphasis during Stage 2?",
+   "options": [
+    "Implementation and effectiveness of the management system against certification criteria, including performance, processes, internal audit and management review.",
+    "Resolution of every improvement opportunity identified at Stage 1, whether or not the matter represented a requirement of the certification criteria.",
+    "Conformity of only the processes classified as high risk because lower-risk processes can be addressed during future surveillance audits.",
+    "Completion of the client's documented procedures because Stage 1 already established that operational controls were effectively implemented."
+   ],
+   "explanation": "Stage 2 evaluates implementation and effectiveness across the applicable certification criteria and scope."
+  }
+ },
+ {
+  "id": "LA-098",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Findings",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 6.4",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 0,
+  "en": {
+   "question": "An auditor should avoid suggesting a specific corrective solution when doing so could compromise independence and turn the audit into consultancy.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "Auditors can clarify findings and criteria but should preserve impartiality and avoid prescribing client-specific solutions."
+  }
+ },
+ {
+  "id": "LA-062",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Opening meeting",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 6.4",
+  "set": "Lead_Auditor_100",
+  "update2026": true,
+  "answer": 0,
+  "en": {
+   "question": "Which opening-meeting action is most important when remote methods will be used?",
+   "options": [
+    "Confirm communication technology, information-security expectations, access arrangements, contingencies and how remote evidence will be obtained and validated.",
+    "Agree that all documents will be emailed to auditors in advance because screen sharing provides insufficient evidence for formal management-system audits.",
+    "Confirm that remote evidence will be treated as lower confidence than on-site evidence and therefore cannot independently support nonconformity findings.",
+    "Require the auditee to record all remote sessions so the audit team can replay interviews when deciding findings after the closing meeting."
+   ],
+   "explanation": "Remote auditing requires practical controls for technology, access, confidentiality, evidence reliability and contingency planning."
+  }
+ },
+ {
+  "id": "LA-090",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Complaints",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 9.8",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 0,
+  "en": {
+   "question": "A complaint about a certified client may require the certification body to evaluate whether certification status remains justified, while maintaining appropriate confidentiality.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "Complaints can provide information relevant to certified-system effectiveness and may trigger certification-body action."
+  }
+ },
+ {
+  "id": "LA-081",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "External provision",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 8.1",
+  "set": "Lead_Auditor_100",
+  "update2026": true,
+  "answer": 1,
+  "en": {
+   "question": "Using an ISO 14001-certified supplier automatically demonstrates adequate control of the environmental impacts associated with externally provided processes.",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explanation": "Supplier certification can be relevant evidence but does not replace the organization's determination of necessary controls or influence."
+  }
+ },
+ {
+  "id": "LA-008",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Quality objectives",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 6.2",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 3,
+  "en": {
+   "question": "Which objective provides the strongest evidence of conformity with planning requirements?",
+   "options": [
+    "Improve complaint handling significantly during the year, with the customer-service manager reporting progress whenever performance declines.",
+    "Achieve fewer customer complaints than last year, with the quality department responsible for deciding corrective actions at year end.",
+    "Maintain world-class customer satisfaction by ensuring all departments focus on service quality and take prompt action when problems arise.",
+    "Reduce validated repeat complaints from 6.0% to below 3.0% by Q4, with monthly review, assigned ownership, resources and defined evaluation criteria."
+   ],
+   "explanation": "A robust objective is measurable, monitored and supported by defined actions, responsibilities, resources, timing and evaluation."
+  }
+ },
+ {
+  "id": "LA-032",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Monitoring and measurement",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 9.1.1",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 2,
+  "en": {
+   "question": "Which monitoring weakness is most serious from a conformity perspective?",
+   "options": [
+    "A non-significant waste stream is measured quarterly rather than monthly, although the organization has justified the frequency based on stable performance.",
+    "Environmental KPIs are displayed in dashboards using rolling averages rather than raw daily data, while underlying records remain available for analysis.",
+    "A critical emissions instrument influences reported compliance data but its fitness, calibration status and data validity cannot be demonstrated.",
+    "The organization uses different monitoring technologies at separate sites because process conditions and environmental permits differ."
+   ],
+   "explanation": "Monitoring must produce valid results; unreliable equipment or data undermines evaluation of environmental performance and compliance."
+  }
+ },
+ {
+  "id": "LA-005",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Leadership and quality culture",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 5.1",
+  "set": "Lead_Auditor_100",
+  "update2026": true,
+  "answer": 0,
+  "en": {
+   "question": "Under ISO 9001:2026, which audit evidence most strongly supports leadership's responsibility for quality culture?",
+   "options": [
+    "Leaders consistently reinforce quality expectations and ethical behaviour through decisions, resource allocation, accountability and observed management practices.",
+    "Leaders sign the quality policy annually and delegate all day-to-day QMS matters to the management representative and internal auditors.",
+    "Leaders attend the opening and closing meetings of external audits and review the certification body's report before distribution.",
+    "Leaders require each employee to complete an annual quality-awareness course and retain completion certificates as the primary evidence."
+   ],
+   "explanation": "The 2026 edition strengthens leadership, quality culture and ethical behaviour; evidence should show lived governance, not ceremonial participation."
+  }
+ },
+ {
+  "id": "LA-070",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Remote evidence reliability",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 Annex A",
+  "set": "Lead_Auditor_100",
+  "update2026": true,
+  "answer": 3,
+  "en": {
+   "question": "During a remote audit, a manager shares a spreadsheet on screen but will not provide traceable source records. What is the best auditor response?",
+   "options": [
+    "Accept the spreadsheet because screen sharing prevents post-audit alteration and therefore provides stronger evidence than emailed records.",
+    "Raise a nonconformity against document control immediately because refusal to send the file proves the information is not controlled.",
+    "End the remote audit and require an on-site audit because remote methods cannot provide reliable evidence when original records are confidential.",
+    "Assess evidence reliability, request corroborating traceable information or alternative access, and avoid concluding conformity from an unverifiable display alone."
+   ],
+   "explanation": "Remote evidence must still be verifiable and sufficiently reliable; confidentiality concerns can be managed without lowering evidence expectations."
+  }
+ },
+ {
+  "id": "LA-045",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Stage 1",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 9.3.1.2",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 1,
+  "en": {
+   "question": "Which objective is most characteristic of Stage 1?",
+   "options": [
+    "Collect sufficient evidence to make the certification decision and resolve all nonconformities before Stage 2 is scheduled.",
+    "Evaluate readiness for Stage 2 by understanding the management system, scope, site conditions, key processes and relevant documented information.",
+    "Witness every critical operational process because Stage 2 should focus primarily on management review and internal audit effectiveness.",
+    "Verify corrective-action effectiveness from the client's previous certification body before determining whether transfer can proceed."
+   ],
+   "explanation": "Stage 1 supports readiness and planning for Stage 2; it does not replace the full effectiveness audit or certification decision."
+  }
+ },
+ {
+  "id": "LA-026",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Environmental objectives",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 6.2",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 0,
+  "en": {
+   "question": "Which objective is best aligned with environmental-performance requirements?",
+   "options": [
+    "Reduce process water intensity by 12% per unit output by year-end, with defined actions, resources, ownership, monthly tracking and performance evaluation.",
+    "Improve water conservation by encouraging staff to identify savings and reporting notable initiatives during the annual management review.",
+    "Minimize water use whenever practicable while continuing production and ensuring any conservation actions remain economically reasonable.",
+    "Maintain responsible water use by meeting permit conditions and investigating deviations that could create compliance concerns."
+   ],
+   "explanation": "Effective objectives are measurable where practicable, monitored, communicated and supported by planned actions and evaluation."
   }
  },
  {
@@ -1428,45 +1670,108 @@
   }
  },
  {
-  "id": "LA-069",
+  "id": "LA-009",
   "type": "mcq",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Auditor competence",
-  "standard": "ISO 19011:2026",
-  "clause": "ISO 19011:2026 7",
+  "topic": "Planning of changes",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 6.3",
   "set": "Lead_Auditor_100",
-  "update2026": true,
-  "answer": 1,
+  "update2026": false,
+  "answer": 3,
   "en": {
-   "question": "Which competence evidence is strongest for assigning an auditor to a complex digitalized process?",
+   "question": "A company is replacing its ERP and inspection-record system. Which audit evidence best demonstrates controlled QMS change?",
    "options": [
-    "Completion of a Lead Auditor course and prior audits in any management-system discipline, because generic audit competence transfers fully across technologies.",
-    "Demonstrated audit competence combined with relevant process/technology knowledge and the ability to apply suitable methods, including remote techniques where needed.",
-    "An academic qualification in information technology, even if the person has limited practical auditing experience and no management-system audit training.",
-    "Extensive experience using videoconferencing tools, because competence in remote methods is the primary requirement for digitalized-process auditing."
+    "The quality manager updated document-control procedures after implementation and scheduled a special internal audit three months later.",
+    "The IT department approved a migration plan and obtained management authorization before transferring the legacy data into the new system.",
+    "All users completed system training before go-live, and the project closed after the vendor confirmed successful software installation.",
+    "The organization considered purpose, consequences, system integrity, resources and responsibilities, and verified controls during implementation."
    ],
-   "explanation": "Auditor competence combines audit knowledge/skills with discipline, sector and technology competence appropriate to the assignment."
+   "explanation": "Planning changes requires consideration of purpose/consequences, QMS integrity, resources and responsibilities, not only project or IT controls."
   }
  },
  {
-  "id": "LA-070",
+  "id": "LA-043",
   "type": "mcq",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Remote evidence reliability",
-  "standard": "ISO 19011:2026",
-  "clause": "ISO 19011:2026 Annex A",
+  "topic": "Audit programme",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 9.1.3",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 1,
+  "en": {
+   "question": "For an initial three-year certification cycle, what should the certification body's audit programme normally include?",
+   "options": [
+    "A single initial audit followed by annual surveillance, with recertification optional when surveillance results remain satisfactory.",
+    "A two-stage initial certification audit followed by surveillance audits and a recertification audit planned before certificate expiry.",
+    "Stage 1, Stage 2 and quarterly surveillance for the first year, followed by annual surveillance until the client requests recertification.",
+    "Stage 1 and Stage 2 only; subsequent surveillance frequency is determined solely by the client contract and accreditation body."
+   ],
+   "explanation": "Certification programmes normally cover initial Stage 1/2, surveillance and recertification across the certification cycle."
+  }
+ },
+ {
+  "id": "LA-050",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Recertification",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 9.6.3",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 2,
+  "en": {
+   "question": "What is the principal purpose of recertification?",
+   "options": [
+    "Verify only changes since the previous surveillance because previously audited controls remain accepted for the next certification cycle.",
+    "Repeat Stage 1 and Stage 2 in every case using the same audit duration as the original certification, regardless of system maturity.",
+    "Confirm continued conformity and effectiveness of the management system as a whole and its continued relevance to the certification scope.",
+    "Close all outstanding opportunities for improvement before the existing certificate expires because OFIs become mandatory at recertification."
+   ],
+   "explanation": "Recertification evaluates continued system-wide conformity/effectiveness and continued relevance to scope, informed by cycle performance."
+  }
+ },
+ {
+  "id": "LA-030",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Externally provided processes",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 8.1",
   "set": "Lead_Auditor_100",
   "update2026": true,
   "answer": 2,
   "en": {
-   "question": "During a remote audit, a manager shares a spreadsheet on screen but will not provide traceable source records. What is the best auditor response?",
+   "question": "Why is the 2026 terminology shift toward externally provided processes, products and services important to an auditor?",
    "options": [
-    "Accept the spreadsheet because screen sharing prevents post-audit alteration and therefore provides stronger evidence than emailed records.",
-    "Raise a nonconformity against document control immediately because refusal to send the file proves the information is not controlled.",
-    "Assess evidence reliability, request corroborating traceable information or alternative access, and avoid concluding conformity from an unverifiable display alone.",
-    "End the remote audit and require an on-site audit because remote methods cannot provide reliable evidence when original records are confidential."
+    "It means all external providers must be incorporated into the organization's EMS scope and audited annually against every ISO 14001 requirement.",
+    "It transfers responsibility for environmental compliance from providers to the certified organization whenever a purchasing contract exists.",
+    "It reinforces that environmental accountability and appropriate controls can extend across external provision rather than being limited to narrowly defined outsourcing.",
+    "It requires organizations to use environmental criteria as the primary factor in supplier selection even when environmental impacts are insignificant."
    ],
-   "explanation": "Remote evidence must still be verifiable and sufficiently reliable; confidentiality concerns can be managed without lowering evidence expectations."
+   "explanation": "The revised terminology emphasizes relevant control or influence across external provision and the value chain without imposing universal certification or audit requirements."
+  }
+ },
+ {
+  "id": "LA-061",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Audit preparation",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 6.3",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 3,
+  "en": {
+   "question": "What is the best purpose of reviewing documented information before field activities?",
+   "options": [
+    "Determine preliminary findings so interviews can focus on obtaining confirmation and identifying the responsible process owners.",
+    "Verify full conformity of documented requirements so field activities can focus exclusively on implementation and operational effectiveness.",
+    "Finalize the audit report structure and classify likely findings before on-site or remote interviews begin.",
+    "Develop understanding, identify potential audit trails and information gaps, and plan efficient evidence collection without pre-judging conformity."
+   ],
+   "explanation": "Document review informs planning and audit trails; it should not become a premature conformity decision."
   }
  },
  {
@@ -1489,326 +1794,24 @@
   }
  },
  {
-  "id": "LA-072",
-  "type": "tf",
+  "id": "LA-022",
+  "type": "mcq",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Quality culture",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 5.1,7.3",
-  "set": "Lead_Auditor_100",
-  "update2026": true,
-  "answer": 0,
-  "en": {
-   "question": "An auditor may reasonably test quality culture through leadership behaviour, decision patterns and workforce awareness rather than relying solely on a written culture programme.",
-   "options": [
-    "True",
-    "False"
-   ],
-   "explanation": "The 2026 edition strengthens quality culture and ethical-behaviour expectations without requiring one prescribed programme format."
-  }
- },
- {
-  "id": "LA-073",
-  "type": "tf",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Risks/opportunities",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 6.1",
-  "set": "Lead_Auditor_100",
-  "update2026": true,
-  "answer": 1,
-  "en": {
-   "question": "ISO 9001:2026 requires risks and opportunities to be entered in separate formal registers before related actions can be considered conforming.",
-   "options": [
-    "True",
-    "False"
-   ],
-   "explanation": "The standard clarifies risks and opportunities but does not prescribe separate registers or a mandatory documentation format."
-  }
- },
- {
-  "id": "LA-074",
-  "type": "tf",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Traceability",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 8.5",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 0,
-  "en": {
-   "question": "Identification and traceability controls are required to the extent necessary to ensure conformity, rather than universally requiring unique serial numbers for all outputs.",
-   "options": [
-    "True",
-    "False"
-   ],
-   "explanation": "Traceability requirements depend on what is necessary for conformity and applicable requirements."
-  }
- },
- {
-  "id": "LA-075",
-  "type": "tf",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Internal audit",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 9.2",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 1,
-  "en": {
-   "question": "Internal auditors must always be organizationally independent from the function they audit; otherwise the audit is automatically nonconforming.",
-   "options": [
-    "True",
-    "False"
-   ],
-   "explanation": "Objectivity and impartiality are required, but the standard does not universally mandate organizational separation; arrangements should address conflict and objectivity."
-  }
- },
- {
-  "id": "LA-076",
-  "type": "tf",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Nonconforming outputs",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 8.7",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 0,
-  "en": {
-   "question": "Correcting a nonconforming output does not by itself complete control; conformity should be verified after correction as applicable.",
-   "options": [
-    "True",
-    "False"
-   ],
-   "explanation": "Corrected outputs should be subject to verification of conformity with requirements."
-  }
- },
- {
-  "id": "LA-077",
-  "type": "tf",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Continual improvement",
-  "standard": "ISO 9001:2026",
-  "clause": "ISO 9001:2026 10.3",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 1,
-  "en": {
-   "question": "Continual improvement can be demonstrated only through formal improvement projects with quantified financial benefits.",
-   "options": [
-    "True",
-    "False"
-   ],
-   "explanation": "Continual improvement can arise through many mechanisms; no single project format or financial metric is mandated."
-  }
- },
- {
-  "id": "LA-078",
-  "type": "tf",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Environmental context",
+  "topic": "Environmental policy",
   "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 4.1-4.2",
-  "set": "Lead_Auditor_100",
-  "update2026": true,
-  "answer": 0,
-  "en": {
-   "question": "ISO 14001:2026 broadens context considerations to include conditions such as climate change, biodiversity, ecosystem health, pollution and resource availability.",
-   "options": [
-    "True",
-    "False"
-   ],
-   "explanation": "These environmental conditions are explicitly highlighted in the 2026 edition's broader context focus."
-  }
- },
- {
-  "id": "LA-079",
-  "type": "tf",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Life-cycle perspective",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 6.1.2",
+  "clause": "ISO 14001:2026 5.2",
   "set": "Lead_Auditor_100",
   "update2026": false,
   "answer": 1,
   "en": {
-   "question": "A life-cycle perspective requires a complete ISO 14040-style life-cycle assessment for every product and service within the EMS scope.",
+   "question": "Which policy commitment is essential to ISO 14001 rather than optional wording?",
    "options": [
-    "True",
-    "False"
+    "A commitment to carbon neutrality by a defined year, elimination of all hazardous substances and restoration of affected biodiversity.",
+    "Commitments to environmental protection, meeting compliance obligations and continual improvement of the EMS to enhance environmental performance.",
+    "A commitment to publish all environmental monitoring results and obtain third-party assurance of annual sustainability disclosures.",
+    "A commitment to apply the best available technology to every significant aspect regardless of economic or operational feasibility."
    ],
-   "explanation": "ISO 14001 requires life-cycle perspective, not a mandatory formal life-cycle assessment for every product or service."
-  }
- },
- {
-  "id": "LA-080",
-  "type": "tf",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Change",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 6.3",
-  "set": "Lead_Auditor_100",
-  "update2026": true,
-  "answer": 0,
-  "en": {
-   "question": "The 2026 edition introduces a clearer formalized approach to managing change so environmental considerations are incorporated into organizational decisions.",
-   "options": [
-    "True",
-    "False"
-   ],
-   "explanation": "ISO 14001:2026 highlights Clause 6.3 planning/managing change as a clearer structured requirement."
-  }
- },
- {
-  "id": "LA-081",
-  "type": "tf",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "External provision",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 8.1",
-  "set": "Lead_Auditor_100",
-  "update2026": true,
-  "answer": 1,
-  "en": {
-   "question": "Using an ISO 14001-certified supplier automatically demonstrates adequate control of the environmental impacts associated with externally provided processes.",
-   "options": [
-    "True",
-    "False"
-   ],
-   "explanation": "Supplier certification can be relevant evidence but does not replace the organization's determination of necessary controls or influence."
-  }
- },
- {
-  "id": "LA-082",
-  "type": "tf",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Compliance evaluation",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 9.1.2",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 1,
-  "en": {
-   "question": "The absence of regulatory enforcement action is sufficient objective evidence that the organization has fulfilled its requirement to evaluate compliance.",
-   "options": [
-    "True",
-    "False"
-   ],
-   "explanation": "The organization must deliberately evaluate compliance status against applicable obligations and retain evidence/knowledge of that status."
-  }
- },
- {
-  "id": "LA-083",
-  "type": "tf",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Internal audit",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 9.2",
-  "set": "Lead_Auditor_100",
-  "update2026": true,
-  "answer": 0,
-  "en": {
-   "question": "The internal audit programme should take account of environmental importance, changes and previous audit results rather than merely rotating departments on an equal schedule.",
-   "options": [
-    "True",
-    "False"
-   ],
-   "explanation": "Audit-programme planning is intended to be risk/performance informed."
-  }
- },
- {
-  "id": "LA-084",
-  "type": "tf",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Improvement",
-  "standard": "ISO 14001:2026",
-  "clause": "ISO 14001:2026 10.3",
-  "set": "Lead_Auditor_100",
-  "update2026": true,
-  "answer": 0,
-  "en": {
-   "question": "Improvement of the EMS should be directed toward enhancing environmental performance, not solely toward reducing the number of documented nonconformities.",
-   "options": [
-    "True",
-    "False"
-   ],
-   "explanation": "Environmental performance outcomes are central to EMS improvement."
-  }
- },
- {
-  "id": "LA-085",
-  "type": "tf",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Impartiality",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 5.2",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 1,
-  "en": {
-   "question": "A certification body can eliminate an impartiality threat simply by disclosing it to the client before the audit begins.",
-   "options": [
-    "True",
-    "False"
-   ],
-   "explanation": "Threats must be identified, analyzed and managed; disclosure alone is not necessarily an adequate safeguard."
-  }
- },
- {
-  "id": "LA-086",
-  "type": "tf",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Competence",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 7",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 0,
-  "en": {
-   "question": "Competence criteria should be established for the different certification functions, not only for auditors who conduct on-site activities.",
-   "options": [
-    "True",
-    "False"
-   ],
-   "explanation": "Competence applies to functions such as application review, audit, technical evaluation and certification decision as relevant."
-  }
- },
- {
-  "id": "LA-087",
-  "type": "tf",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Initial certification",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 9.3",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 0,
-  "en": {
-   "question": "Stage 1 and Stage 2 have distinct purposes, and a successful Stage 1 does not by itself provide sufficient basis for an initial certification decision.",
-   "options": [
-    "True",
-    "False"
-   ],
-   "explanation": "Stage 1 supports readiness and Stage 2 planning; certification depends on Stage 2 evidence and subsequent independent decision."
-  }
- },
- {
-  "id": "LA-088",
-  "type": "tf",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Decision",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 9.5",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 1,
-  "en": {
-   "question": "The lead auditor may make the final certification decision if another person independently reviews the audit report afterwards.",
-   "options": [
-    "True",
-    "False"
-   ],
-   "explanation": "The certification decision must be made by competent person(s) different from those who carried out the audit."
+   "explanation": "The policy must include the standard's required commitments; specific targets such as carbon neutrality depend on organizational context and objectives."
   }
  },
  {
@@ -1831,212 +1834,209 @@
   }
  },
  {
-  "id": "LA-090",
-  "type": "tf",
+  "id": "LA-001",
+  "type": "mcq",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Complaints",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 9.8",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 0,
-  "en": {
-   "question": "A complaint about a certified client may require the certification body to evaluate whether certification status remains justified, while maintaining appropriate confidentiality.",
-   "options": [
-    "True",
-    "False"
-   ],
-   "explanation": "Complaints can provide information relevant to certified-system effectiveness and may trigger certification-body action."
-  }
- },
- {
-  "id": "LA-091",
-  "type": "tf",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Confidentiality",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 8.4",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 1,
-  "en": {
-   "question": "Because certification status is public information, all information obtained during the audit becomes publicly releasable after certification is granted.",
-   "options": [
-    "True",
-    "False"
-   ],
-   "explanation": "Confidential information remains protected except as required by authorized disclosure arrangements or law."
-  }
- },
- {
-  "id": "LA-092",
-  "type": "tf",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Suspension",
-  "standard": "ISO/IEC 17021-1:2015",
-  "clause": "ISO/IEC 17021-1:2015 9.6.5",
-  "set": "Lead_Auditor_100",
-  "update2026": false,
-  "answer": 0,
-  "en": {
-   "question": "While certification is suspended, the client's certification is temporarily invalid and the certification body should have enforceable arrangements governing related claims.",
-   "options": [
-    "True",
-    "False"
-   ],
-   "explanation": "Suspension makes certification temporarily invalid and requires controls over status and claims."
-  }
- },
- {
-  "id": "LA-093",
-  "type": "tf",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Remote audit",
-  "standard": "ISO 19011:2026",
-  "clause": "ISO 19011:2026 3.4, Annex A",
+  "topic": "Context",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 4.1",
   "set": "Lead_Auditor_100",
   "update2026": true,
-  "answer": 0,
+  "answer": 2,
   "en": {
-   "question": "ISO 19011:2026 explicitly recognizes remote auditing methods and virtual locations, including blended use with on-site methods.",
+   "question": "During a certification audit, which evidence most convincingly demonstrates that the organization has determined relevant internal and external issues rather than merely listing them?",
    "options": [
-    "True",
-    "False"
+    "The issues are recorded in management-review minutes, although no connection to QMS scope or process planning is evident.",
+    "The issues appear in an annually approved SWOT analysis, while process objectives and controls are managed independently.",
+    "The issues are linked to QMS planning, risks, opportunities and strategic decisions, with evidence that changes are monitored.",
+    "The issues are maintained by the quality manager and communicated to top management only when major changes occur."
    ],
-   "explanation": "Remote methods and virtual locations are explicit features of the 2026 revision."
+   "explanation": "Clause 4.1 is demonstrated by relevance and use, not by a standalone list; auditors should trace issues into QMS planning and review."
   }
  },
  {
-  "id": "LA-094",
-  "type": "tf",
+  "id": "LA-057",
+  "type": "mcq",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Independence",
+  "topic": "Audit programme objectives",
   "standard": "ISO 19011:2026",
-  "clause": "ISO 19011:2026 4.6",
+  "clause": "ISO 19011:2026 5.2",
   "set": "Lead_Auditor_100",
   "update2026": false,
   "answer": 1,
   "en": {
-   "question": "Independence means an internal auditor can never audit a process within the same department, regardless of safeguards or organizational circumstances.",
+   "question": "Which audit-programme objective is strongest?",
    "options": [
-    "True",
-    "False"
+    "Audit every clause of every applicable standard once per calendar year using the same checklist so coverage can be objectively demonstrated.",
+    "Evaluate whether priority processes effectively manage identified business and management-system risks while supporting strategic and compliance objectives.",
+    "Complete all planned audits within the approved annual budget and close every finding within thirty days of the closing meeting.",
+    "Ensure each department receives equal audit time to maintain fairness and avoid concerns about auditor bias or management preference."
    ],
-   "explanation": "Independence supports objectivity, but practical internal-audit arrangements can use safeguards; absolute structural separation is not universally required."
+   "explanation": "Programme objectives should relate to management-system needs, risks, changes and strategic/compliance priorities, not mechanical equality or closure targets."
   }
  },
  {
-  "id": "LA-095",
-  "type": "tf",
+  "id": "LA-004",
+  "type": "mcq",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Evidence-based approach",
-  "standard": "ISO 19011:2026",
-  "clause": "ISO 19011:2026 4.7",
+  "topic": "Process approach",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 4.4",
   "set": "Lead_Auditor_100",
   "update2026": false,
-  "answer": 0,
-  "en": {
-   "question": "An audit conclusion can be reliable even though the audit uses samples, provided evidence is sufficient, appropriate and selected with awareness of sampling risk.",
-   "options": [
-    "True",
-    "False"
-   ],
-   "explanation": "Audit evidence is normally sample-based; reliability depends on appropriate evidence and judgement rather than exhaustive examination."
-  }
- },
- {
-  "id": "LA-096",
-  "type": "tf",
-  "difficulty": "Expert / Lead Auditor",
-  "topic": "Programme risks",
-  "standard": "ISO 19011:2026",
-  "clause": "ISO 19011:2026 5.3",
-  "set": "Lead_Auditor_100",
-  "update2026": true,
   "answer": 1,
   "en": {
-   "question": "Audit-programme risks are limited to risks arising from the auditee's operations; risks related to auditor competence, resources, communication or audit methods are outside the programme-risk concept.",
+   "question": "Which evidence best demonstrates effective application of the process approach at Lead Auditor level?",
    "options": [
-    "True",
-    "False"
+    "Each department maintains a current procedure and an organization chart identifying the manager responsible for the department.",
+    "Process owners can explain interactions, criteria, resources, risks, controls and performance trends, and records show those elements are managed.",
+    "The quality manual maps clauses to procedures and each procedure includes document-control approval and revision history.",
+    "The internal audit checklist contains all standard clauses and every clause is audited at least once during the calendar year."
    ],
-   "explanation": "False. Audit-programme risks include factors that can prevent the programme from achieving its objectives, including competence, resources, communication, methods and logistics."
+   "explanation": "A process approach is evidenced through managed interactions, inputs/outputs, criteria, responsibilities, risks, resources and evaluation."
   }
  },
  {
-  "id": "LA-097",
-  "type": "tf",
+  "id": "LA-039",
+  "type": "mcq",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Remote methods",
-  "standard": "ISO 19011:2026",
-  "clause": "ISO 19011:2026 6.4",
+  "topic": "Structure",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 6",
   "set": "Lead_Auditor_100",
-  "update2026": true,
-  "answer": 1,
+  "update2026": false,
+  "answer": 3,
   "en": {
-   "question": "If a remote audit experiences unstable connectivity, the auditor must automatically terminate the audit and reschedule it as a fully on-site audit.",
+   "question": "Why must a certification body retain authority over certification decisions even when it outsources audit activities?",
    "options": [
-    "True",
-    "False"
+    "Because outsourced auditors may collect evidence but are prohibited from participating in opening meetings, interviews or reporting activities.",
+    "Because all audit-team members must be direct employees of the certification body whenever accredited certification is provided.",
+    "Because external providers can conduct only surveillance audits, while initial and recertification audits must be performed by employees.",
+    "Because responsibility for conformity assessment and certification decisions cannot be transferred to an external provider."
    ],
-   "explanation": "The audit team should apply contingency arrangements and determine whether objectives can still be achieved; automatic termination is not required."
+   "explanation": "The certification body may use external resources under controlled arrangements but remains responsible for certification activities and decisions."
   }
  },
  {
-  "id": "LA-098",
-  "type": "tf",
+  "id": "LA-063",
+  "type": "mcq",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Findings",
+  "topic": "Interviewing",
   "standard": "ISO 19011:2026",
   "clause": "ISO 19011:2026 6.4",
   "set": "Lead_Auditor_100",
   "update2026": false,
-  "answer": 0,
+  "answer": 3,
   "en": {
-   "question": "An auditor should avoid suggesting a specific corrective solution when doing so could compromise independence and turn the audit into consultancy.",
+   "question": "A process owner gives a polished explanation that conflicts with observed practice. What should an experienced auditor do next?",
    "options": [
-    "True",
-    "False"
+    "Accept the process owner's explanation because responsible managers are accountable for process implementation and are therefore authoritative evidence.",
+    "Record an immediate nonconformity because contradictory verbal evidence demonstrates that the documented process is not effectively communicated.",
+    "Ask the process owner to revise the explanation in writing so the audit file contains one definitive version of the process.",
+    "Seek corroborating evidence through records, observation and additional interviews, then evaluate consistency against the audit criteria."
    ],
-   "explanation": "Auditors can clarify findings and criteria but should preserve impartiality and avoid prescribing client-specific solutions."
+   "explanation": "Interviews are one evidence source; contradictory evidence should trigger corroboration and further sampling before conclusions."
   }
  },
  {
-  "id": "LA-099",
+  "id": "LA-079",
   "type": "tf",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Competence",
-  "standard": "ISO 19011:2026",
-  "clause": "ISO 19011:2026 7",
+  "topic": "Life-cycle perspective",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 6.1.2",
   "set": "Lead_Auditor_100",
   "update2026": false,
   "answer": 1,
   "en": {
-   "question": "Successful completion of a Lead Auditor course is sufficient by itself to demonstrate competence for every technical sector and every audit assignment.",
+   "question": "A life-cycle perspective requires a complete ISO 14040-style life-cycle assessment for every product and service within the EMS scope.",
    "options": [
     "True",
     "False"
    ],
-   "explanation": "Competence is assignment-specific and includes audit skills plus relevant discipline, sector and technical knowledge."
+   "explanation": "ISO 14001 requires life-cycle perspective, not a mandatory formal life-cycle assessment for every product or service."
   }
  },
  {
-  "id": "LA-100",
-  "type": "tf",
+  "id": "LA-031",
+  "type": "mcq",
   "difficulty": "Expert / Lead Auditor",
-  "topic": "Virtual evidence",
-  "standard": "ISO 19011:2026",
-  "clause": "ISO 19011:2026 Annex A",
+  "topic": "Emergency preparedness",
+  "standard": "ISO 14001:2026",
+  "clause": "ISO 14001:2026 8.2",
   "set": "Lead_Auditor_100",
-  "update2026": true,
+  "update2026": false,
   "answer": 0,
   "en": {
-   "question": "Evidence obtained remotely should be evaluated for reliability and verifiability using the same fundamental evidence-based principles applied to on-site evidence.",
+   "question": "Which audit evidence best demonstrates effective emergency preparedness and response?",
+   "options": [
+    "Potential emergencies are identified, response arrangements are maintained and tested where practicable, lessons are evaluated and plans are revised when needed.",
+    "Emergency procedures are approved by authorities and displayed at key locations, while testing is performed only after a material environmental incident.",
+    "Emergency drills occur annually using the same scenario so personnel become familiar with their assigned duties and expected communication channels.",
+    "The emergency plan focuses on life safety because environmental consequences are addressed later through corrective action and incident investigation."
+   ],
+   "explanation": "EMS emergency arrangements should address environmental consequences, be tested where practicable and improved based on tests and events."
+  }
+ },
+ {
+  "id": "LA-055",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Risk-based approach",
+  "standard": "ISO 19011:2026",
+  "clause": "ISO 19011:2026 4.8",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 0,
+  "en": {
+   "question": "What does the risk-based approach to auditing most appropriately influence?",
+   "options": [
+    "Planning, conduct and reporting so audit effort focuses on matters significant to objectives while also considering audit-process risks and opportunities.",
+    "The decision to omit low-risk management-system requirements whenever the audit duration is insufficient to sample every process.",
+    "The classification of every finding using the auditee's enterprise risk matrix so high-risk findings automatically become major nonconformities.",
+    "The requirement that auditors calculate numerical risk scores before interviews so sampling decisions can be statistically justified."
+   ],
+   "explanation": "Risk-based auditing prioritizes audit attention and recognizes risks/opportunities to the audit process; it does not mechanically classify findings."
+  }
+ },
+ {
+  "id": "LA-077",
+  "type": "tf",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Continual improvement",
+  "standard": "ISO 9001:2026",
+  "clause": "ISO 9001:2026 10.3",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 1,
+  "en": {
+   "question": "Continual improvement can be demonstrated only through formal improvement projects with quantified financial benefits.",
    "options": [
     "True",
     "False"
    ],
-   "explanation": "The method changes, but evidence still needs to be relevant, sufficient and verifiable."
+   "explanation": "Continual improvement can arise through many mechanisms; no single project format or financial metric is mandated."
+  }
+ },
+ {
+  "id": "LA-037",
+  "type": "mcq",
+  "difficulty": "Expert / Lead Auditor",
+  "topic": "Principles and impartiality",
+  "standard": "ISO/IEC 17021-1:2015",
+  "clause": "ISO/IEC 17021-1:2015 4-5",
+  "set": "Lead_Auditor_100",
+  "update2026": false,
+  "answer": 1,
+  "en": {
+   "question": "A certification body's largest client contributes 18% of annual revenue. What is the most appropriate response under impartiality requirements?",
+   "options": [
+    "Terminate the client relationship because any client exceeding 10% of revenue automatically creates an unacceptable impartiality threat.",
+    "Identify and evaluate the financial self-interest threat, determine safeguards, and demonstrate that certification decisions remain objective.",
+    "Accept the relationship if the audit team has no direct financial bonus linked to the client's certification outcome.",
+    "Transfer certification decision authority to the lead auditor because the lead auditor has first-hand knowledge of the client's management system."
+   ],
+   "explanation": "ISO/IEC 17021-1 requires identification and management of impartiality threats; it does not prescribe a universal revenue threshold."
   }
  }
 ]

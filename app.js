@@ -39,6 +39,20 @@
 
   var PASS_MARK = 70;          // percent
 
+  /* Every sitting gets its own random question order. Two candidates side by
+     side are never on the same question, and a retake is not the same paper
+     in the same sequence.
+
+     The order is drawn once when the paper is started and then persisted, so
+     Resume brings back the identical sequence rather than reshuffling — a
+     refresh mid-exam must not cost anyone their place.
+
+     Because the order is no longer fixed, screen position is meaningless as
+     an identifier: the review screen and the printed model answer both key
+     off the question's own id (LA-001 …) instead. Set this to false to sit
+     the paper in the bank's own interleaved order. */
+  var SHUFFLE_QUESTIONS = true;
+
   /* ------------------------------------------------- fixed option ordering
    *
    * This bank balances its correct answers at source: across the 70 MCQs the
@@ -97,14 +111,14 @@
       heroEyebrow: "Lead Auditor exam simulation",
       heroTitle: "Integrated Management System Lead Auditor",
       heroSubtitle: "ISO 9001:2026 · ISO 14001:2026 · ISO 19011:2026 · ISO/IEC 17021-1:2015",
-      heroDescription: "One hundred expert-level questions weighted equally across the four standards, testing audit judgement, evidence and certification decisions rather than clause recall. This is a practice paper for revision, not an official certification examination.",
+      heroDescription: "One hundred expert-level questions weighted equally across the four standards, testing audit judgement, evidence and certification decisions rather than clause recall. Every sitting draws its own random order. This is a practice paper for revision, not an official certification examination.",
       statQuestions: "questions",
       statStandards: "standards",
       statUpdates: "on 2026 changes",
 
       examTag: "Expert level",
       hubTitle: "The exam",
-      hubHint: "Answer a question, then press Next: the correct answer and the explanation appear before you move on. Your score and the pass/fail verdict come at the end.",
+      hubHint: "The questions are drawn in a random order, fresh for every sitting. Answer one, then press Next: the correct answer and the explanation appear before you move on. Your score and the pass/fail verdict come at the end.",
       fullExamLabel: "IMS Lead Auditor — Expert Paper",
       fullExamSub: "ISO 9001 · ISO 14001 · ISO/IEC 17021-1 · ISO 19011",
       questionsCount: "{n} questions",
@@ -391,13 +405,32 @@
 
   /* --------------------------------------------------- session lifecycle */
 
+  /* Fisher-Yates. Every position gets an equal chance, which the naive
+     `sort(function () { return Math.random() - 0.5; })` does not — that one
+     is biased and, worse, is biased differently in every browser engine. */
+  function shuffle(list) {
+    var out = list.slice();
+    for (var i = out.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = out[i]; out[i] = out[j]; out[j] = tmp;
+    }
+    return out;
+  }
+
   function startExam(key) {
     var exam = examByKey(key);
     if (!exam) return;
     var list = questionsForExam(exam);
+    if (SHUFFLE_QUESTIONS) list = shuffle(list);
     var ids = [], orders = {};
     list.forEach(function (q) {
       ids.push(q.id);
+      /* The OPTION order stays fixed even when the question order is random.
+         Those are separate decisions: shuffling questions changes what you
+         are asked next, while shuffling options would change which letter is
+         correct — and the answer key is balanced at build time precisely so
+         that letter is fair. Randomising it per session would undo that and
+         make any printed key meaningless. */
       orders[q.id] = fixedOptionOrder(q);
     });
     state.sessions[key] = {
@@ -1024,6 +1057,11 @@
     return '<article class="panel-card review-card ' + statusClass + '">' +
       '<header class="review-head">' +
       '<span class="review-index">' + esc(t("questionN", { n: num(position) })) + "</span>" +
+      /* The position is this sitting's position and nobody else's, because
+         the order is random. The id is the only thing that means the same to
+         the candidate, the trainer and the printed model answer, so it is
+         shown alongside. */
+      '<span class="review-id">' + esc(q.id) + "</span>" +
       (q.standard ? '<span class="badge badge-standard">' + esc(q.standard) + "</span>" : "") +
       (s.flags[id] ? '<span class="badge badge-flagged">' + icon("flag") +
         esc(t("statusFlagged")) + "</span>" : "") +
